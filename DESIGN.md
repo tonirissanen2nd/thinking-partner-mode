@@ -37,7 +37,10 @@ central branch.*
 The distinction matters for anyone evaluating the spec: a test built around
 sycophancy traps and a contrarianism measure exercises the branch, not the
 trunk. Exercising the trunk requires a calibration-and-abstention measure scored
-against an external answer key, independent of the grader's own judgment.
+against an external answer key, independent of the grader's own judgment — which
+the blind A/B protocol (Track 1) does *not* provide, and which `eval`'s Track 2
+(`prompts/04-calibration.md`) exists to supply. Running only the A/B track tests
+only the branch.
 
 ## The core mechanism
 
@@ -125,6 +128,21 @@ limits, and knowing them prevents overreliance:
    something a prompt can add. The spec changes behavior *within* the model's
    existing repertoire; it does not expand the repertoire.
 
+   Worse than merely unmeasured: the basis-anchoring guard has a *plausible
+   mechanism to run the wrong way.* The empirical finding it rests on (the
+   Prompt Report; FaR) is that requiring verbalized confidence skews models
+   toward overconfidence on some instances. The guard's response — "state the
+   basis before the label" — forces the model to *generate a justification* for
+   whatever label it was going to emit. A required justification is easy to
+   produce and makes the label read as *more* grounded, which is the exact
+   surface of convincing calibration theater, not a defense against it. The
+   guard may still help by making a *missing* basis visible (a label with no
+   producible reason is a flag). But "anchor the label to a basis" cannot, at
+   the prompt layer, close the gap between a plausible-sounding basis and a
+   truly calibrated one — and by the ceiling argument above, probably nothing
+   at this layer can. This is why Track 2 of the eval scores labels against an
+   external key: it is the only way to tell the two apart, and it is unrun.
+
 2. **It does not persist, and it drifts.** The spec lives in context, not in
    weights. It does not learn, does not save, and its influence weakens as a
    conversation lengthens and the original directives fall further back. A
@@ -208,9 +226,21 @@ the design.
 - **Convexity/robustness in the priority hierarchy** — rejected. It conflicts
   with the calibration-vs-convexity split; the compatible slice is the Ruin
   section, which surfaces without deciding.
-- **Strengthening the verification sentence** — rejected. It is already at the
-  ceiling of what prose can do; a prompt can route to tools but cannot make
-  parametric memory more reliable by insisting.
+- **Strengthening the verification sentence (parametric)** — rejected. A prompt
+  cannot make parametric memory more reliable by insisting; that half is at the
+  ceiling of what prose can do.
+- **The tool-routing half — now incorporated (Verification section).** The
+  rejection above conceded that "a prompt *can* route to tools." The original
+  spec left that latent, which is a real omission for tool-equipped
+  deployments (agentic contexts, connected sources): "flag it for checking" is
+  the wrong move when a check is one tool call away. The Verification directive
+  makes the routing explicit — verify rather than defer when tooling exists —
+  and carries its own counterweights (materiality threshold; treat tool output
+  as evidence, not ground truth). Convergent support: FaR (see REFERENCES)
+  finds that eliciting low-confidence expression itself helps *trigger*
+  retrieval on hard instances — the same low-confidence → verify coupling. Note
+  this is a *new behavioral directive* and therefore unvalidated; it is a
+  candidate for the eval, not a proven improvement.
 
 ## Two variants
 

@@ -40,8 +40,16 @@ Treat the directives as informed design choices, not proven results.
 One documented risk worth knowing before you rely on it: verbalized
 confidence labels can *increase* overconfidence rather than fix it
 (calibration theater). The spec guards against this by requiring each label
-to be anchored to a named basis, but whether that guard works is itself
-unmeasured.
+to be anchored to a named basis — but that guard is weaker than it looks.
+Forcing the model to state a basis makes it *generate a justification* for
+whatever label it was already going to emit, which can make a wrong label read
+as *more* grounded, not less. The guard plausibly still helps by making a
+*missing* basis visible, but it cannot close the gap between a plausible-sounding
+basis and a genuinely calibrated one at the prompt layer. The only way to tell
+those apart is to score labels against an external answer key — which is exactly
+what `eval` Track 2 does, and which has not been run. Treat the confidence
+labels as a discipline that surfaces reasoning, not as evidence the reasoning is
+calibrated.
 
 ## Repository contents
 
@@ -51,8 +59,9 @@ unmeasured.
 | `SPEC-lite.md` | The lightweight overlay — honest and calibrated without the sharpness. A safer broad default across mixed tasks. |
 | `SPEC.<lang>.md` | Translated version(s), if present. Behavior may differ by language — test the one you use. |
 | `DESIGN.md` | The reasoning behind the spec — mechanism, principles, limits, and how to extend it without breaking it. |
-| `eval/` | Blind A/B evaluation protocol, prompts, and scoresheet. |
-| `eval/README.md` | How to run a blind test that removes the obvious biases. |
+| `eval/` | Two-track evaluation: blind A/B (branch) + calibration (trunk), with prompts and scoresheets. |
+| `eval/README.md` | Track 1 — the blind A/B test that removes the obvious biases; routes to Track 2. |
+| `eval/prompts/04-calibration.md` | Track 2 — calibration & abstention scored against an external key (measures the claim Track 1 can't). |
 | `REFERENCES.md` | Prior art, empirical grounding, and where to verify claims — tiered by actual relationship to the spec. |
 | `LICENSE` | MIT. |
 

@@ -1,5 +1,21 @@
 # Evaluation Protocol (v2)
 
+Two complementary tracks, because the spec makes two different kinds of claim
+and no single measurement covers both:
+
+- **Track 1 — blind A/B (this document).** Measures the *branch*:
+  anti-sycophancy, over-contrarianism cost, and helpfulness, via a blind
+  pairwise judge. This is what the rest of this file specifies.
+- **Track 2 — calibration & abstention (`prompts/04-calibration.md`).**
+  Measures the *trunk*: whether the forced confidence labels are actually
+  calibrated, scored against an external answer key rather than a judge's
+  opinion. Track 1 structurally cannot measure this — a pairwise judge scoring
+  one answer at a time can only see whether a label *looks* justified, which is
+  exactly what calibration theater defeats. If you only run one track, you have
+  tested only half the spec. Run both.
+
+The rest of this document is Track 1.
+
 A blind A/B test of Thinking Partner Mode against a control. Its purpose is to
 measure whether the spec *produces* the behavior it claims, rather than
 describing it plausibly.
