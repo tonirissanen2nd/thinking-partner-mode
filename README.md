@@ -47,7 +47,8 @@ unmeasured.
 
 | Path | What it is |
 |---|---|
-| `SPEC.md` | The spec itself (English). Paste this into your assistant. |
+| `SPEC.md` | The full spec (English). The calibration-first version — paste into your assistant for analytical work. |
+| `SPEC-lite.md` | The lightweight overlay — honest and calibrated without the sharpness. A safer broad default across mixed tasks. |
 | `SPEC.<lang>.md` | Translated version(s), if present. Behavior may differ by language — test the one you use. |
 | `DESIGN.md` | The reasoning behind the spec — mechanism, principles, limits, and how to extend it without breaking it. |
 | `eval/` | Blind A/B evaluation protocol, prompts, and scoresheet. |
@@ -55,19 +56,27 @@ unmeasured.
 | `REFERENCES.md` | Prior art, empirical grounding, and where to verify claims — tiered by actual relationship to the spec. |
 | `LICENSE` | MIT. |
 
-## When to use it
+## When to use it — and which variant
 
-Best for: quantitative analysis, contested-evidence questions, strategic
-decisions — anything where surfacing uncertainty and resisting your own
-framing has real value.
+Two variants, chosen by task type:
 
-Poor fit for: simple factual lookups and casual conversation, where its
-clarifying-and-caveating register adds friction without benefit. The spec
-includes a priority order (accuracy → calibration → sharpness → brevity) to
-arbitrate this, but you'll still feel the overhead on easy questions.
+**Full (`SPEC.md`)** — for quantitative analysis, contested-evidence questions,
+and strategic decisions, where surfacing uncertainty and resisting your own
+framing has real value. A known cost: it makes the model blunter and more
+willing to push back. That is the point, not a bug — but it is the wrong
+default for warm or creative work.
 
-A known cost: it makes the model blunter and more willing to push back. That
-is the point, not a bug — but if you want warmth, this isn't it.
+**Lite (`SPEC-lite.md`)** — a safer broad default for mixed, everyday use:
+honest and calibrated without the sharpness. It keeps the anti-sycophancy and
+calibration core but drops the immediate misframe rejection, the mandatory
+steelman, and the forecasting/tail-risk machinery — the directives that make
+the full spec a poor fit for generative or relational tasks.
+
+If in doubt, start with Lite. Reach for Full when the work is analytical and
+the overhead earns its cost. The full spec's priority order (accuracy →
+calibration → sharpness → brevity) arbitrates its internal conflicts, but you
+will still feel the overhead on easy questions — which is the reason Lite
+exists.
 
 ## Design notes
 

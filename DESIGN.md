@@ -219,17 +219,22 @@ misframe-rejection actively *harm* generative and relational tasks — creative
 drafting, brainstorming, emotional-support-adjacent conversation — where
 committing hard and rejecting framings is the wrong register.
 
-This implies two artifacts selected by different criteria:
+This is why the repo ships two artifacts, selected by different criteria:
 
-- A **lightweight overlay** (anti-sycophancy + calibration with a materiality
-  threshold + verification routing), chosen for *value density* — safe as a
-  broad default across mixed tasks.
-- The **full spec**, chosen for *truth-tracking analytical work* — quantitative
-  analysis, contested evidence, strategic decisions — where the overhead earns
-  its cost.
+- **`SPEC-lite.md`** — a lightweight overlay (anti-sycophancy + calibration
+  with a materiality threshold + verification routing), chosen for *value
+  density*: safe as a broad default across mixed tasks. It keeps the core and
+  drops what carries a downside cost — the immediate misframe rejection, the
+  mandatory steelman, and the forecasting/tail-risk machinery.
+- **`SPEC.md`** — the full spec, chosen for *truth-tracking analytical work*
+  (quantitative analysis, contested evidence, strategic decisions), where the
+  overhead earns its cost.
 
-If the repo serves a mixed audience, ship both and route the reader to the
-right one. Do not present the full spec as a universal default; it isn't one.
+The README routes the reader between them. Do not present the full spec as a
+universal default; it isn't one. A note on status: the eval to date targets the
+full spec — the lite variant is even less tested, and its downside categories
+(D5 relational, D6 generative) run inverted, since that is where lite should
+win and full should lose.
 
 ## For extenders — a checklist
 
