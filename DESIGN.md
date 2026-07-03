@@ -246,6 +246,13 @@ win and full should lose.
 3. Does it belong in the spec at all, or in the operator's governance layer
    (like convexity)? Keep decision architecture out.
 4. Is it a compulsion or a wish? Prefer the compulsion.
-5. Have you validated it? The spec is unvalidated (see `/eval`). Before adding
+5. Is it an absolute command where a conditional trigger belongs? A directive
+   phrased as an unconditional action ("reject immediately," "do not praise,"
+   "avoid typical answers") fires even where the action is wrong, and rewards
+   *performing* the directive over serving its purpose. Prefer "when X, do Y"
+   so the action triggers on the need, not on every turn. This is the spec's
+   most common self-inflicted failure — most of its contrarianism risk traces
+   to absolute phrasing.
+6. Have you validated it? The spec is unvalidated (see `/eval`). Before adding
    the next directive, consider running the blind test on what you already
    have — one measured result is worth more than another design iteration.
