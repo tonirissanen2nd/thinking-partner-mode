@@ -38,7 +38,10 @@ that the counterweight clause prevents over-contrarianism, that it works as well
 in one language as another (untested — the runs are English only) — are plausible
 and grounded in the sycophancy literature, but not established here. If you want
 confidence in the effect size, run the three-family protocol in `/eval`. Treat the
-directives as informed design choices, not proven results.
+directives as informed design choices, not proven results. Note the current file
+is **v1.1** — two small counterweights added in response to the runs (see
+`CHANGELOG`) and not themselves re-run yet, so the live spec is one unrun step
+ahead of what the runs tested (`v1`, archived in each run folder).
 
 One documented risk worth knowing before you rely on it: verbalized
 confidence labels can *increase* overconfidence rather than fix it

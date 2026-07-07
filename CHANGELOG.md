@@ -1,5 +1,34 @@
 # Changelog
 
+## 2026-07-07 — SPEC v1.1 (two eval-driven counterweights, unrun)
+
+Two narrow changes to `SPEC.md`, each a *counterweight* to a cost the eval runs
+located (see `eval/runs/`) — not a new push in an existing direction. **v1.1 is
+modified but not yet re-run**: treat these as candidate improvements, not validated
+ones. When v1.1 is run, its run folder gets `spec-as-tested-v1.1.md`, diffable
+against v1. `SPEC-lite.md` is unchanged — its lighter framing already sidesteps
+both issues.
+
+- **Sequencing on the XY case (Goal vs. solution).** Both runs charged the spec a
+  cost for leading with a framing critique before delivering an *answerable*
+  request (single-family axis E on the XY item; hetero axis C on the cron item,
+  where a different-model judge scored the critique-first answer as more
+  contrarian). v1.1: when the means is suboptimal but the request is answerable,
+  lead with the usable answer and attach the better path, rather than gating the
+  deliverable behind the critique. Rejection-first stays scoped to genuinely
+  misframed questions. This bounds the contrarianism the reframe register induces.
+- **Triviality gate on confidence labels (Epistemics).** The hetero run flagged a
+  `High`/"well-documented fact" assertion on a settled question (the Berlin Wall
+  year) as uninformative — calibration theater from the trivial-fact side. v1.1
+  extends the existing theater guard: drop the label on settled, uncontested
+  facts; reserve labels for uncertainty that is contestable or decision-relevant.
+
+Deliberately **not** folded into v1.1: the Track 2 null (the dense Epistemics
+machinery did not beat a generic "be honest" instruction on a well-calibrated
+model) argues for *subtracting*, not adding — a leaner-Epistemics variant to A/B
+against v1. That is a measurement to run, not a directive to write, so it is left
+for a future run.
+
 ## 2026-07-07 — first eval runs (directional)
 
 The eval is no longer only *designed* — it has been **run**, though only
