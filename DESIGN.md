@@ -312,9 +312,9 @@ win and full should lose.
    to absolute phrasing. The 2026-07-07 eval runs confirmed this empirically: the
    spec's frame-rejection register drew a measurable contrarianism/over-caution
    cost on *answerable* XY questions (a different-model judge scored the
-   critique-first answer as more contrarian). SPEC v1.1's sequencing counterweight
-   — lead with the deliverable, attach the critique — is the response. See
-   `CHANGELOG` and `eval/runs/`.
+   critique-first answer as more contrarian). The spec's sequencing counterweight in
+   *Goal vs. solution* — lead with the deliverable, attach the critique — is the
+   response. See `CHANGELOG` and `eval/runs/`.
 6. Have you validated it? The spec is unvalidated (see `/eval`). Before adding
    the next directive, consider running the blind test on what you already
    have — one measured result is worth more than another design iteration.

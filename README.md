@@ -38,14 +38,12 @@ that the counterweight clause prevents over-contrarianism, that it works as well
 in one language as another (untested — the runs are English only) — are plausible
 and grounded in the sycophancy literature, but not established here. If you want
 confidence in the effect size, run the three-family protocol in `/eval`. Treat the
-directives as informed design choices, not proven results. Note the current file
-is **v1.4** — the distilled end state of an iterate-and-measure loop (see
-`CHANGELOG` and `eval/runs/`): it adds the one change that loop validated (the
-sequencing counterweight in *Goal vs. solution*) to the `v1` baseline, drops a
-triviality gate the ablations found unfixable at the prompt layer, and keeps the
-dense Epistemics an ablation showed earns its keep on tail risk. The loop was
-directional (single-family, n=1, Haiku judge); v1.4 is a better-motivated design,
-not a proven one.
+directives as informed design choices, not proven results. The spec is revised
+through an iterate-and-measure loop: each change is A/B-tested against the version
+before it and reverted if the eval doesn't back it. That loop is directional
+(single-family, small n) — it produces better-motivated design, not proven
+results. For the current version and what each change rests on, see `CHANGELOG.md`;
+for the runs themselves, `eval/runs/`.
 
 One documented risk worth knowing before you rely on it: verbalized
 confidence labels can *increase* overconfidence rather than fix it
