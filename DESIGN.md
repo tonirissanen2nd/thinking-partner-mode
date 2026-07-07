@@ -141,7 +141,10 @@ limits, and knowing them prevents overreliance:
    the prompt layer, close the gap between a plausible-sounding basis and a
    truly calibrated one — and by the ceiling argument above, probably nothing
    at this layer can. This is why Track 2 of the eval scores labels against an
-   external key: it is the only way to tell the two apart, and it is unrun.
+   external key: it is the only way to tell the two apart. It has now been run
+   once (single-family, directional): it found no calibration theater on that
+   battery — but the result rests on a thin base (near-single-item error spread)
+   and one model family, so it is suggestive, not settled (see `eval/runs/`).
 
 2. **It does not persist, and it drifts.** The spec lives in context, not in
    weights. It does not learn, does not save, and its influence weakens as a

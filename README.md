@@ -30,12 +30,15 @@ developed iteratively through repeated critique-and-revision with LLM
 assistants — not derived from the research literature (most of which surfaced
 late; see `REFERENCES.md`).
 
-It has **not** been benchmarked in a blind A/B test against a control. Its
-specific claims — that it reduces sycophancy, that the counterweight clause
-prevents over-contrarianism, that it works as well in one language as another
-— are plausible and grounded in the sycophancy literature, but unmeasured
-here. If you want confidence in the effect size, run the protocol in `/eval`.
-Treat the directives as informed design choices, not proven results.
+It has now been run through the blind A/B protocol — but only *directionally*,
+within a single model family, in English (see `eval/runs/`). That is weaker than
+the mandated three-family design, and a single pass proves little: treat the runs
+as suggestive, not validating. Its specific claims — that it reduces sycophancy,
+that the counterweight clause prevents over-contrarianism, that it works as well
+in one language as another (untested — the runs are English only) — are plausible
+and grounded in the sycophancy literature, but not established here. If you want
+confidence in the effect size, run the three-family protocol in `/eval`. Treat the
+directives as informed design choices, not proven results.
 
 One documented risk worth knowing before you rely on it: verbalized
 confidence labels can *increase* overconfidence rather than fix it
@@ -47,8 +50,10 @@ as *more* grounded, not less. The guard plausibly still helps by making a
 *missing* basis visible, but it cannot close the gap between a plausible-sounding
 basis and a genuinely calibrated one at the prompt layer. The only way to tell
 those apart is to score labels against an external answer key — which is exactly
-what `eval` Track 2 does, and which has not been run. Treat the confidence
-labels as a discipline that surfaces reasoning, not as evidence the reasoning is
+what `eval` Track 2 does. It has now been run once (single-family): it found no
+calibration theater, but on a thin base — the error spread came from essentially
+one item — so treat that as directional, not settled. Treat the confidence labels
+as a discipline that surfaces reasoning, not as proof the reasoning is
 calibrated.
 
 ## Repository contents
@@ -62,6 +67,7 @@ calibrated.
 | `eval/` | Two-track evaluation: blind A/B (branch) + calibration (trunk), with prompts and scoresheets. |
 | `eval/README.md` | Track 1 — the blind A/B test that removes the obvious biases; routes to Track 2. |
 | `eval/prompts/04-calibration.md` | Track 2 — calibration & abstention scored against an external key (measures the claim Track 1 can't). |
+| `eval/runs/` | Completed eval runs — one folder each (pre-registration + results + raw artifacts). Directional and single-family so far; not yet three-family. |
 | `REFERENCES.md` | Prior art, empirical grounding, and where to verify claims — tiered by actual relationship to the spec. |
 | `LICENSE` | MIT. |
 

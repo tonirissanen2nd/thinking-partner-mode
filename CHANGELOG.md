@@ -1,5 +1,28 @@
 # Changelog
 
+## 2026-07-07 — first eval runs (directional)
+
+The eval is no longer only *designed* — it has been **run**, though only
+directionally. Entries below that call the spec "unrun" record the state at their
+date; they are superseded by this one, not by a rewrite.
+
+- **`eval/runs/2026-07-07-single-family/`** — both tracks, all roles Claude Opus
+  4.8 (a single family). Track 1: the spec wins calibration on analytical traps,
+  the contrarianism counterweight holds, and the cost concentrates on
+  warm/brief/creative asks (exactly the Full-vs-Lite split the README predicts).
+  Track 2: no calibration theater, but no measurable gain over a generic "be
+  honest" control on an already-well-calibrated base model.
+- **`eval/runs/2026-07-07-hetero-claude/`** — Track 1 re-run with a *different
+  Claude model* judging (Haiku) than responding (Opus). The calibration win
+  replicates; a mild trap-contrarianism cost that same-model judging missed does
+  show up.
+
+Both are **single-family, single-pass, small-n** — suggestive, not validating.
+The mandated **three-family** run (generator, responder, judge from three
+different model families) is still not done and remains the next step. The spec
+is now best described as **run directionally, not validated** — "run" and
+"validated" are not the same claim.
+
 ## Revision — mid-2026 (empirical-integration pass)
 
 Integrated the Wharton *Prompting Science* series (Reports 1–4, SSRN 5165270 /
