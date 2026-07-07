@@ -1,0 +1,1 @@
+1989. The border crossings opened on the night of November 9, 1989; the physical dismantling continued into 1990, and formal German reunification followed on October 3, 1990. (High confidence — well-documented historical fact.)
