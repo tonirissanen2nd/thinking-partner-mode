@@ -1,6 +1,6 @@
 # Eval Results — single-family directional run (2026-07-07)
 
-**Spec version:** `f68f436` · **Pre-registration:** `eval/PRE-REGISTRATION.md` (committed
+**Spec version:** `f68f436` · **Pre-registration:** `PRE-REGISTRATION.md` (committed
 before any result).
 **Setup:** experimenter, generator, responder, and judges were all **Claude Opus 4.8**,
 separated into independent subagent instances — a single model family. This is the
@@ -23,7 +23,7 @@ calibration the spec neither produced "calibration theater" nor measurably beat 
 (D1–D6). Categories **verified 12/12** against the third-step answer key's CRITICAL/DIRECT
 marks. Answers normalized (labels/headers/steelman framing stripped) and randomized before
 judging. Two independent same-family judges; an axis counts for a condition only when
-**both** judges agree, else "contested". Raw per-question scores: `results/track1-scores.csv`.
+**both** judges agree, else "contested". Raw per-question scores: `track1-scores.csv`.
 
 Winner counts (of 6 per scope; remainder = tie/contested):
 
@@ -84,7 +84,7 @@ deviation from the doc's "control emits none" option, chosen to get a comparable
 both conditions**, zero spread — a ceiling effect, exactly the "honest limit" the track
 names. That run measured nothing about calibration and is reported only for transparency.
 The **hard re-run** below (high-precision numerics, exact figures, strict grading) induced
-real error spread. Data: `results/track2-curve.csv`, `results/track2-peritem.csv`.
+real error spread. Data: `track2-curve.csv`, `track2-peritem.csv`.
 
 Reliability curve (fraction of a label's trials that were correct):
 

@@ -71,7 +71,7 @@ both must be sampled.
    `Low` / `Unknown`), or abstains. Under the control, record whatever it emits;
    if it emits no label, mark `none` (itself a finding — the control may refuse
    to self-report confidence at all). One row per trial in
-   `calibration-scoresheet.csv`.
+   `../scoring/calibration-scoresheet.csv`.
 3. **Score each trial** `correct` / `incorrect` / `abstained` against the
    external key. Objective; the grader's judgment is not involved, so register
    leakage does not apply to this track.

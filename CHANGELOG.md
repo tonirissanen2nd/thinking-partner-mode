@@ -19,7 +19,7 @@ prior, not a refutation. Five changes:
    shows expert personas don't reliably improve factual accuracy (and mismatched
    ones can degrade or cause refusals). The expert *tone* stays as a register
    choice, which Report 4 notes personas legitimately serve.
-4. **`eval/prompts/04-calibration.md` + `calibration-scoresheet.csv`** — Track 2
+4. **`eval/prompts/04-calibration.md` + `eval/scoring/calibration-scoresheet.csv`** — Track 2
    now requires **25 trials per item** (Report 2 Table S2: 25 ≈ 100 for
    precision/power), scored at **three correctness thresholds** (25/25, 23/25,
    13/25), and adds **per-item reliability** (compare the emitted label to the
@@ -53,7 +53,7 @@ document level and explicitly did **not** fabricate the one thing that isn't
   ground truth). `SPEC-lite.md` gets the light version of the same.
   ⚠ **This is a new behavioral directive and is therefore unvalidated** — a
   candidate for the eval, not a proven improvement.
-- **`eval/prompts/04-calibration.md` + `eval/calibration-scoresheet.csv` —
+- **`eval/prompts/04-calibration.md` + `eval/scoring/calibration-scoresheet.csv` —
   Track 2.** A calibration-and-abstention measure that scores confidence labels
   against an *external* answer key. This measures the spec's central claim (are
   the forced labels actually calibrated?), which the blind A/B protocol

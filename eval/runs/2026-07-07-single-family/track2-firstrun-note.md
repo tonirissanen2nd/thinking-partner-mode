@@ -20,5 +20,5 @@ i.e. it lowered confidence in the right places — but since the model got those
 right too, the move could not be scored.
 
 **Action taken:** rebuilt a hard, high-precision battery with strict grading to
-force error spread. That re-run is the one reported in `../RESULTS.md` and in
+force error spread. That re-run is the one reported in `RESULTS.md` and in
 `track2-curve.csv` / `track2-peritem.csv`.

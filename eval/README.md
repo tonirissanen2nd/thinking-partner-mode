@@ -111,10 +111,10 @@ Number of runs: <n> repeats of the full battery.
 7. **Randomize** — assign "Answer 1"/"Answer 2" at random per question; keep
    the mapping in a private file the judge never sees.
 8. **Judge** — `prompts/03-judge.md`, on each pair, each judge family.
-9. **Unblind and aggregate** — fill `scoresheet.xlsx` (a scoring tool with
+9. **Unblind and aggregate** — fill `scoring/scoresheet.xlsx` (a scoring tool with
    pre-registration, dropdown-validated inputs, and a Summary sheet that
    auto-computes wins by axis and by scope, with the downside block as the
-   headline). A plain `scoresheet.csv` is included as a no-formula fallback.
+   headline). A plain `scoring/scoresheet.csv` is included as a no-formula fallback.
    Report by axis, by
    category, and by margin — with downside categories as the headline.
 
