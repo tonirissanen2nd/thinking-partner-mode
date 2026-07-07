@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-07-07 — SPEC v1.2 (counter-counterweights for v1.1's induced cost)
+
+The v1.1 ablation (`eval/runs/2026-07-07-v1.1-vs-v1-ablation/`) found v1.1's two
+counterweights worked — less contrarian, less over-cautious, more helpful — but
+induced a small **accuracy** cost, a live instance of Principle 2 (optimizing one
+failure mode induces its opposite). v1.2 adds the counterweight v1.1 should have
+carried in the same edit:
+
+- **Sequencing:** leading with the deliverable must not abbreviate the critique —
+  surface the load-bearing failure mode with full weight, *after* the deliverable,
+  not before. (Targets the q3 accuracy loss: v1.1 led with the script but caught
+  the structural failure mode less fully.)
+- **Triviality gate:** dropping the confidence *label* must not drop *substance* —
+  if the question carries a genuine ambiguity a brief clarification resolves, still
+  give it. (Targets the q7 accuracy loss: v1.1's bare "1989." dropped the useful
+  "what does 'the fall' mean" context.)
+
+Each is a bound on the v1.1 edit it sits next to, added in the same revision — the
+discipline v1.1 skipped. **v1.2 is being A/B'd against v1** in
+`eval/runs/2026-07-07-v1.2-vs-v1-ablation/` to check it closes the accuracy cost
+without losing v1.1's gains.
+
 ## 2026-07-07 — SPEC v1.1 (two eval-driven counterweights, unrun)
 
 Two narrow changes to `SPEC.md`, each a *counterweight* to a cost the eval runs
