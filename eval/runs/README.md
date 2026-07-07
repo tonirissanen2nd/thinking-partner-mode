@@ -30,7 +30,8 @@ The protocol these runs implement lives one level up: `../README.md` (Track 1),
 |---|---|---|
 | `2026-07-07-single-family/` | all roles Claude Opus 4.8 | The first pass. Both tracks (blind A/B + calibration). Directional, single-family — the weakest role separation. |
 | `2026-07-07-hetero-claude/` | responder Opus · judges Haiku · generator Sonnet | Track 1 only, re-run with a *different Claude model* judging than responding. Reduces (does not remove) same-model preference bias; still one family. |
+| `2026-07-07-v1.1-vs-v1-ablation/` | responder Opus · judges Haiku | Direct A/B of the spec against itself: `v1` vs `v1.1`. Isolates the two v1.1 counterweights. Result: v1.1 less contrarian / more helpful, but at a small accuracy cost — Principle 2 live; motivates a v1.2. |
 
-Neither is the mandated **three-family** run (generator, responder, judge from
-three different model families). Both are directional. See each run's
+None of these is the mandated **three-family** run (generator, responder, judge
+from three different model families). All are directional. See each run's
 `RESULTS.md` for what it can and cannot establish.
