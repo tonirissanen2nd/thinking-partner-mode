@@ -14,7 +14,7 @@ Committed **before any response or judgment is observed.**
 
 A re-run of the Track 1 blind A/B protocol (`eval/README.md`, `eval/prompts/`)
 using **heterogeneous Claude models across roles** instead of a single Opus
-model in every role (as the original `../2026-07-07-single-family/RESULTS.md` run did).
+model in every role (as the original `../2026-07-07-01-single-family/RESULTS.md` run did).
 
 | Role | Model | Differs from responder? |
 |---|---|---|

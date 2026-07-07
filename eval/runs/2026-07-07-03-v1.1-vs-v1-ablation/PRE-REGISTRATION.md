@@ -19,7 +19,7 @@ regenerated fresh in one batch to remove timing confounds.
 | Judge (×2 independent) | Haiku |
 
 Roles match the hetero run so results are comparable. Single family; directional;
-n=1 per question. **Read alongside** `../2026-07-07-hetero-claude/RESULTS.md`.
+n=1 per question. **Read alongside** `../2026-07-07-02-hetero-claude/RESULTS.md`.
 
 ## What v1.1 changed (the two edits under test)
 

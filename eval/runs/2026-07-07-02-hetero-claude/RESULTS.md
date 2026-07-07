@@ -7,7 +7,7 @@ Judge ×2 = **Haiku** (two independent instances). English, 12-question battery,
 family with *heterogeneous models across roles*, NOT the mandated three-family
 design. Directional only. Read next to `PRE-REGISTRATION.md`.
 
-**What makes this run different from the original `../2026-07-07-single-family/RESULTS.md`:** the judge is
+**What makes this run different from the original `../2026-07-07-01-single-family/RESULTS.md`:** the judge is
 a *different Claude model* (Haiku) than the responder (Opus). The original judged
 Opus with two Opus instances. So any place this run diverges from the original is
 a candidate for "same-model leniency the original couldn't see."

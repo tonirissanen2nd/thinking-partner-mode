@@ -31,7 +31,7 @@ confidence phrase, and explicitly forbids shortening the answer or dropping cont
 Everything else (the sequencing change) is unchanged from v1.2.
 
 This is a deliberate **wording-vs-ceiling probe**, A/B'd against v1 in
-`eval/runs/2026-07-07-v1.3-vs-v1-ablation/` (same v1 baseline as the v1.1 and v1.2
+`eval/runs/2026-07-07-05-v1.3-vs-v1-ablation/` (same v1 baseline as the v1.1 and v1.2
 runs, so the three are directly comparable). If the narrowing recovers the downside
 completeness v1.2 lost, the gate was a wording problem. If it does not move, the gate
 is at the prompt-layer ceiling (the model won't reliably hold "drop the label, not
@@ -39,7 +39,7 @@ the substance" however it's phrased) — and should be dropped rather than re-wo
 
 ## 2026-07-07 — SPEC v1.2 (counter-counterweights for v1.1's induced cost)
 
-The v1.1 ablation (`eval/runs/2026-07-07-v1.1-vs-v1-ablation/`) found v1.1's two
+The v1.1 ablation (`eval/runs/2026-07-07-03-v1.1-vs-v1-ablation/`) found v1.1's two
 counterweights worked — less contrarian, less over-cautious, more helpful — but
 induced a small **accuracy** cost, a live instance of Principle 2 (optimizing one
 failure mode induces its opposite). v1.2 adds the counterweight v1.1 should have
@@ -56,7 +56,7 @@ carried in the same edit:
 
 Each is a bound on the v1.1 edit it sits next to, added in the same revision — the
 discipline v1.1 skipped. **v1.2 is being A/B'd against v1** in
-`eval/runs/2026-07-07-v1.2-vs-v1-ablation/` to check it closes the accuracy cost
+`eval/runs/2026-07-07-04-v1.2-vs-v1-ablation/` to check it closes the accuracy cost
 without losing v1.1's gains.
 
 ## 2026-07-07 — SPEC v1.1 (two eval-driven counterweights, unrun)
@@ -94,13 +94,13 @@ The eval is no longer only *designed* — it has been **run**, though only
 directionally. Entries below that call the spec "unrun" record the state at their
 date; they are superseded by this one, not by a rewrite.
 
-- **`eval/runs/2026-07-07-single-family/`** — both tracks, all roles Claude Opus
+- **`eval/runs/2026-07-07-01-single-family/`** — both tracks, all roles Claude Opus
   4.8 (a single family). Track 1: the spec wins calibration on analytical traps,
   the contrarianism counterweight holds, and the cost concentrates on
   warm/brief/creative asks (exactly the Full-vs-Lite split the README predicts).
   Track 2: no calibration theater, but no measurable gain over a generic "be
   honest" control on an already-well-calibrated base model.
-- **`eval/runs/2026-07-07-hetero-claude/`** — Track 1 re-run with a *different
+- **`eval/runs/2026-07-07-02-hetero-claude/`** — Track 1 re-run with a *different
   Claude model* judging (Haiku) than responding (Opus). The calibration win
   replicates; a mild trap-contrarianism cost that same-model judging missed does
   show up.
