@@ -39,9 +39,13 @@ in one language as another (untested — the runs are English only) — are plau
 and grounded in the sycophancy literature, but not established here. If you want
 confidence in the effect size, run the three-family protocol in `/eval`. Treat the
 directives as informed design choices, not proven results. Note the current file
-is **v1.1** — two small counterweights added in response to the runs (see
-`CHANGELOG`) and not themselves re-run yet, so the live spec is one unrun step
-ahead of what the runs tested (`v1`, archived in each run folder).
+is **v1.4** — the distilled end state of an iterate-and-measure loop (see
+`CHANGELOG` and `eval/runs/`): it adds the one change that loop validated (the
+sequencing counterweight in *Goal vs. solution*) to the `v1` baseline, drops a
+triviality gate the ablations found unfixable at the prompt layer, and keeps the
+dense Epistemics an ablation showed earns its keep on tail risk. The loop was
+directional (single-family, n=1, Haiku judge); v1.4 is a better-motivated design,
+not a proven one.
 
 One documented risk worth knowing before you rely on it: verbalized
 confidence labels can *increase* overconfidence rather than fix it

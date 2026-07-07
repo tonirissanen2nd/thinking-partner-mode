@@ -1,5 +1,27 @@
 # Changelog
 
+## 2026-07-07 — SPEC v1.4 (distilled: keep the sequencing change, drop the triviality gate)
+
+The end state of the v1.1→v1.3 loop plus the lean-Epistemics ablation. Three
+decisions, each eval-backed (`eval/runs/`):
+
+- **Kept — the sequencing change** (Goal vs. solution: lead with the deliverable,
+  full critique after). Validated across the v1.1 and v1.2 ablations — helpfulness /
+  anti-contrarianism / anti-over-caution gains, and v1.2 recovered its one accuracy
+  cost. This is the single change the whole loop validated.
+- **Dropped — the triviality gate.** Three wordings (v1.1/v1.2/v1.3) all lost the q7
+  trivial-fact accuracy; narrowing did not help → a prompt-layer ceiling, not a
+  wording problem. The Epistemics addition is reverted entirely — Epistemics is now
+  byte-identical to v1.
+- **Kept unchanged — the dense Epistemics machinery.** The lean-Epistemics ablation
+  showed it earns its keep on fat-tail / ruin / hidden-failure items (full beat a lean
+  core 5–2 on accuracy, 4–2 on calibration), reconciling the Track-2 ordinary-facts
+  null (redundant on ordinary facts, not on the tail). Do not lean it.
+
+Net: **v1.4 = v1 + the sequencing counterweight, and nothing else.** Still directional
+(single-family, n=1, Haiku judge) — a candidate for the mandated three-family run, not
+a proven result.
+
 ## 2026-07-07 — SPEC v1.3 (narrow the triviality gate; wording-vs-ceiling test)
 
 The v1.2 ablation left the triviality gate a wash: even with the "keep context"
