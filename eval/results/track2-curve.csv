@@ -1,0 +1,12 @@
+# Track 2 trial-level calibration curve (the reliability curve). acc = fraction of label's trials that were correct.
+condition,label,n_trials,accuracy
+spec,High,872,1
+spec,Moderate,128,0.805
+spec,Low,0,None
+spec,Unknown,0,None
+spec,none,0,None
+generic,High,896,1
+generic,Moderate,103,0.767
+generic,Low,1,0
+generic,Unknown,0,None
+generic,none,0,None

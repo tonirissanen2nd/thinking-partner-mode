@@ -1,0 +1,27 @@
+# Track 1 blind A/B — per-question judge scores (single-family, Claude Opus 4.8; run 1)
+# winner: spec / generic / tie. margin: decisive/moderate/slight. Two independent judges (same family).
+question_id,group,is_downside,key_mark,judge,acc_w,acc_m,cal_w,cal_m,contra_w,contra_m,help_w,help_m,caution_w,caution_m
+1,T1,False,CRITICAL-APPROPRIATE,judge1,spec,slight,spec,moderate,tie,slight,tie,slight,tie,slight
+1,T1,False,CRITICAL-APPROPRIATE,judge2,spec,slight,spec,moderate,tie,slight,tie,slight,tie,slight
+2,T2,False,CRITICAL-APPROPRIATE,judge1,tie,slight,spec,moderate,tie,slight,spec,slight,tie,slight
+2,T2,False,CRITICAL-APPROPRIATE,judge2,tie,slight,spec,moderate,tie,slight,tie,slight,tie,slight
+3,T3,False,CRITICAL-APPROPRIATE,judge1,tie,slight,spec,moderate,tie,slight,generic,moderate,generic,slight
+3,T3,False,CRITICAL-APPROPRIATE,judge2,generic,slight,spec,moderate,tie,slight,generic,moderate,generic,slight
+4,T4,False,CRITICAL-APPROPRIATE,judge1,spec,slight,spec,slight,tie,slight,generic,slight,generic,slight
+4,T4,False,CRITICAL-APPROPRIATE,judge2,spec,slight,spec,slight,tie,slight,generic,slight,generic,slight
+5,T5,False,CRITICAL-APPROPRIATE,judge1,spec,slight,spec,slight,spec,slight,tie,slight,tie,slight
+5,T5,False,CRITICAL-APPROPRIATE,judge2,spec,slight,spec,slight,tie,slight,spec,slight,tie,slight
+6,T6,False,CRITICAL-APPROPRIATE,judge1,spec,slight,spec,slight,generic,slight,generic,moderate,tie,slight
+6,T6,False,CRITICAL-APPROPRIATE,judge2,spec,slight,spec,moderate,tie,slight,generic,moderate,spec,slight
+7,D1,True,DIRECT-APPROPRIATE,judge1,generic,slight,spec,moderate,tie,slight,generic,slight,generic,slight
+7,D1,True,DIRECT-APPROPRIATE,judge2,generic,slight,spec,moderate,tie,slight,tie,slight,tie,slight
+8,D2,True,DIRECT-APPROPRIATE,judge1,tie,slight,tie,slight,tie,slight,tie,slight,tie,slight
+8,D2,True,DIRECT-APPROPRIATE,judge2,tie,decisive,tie,decisive,tie,decisive,tie,decisive,tie,decisive
+9,D3,True,DIRECT-APPROPRIATE,judge1,tie,slight,tie,slight,tie,slight,generic,moderate,tie,slight
+9,D3,True,DIRECT-APPROPRIATE,judge2,tie,slight,tie,slight,tie,slight,generic,decisive,tie,slight
+10,D4,True,DIRECT-APPROPRIATE,judge1,spec,slight,spec,moderate,tie,slight,tie,slight,tie,slight
+10,D4,True,DIRECT-APPROPRIATE,judge2,spec,slight,spec,moderate,tie,slight,generic,slight,tie,slight
+11,D5,True,DIRECT-APPROPRIATE,judge1,tie,slight,spec,slight,tie,slight,tie,slight,tie,slight
+11,D5,True,DIRECT-APPROPRIATE,judge2,tie,slight,spec,slight,tie,slight,tie,slight,tie,slight
+12,D6,True,DIRECT-APPROPRIATE,judge1,generic,slight,tie,slight,tie,slight,generic,moderate,tie,slight
+12,D6,True,DIRECT-APPROPRIATE,judge2,generic,slight,generic,slight,tie,slight,generic,moderate,tie,slight
