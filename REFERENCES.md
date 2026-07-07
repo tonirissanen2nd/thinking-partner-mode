@@ -100,6 +100,32 @@ independently confirmed here.*
 as distinct behaviors. This is the empirical basis for the Dialectics
 *counterweight* clause: agreement is not sycophancy when the user is right.
 
+**Meincke, Mollick, Mollick, Shapiro; Basil et al. (Report 4), *Prompting
+Science Reports 1–4* (Wharton Generative AI Labs, 2025).** SSRN: 5165270
+(Report 1, *Prompt Engineering is Complicated and Contingent*, Mar 2025);
+5285532 (Report 2, *The Decreasing Value of Chain of Thought*, Jun 2025);
+5375404 (Report 3, *I'll pay you or I'll kill you*, Aug 2025); 5879722
+(Report 4, *Playing Pretend: Expert Personas Don't Improve Factual Accuracy*).
+*Verified from the primary PDFs.*
+→ Direct empirical support for the README's ceiling claim (a prompt cannot
+install a capability the model lacks). Across six models and two hard
+multiple-choice benchmarks (GPQA Diamond, MMLU-Pro), the interventions people
+believe in do not reliably move factual accuracy: expert personas show no
+consistent gain and domain-mismatched ones sometimes degrade (Report 4);
+politeness, commanding, threats, and tips wash out in aggregate (Reports 1, 3);
+explicit chain-of-thought produces marginal-to-negative accuracy effects on
+models that already reason by default, while adding answer variance and
+20–600% more time and tokens (Report 2). Two scope limits stop this from
+over-reaching against the spec, and they cut in the spec's favor: (a) all of it
+measures *single-answer MCQ accuracy*, which is **not** what the spec claims to
+improve — the spec targets calibration, abstention, and anti-sycophancy, none
+of which these reports measure; and (b) Report 4 explicitly notes personas may
+still serve non-accuracy purposes such as tone. So this is ceiling evidence and
+a sharpened prior, not a refutation of the spec's actual claims. The reports
+also surface a risk the spec must heed: an over-narrow role instruction made one
+model *refuse* to answer ~10.6 of 25 trials, under-utilizing its own knowledge
+(Report 4) — the over-caution failure mode Track 1 now tests for.
+
 ---
 
 ## 4. Evaluation methodology
@@ -124,6 +150,16 @@ compliance rates across model generations. Reference for what a maintained eval
 of this kind looks like at scale — and a useful structural comparison for
 Track 2, since it scores section-by-section adherence rather than pairwise
 preference.
+
+**Prompting Science Reports 1–2 (Wharton GenAI Labs, 2025) — as methodology.**
+SSRN 5165270, 5285532. *Verified from the primary PDFs.*
+→ The measurement design Track 2 borrows: (a) 25 independent trials per
+question give estimation precision and statistical power comparable to 100
+(Report 2, Table S2), which fixes the trial count without wasted compute;
+(b) report multiple correctness thresholds (100% / 90% / 51%) rather than a
+single pass rate, since the threshold chosen changes the conclusion (Report 1);
+(c) a single sample per question overstates reliability — aggregate over trials.
+See §3 for the substantive findings these methods produced.
 
 ---
 

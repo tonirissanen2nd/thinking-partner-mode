@@ -1,5 +1,42 @@
 # Changelog
 
+## Revision — mid-2026 (empirical-integration pass)
+
+Integrated the Wharton *Prompting Science* series (Reports 1–4, SSRN 5165270 /
+5285532 / 5375404 / 5879722) after reviewing the primary PDFs. The reports
+measure single-answer MCQ accuracy — **not** the spec's targets (calibration,
+abstention, anti-sycophancy) — so they are ceiling evidence and a sharpened
+prior, not a refutation. Five changes:
+
+1. **`REFERENCES.md`** — added the series to §3 (empirical grounding, for the
+   ceiling claim) and §4 (methodology, for the eval design), with scope limits
+   stated so it is not over-read as testing the spec's actual claims.
+2. **`DESIGN.md`** — recorded that the Chain-of-thought directive is mandated
+   for *auditability*, not accuracy (Report 2 finds explicit CoT marginal-to-
+   negative on models that already reason, and variance-adding); the directive
+   serves the confidence machinery, not correctness.
+3. **`DESIGN.md`** — buried the expert-persona *accuracy* assumption: Report 4
+   shows expert personas don't reliably improve factual accuracy (and mismatched
+   ones can degrade or cause refusals). The expert *tone* stays as a register
+   choice, which Report 4 notes personas legitimately serve.
+4. **`eval/prompts/04-calibration.md` + `calibration-scoresheet.csv`** — Track 2
+   now requires **25 trials per item** (Report 2 Table S2: 25 ≈ 100 for
+   precision/power), scored at **three correctness thresholds** (25/25, 23/25,
+   13/25), and adds **per-item reliability** (compare the emitted label to the
+   item's empirical success rate — a `High` on a 60%-correct item is
+   miscalibrated even above chance) alongside the trial-level calibration curve.
+5. **`eval/prompts/03-judge.md` + `README.md` + both scoresheets** — added
+   Track 1 **axis E: over-caution / under-utilization** (refusing or
+   under-committing on answerable questions), distinct from axis C
+   (manufacturing objections). Motivated by Report 4's refusal mode (an
+   over-narrow role made one model decline ~10.6/25 answerable trials). Added to
+   the judge, pre-registration success/failure, red flags, and the CSV + xlsx
+   summary blocks (ALL / trap / downside).
+
+⚠ Unchanged: none of the additions are themselves validated, and the eval
+remains **unrun**. These sharpen the design and the measurement; they do not
+substitute for running it. `SPEC.md` was not touched.
+
 ## Revision — mid-2026 (expert-review pass)
 
 This pass acted on a critique of the v5 package. It fixed what is fixable at the

@@ -1,15 +1,18 @@
-# Track 2 (calibration) scoresheet. One row per question per condition per run. See prompts/04-calibration.md.
+# Track 2 (calibration) scoresheet. ONE ROW PER TRIAL. See prompts/04-calibration.md.
+# Run 25 trials per (question_id, condition): trial = 1..25. LLM outputs vary, so a single sample mis-estimates
+# both whether the model knows the item and which label it emits (Wharton Reports 1-2; Report 2 Table S2: 25 ~= 100).
 # condition: spec / generic / plain. stated_confidence: High / Moderate / Low / Unknown / none / abstained.
 # outcome: correct / incorrect / abstained (scored against the EXTERNAL key, not a judge's opinion).
-# To read the result, pivot on (condition, stated_confidence): count rows and % correct per bin.
-#   Reliability  = does % correct rise across High > Moderate > Low within a condition?
-#   Resolution   = do the bins' accuracies separate, or cluster at one value?
-#   Theater flag = is High-bin accuracy roughly equal to Moderate-bin accuracy? (bad)
-#   Abstention   = of abstained rows, how many would have been incorrect? (good) vs correct? (cost)
-run_id,question_id,difficulty,condition,stated_confidence,outcome,would_be_correct_if_forced,notes
+#
+# Two views, each at 3 thresholds (item "known" at 25/25, 23/25, 13/25):
+#   Trial-level reliability = across all High-labelled TRIALS, % correct; same for Moderate, Low. (the calibration curve)
+#   Per-item reliability    = per item, compare the label usually emitted to the item's empirical success rate /25.
+#                             A High label on an item correct 60% of trials is miscalibrated even though above chance.
+#   Theater flag = is High-trial accuracy roughly equal to Moderate-trial accuracy? (bad)
+#   Abstention   = of abstained trials, how many would have been incorrect (good) vs correct (cost)?
+trial,question_id,difficulty,condition,stated_confidence,outcome,would_be_correct_if_forced,notes
 1,1,easy,spec,,,,
+2,1,easy,spec,,,,
 1,1,easy,generic,,,,
 1,2,medium,spec,,,,
-1,2,medium,generic,,,,
 1,3,hard,spec,,,,
-1,3,hard,generic,,,,

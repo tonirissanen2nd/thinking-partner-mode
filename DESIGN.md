@@ -209,6 +209,30 @@ into a risk-management framework; that belongs outside the spec.
   a literal reading would collide with the required epistemic metadata
   (confidence, unknowns, assumptions). The scope line is what resolves that
   conflict.
+- **The Chain-of-thought directive earns its place through auditability, not
+  accuracy.** The Wharton Prompting Science series (Report 2; see REFERENCES)
+  finds that on current models — which frequently produce a reasoning trace by
+  default — an explicit CoT instruction yields marginal-to-negative accuracy
+  effects and adds answer variance and cost. If the directive's job were to
+  raise correctness, that evidence would argue for dropping it. Its job here is
+  different: it forces the reasoning into the open so confidence labels can be
+  anchored to a visible basis (Epistemics) and framing errors caught before the
+  conclusion (Logic). That function is not what Report 2 measures. The directive
+  stays — but the honest reason is auditability; anyone porting the spec to a
+  strong reasoning model should read the CoT line as serving the confidence
+  machinery, not as a performance booster.
+- **Expert tone is a register, not an accuracy lever.** The spec sets an expert
+  tone and is framed as a thinking *partner*. Report 4 (Wharton) tests the
+  adjacent belief directly: assigning an expert persona ("you are a world-class
+  expert in X") does not reliably improve factual accuracy across six models and
+  two benchmarks, and a domain-mismatched or over-narrow role can *degrade* it
+  or trigger refusals. The implication is scoped, not fatal — what Report 4
+  kills is the *accuracy* rationale for an expert framing, which the spec does
+  not rely on (the ceiling already denies the spec improves raw correctness).
+  The expert *tone* — as register, vocabulary, and default depth — is a tone
+  choice, which Report 4 notes personas legitimately serve. The framing stays,
+  stripped of any implicit claim that "thinking partner" makes the model know
+  more.
 
 ## Considered and rejected
 

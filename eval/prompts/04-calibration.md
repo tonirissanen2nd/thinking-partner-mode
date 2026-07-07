@@ -44,22 +44,48 @@ references in a domain you can check. Bad sources: opinion, open-ended
 analysis, anything the key can't adjudicate. Aim for **40+ items** spanning
 easy→hard; fewer than ~30 and the per-bin counts are too small to read.
 
+## Trials, not single samples
+
+The obvious way to run this — one response per item per condition — is the
+mistake the Wharton Prompting Science series documents (REFERENCES, §4). LLM
+outputs vary run to run, so a single sample mis-estimates two things at once
+here: whether the model *knows* the item, and which label it *emits* (the
+confidence label itself varies across samples). Both are the object of study, so
+both must be sampled.
+
+- **Run 25 independent trials per item per condition.** Report 2 (Table S2)
+  finds 25 trials give estimation precision and statistical power comparable to
+  100, so 25 is the efficient count — more is wasted compute, fewer is too
+  noisy to read a per-bin rate.
+- This yields, per item, an **empirical success rate** (of 25) and a
+  **distribution of emitted labels**. Those are what calibration is scored
+  against — not a single lucky or unlucky draw.
+
 ## Procedure
 
 1. **Build the battery** — 40+ factual questions with a verified external key
    (a primary source, not a model's guess). Span difficulty deliberately.
-2. **Collect responses** under each condition (spec / generic-control /
-   optional plain-default), one question at a time. Instruct the responder to
-   answer *and* emit exactly one confidence label from the spec's scale
-   (`High` / `Moderate` / `Low` / `Unknown`), or to abstain. Under the
-   control, use whatever the control prompt elicits; if it emits no label,
-   record the answer and mark the label `none` (that itself is a finding —
-   the control may refuse to self-report confidence at all).
-3. **Score each answer** `correct` / `incorrect` / `abstained` against the
-   external key. This is objective; the grader's judgment is not involved, so
-   register leakage does not apply to this track.
-4. **Bin and compute** in `calibration-scoresheet.csv`: per condition, per
-   confidence bin, count and accuracy. Then read the three outcomes above.
+2. **Collect 25 trials** per item per condition (spec / generic-control /
+   optional plain-default). On each trial the responder answers *and* emits
+   exactly one confidence label from the spec's scale (`High` / `Moderate` /
+   `Low` / `Unknown`), or abstains. Under the control, record whatever it emits;
+   if it emits no label, mark `none` (itself a finding — the control may refuse
+   to self-report confidence at all). One row per trial in
+   `calibration-scoresheet.csv`.
+3. **Score each trial** `correct` / `incorrect` / `abstained` against the
+   external key. Objective; the grader's judgment is not involved, so register
+   leakage does not apply to this track.
+4. **Compute two views**, both at three correctness thresholds — an item counts
+   as "known" at 25/25, at 23/25 (~90%), and at 13/25 (~51%), because the
+   threshold changes the conclusion (Report 1):
+   - **Trial-level reliability** — across all `High`-labelled *trials*, what
+     fraction were correct? Same for `Moderate`, `Low`. This is the calibration
+     curve.
+   - **Per-item reliability** — for each item, compare the label the model
+     usually emits to the item's empirical success rate. A `High` label on an
+     item the model gets right 60% of the time is miscalibrated *even though it
+     beats chance* — the single most important check, and the one a single
+     sample cannot produce. Aggregate accuracy alone would hide it.
 
 ## Reading the result
 
