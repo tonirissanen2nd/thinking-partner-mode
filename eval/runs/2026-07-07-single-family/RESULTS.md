@@ -1,7 +1,8 @@
 # Eval Results — single-family directional run (2026-07-07)
 
 **Spec version:** `f68f436` · **Pre-registration:** `PRE-REGISTRATION.md` (committed
-before any result).
+before any result). The exact spec evaluated is archived verbatim in this folder
+as `spec-as-tested.md`.
 **Setup:** experimenter, generator, responder, and judges were all **Claude Opus 4.8**,
 separated into independent subagent instances — a single model family. This is the
 "directional, single-family" mode both tracks explicitly permit and explicitly flag as

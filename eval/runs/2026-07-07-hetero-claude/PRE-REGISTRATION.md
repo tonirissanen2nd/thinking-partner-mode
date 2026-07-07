@@ -1,7 +1,10 @@
 # Pre-Registration — Track 1 heterogeneous-Claude run
 
 **Date:** 2026-07-07
-**Spec version:** current working tree (`SPEC.md`, full, English).
+**Spec version:** current working tree (`SPEC.md`, full, English) — archived
+verbatim in this folder as `spec-as-tested.md`. It is byte-identical to the
+single-family run's tested spec (SHA `f68f436`), so the two runs are comparable
+on spec version.
 **Experimenter:** Claude Code (Opus 4.8) — holds the blind, verifies categories,
 normalizes, randomizes, aggregates.
 
