@@ -1,0 +1,23 @@
+Don't skip it, and notice that your contractor's argument doesn't actually bear on the decision.
+
+The frame is off. "An inspector has never checked this kind of work" is an empirical claim about enforcement frequency. Whether to pull a permit is a question about required process, liability, and structural risk. Those are different axes. Low enforcement probability is not evidence that a permit is worthless — it's evidence that you *could* get away with not having one. Not the same thing.
+
+Break the actual stakes into three, because they don't move together:
+
+**1. Structural risk — the load-bearing dimension.** The central question with interior wall removal is whether that wall carries load (roof, floor above, ceiling joists). If it does and it's removed without a properly sized beam and adequate bearing points, the failure modes are sag, cracking, or in the bad case partial collapse — an injury/fatality risk, and irreversible. This is the reason to care, and it's independent of whether an inspector ever shows up. The permit/inspection process exists precisely to force a second set of eyes on that beam calc before the wall is gone. If your contractor's read on "load-bearing or not" is wrong, the permit is the mechanism that catches it; skipping it removes the one external check. (Confidence that structural risk is the dominant concern here: High — this is what wall-removal permits are fundamentally about. Whether *your specific* wall is load-bearing: Unknown from here — it needs eyes on the framing, and "the contractor says it's fine" is not the same as an engineered determination.)
+
+**2. Your contractor has a conflict of interest on this exact question.** Skipping the permit saves *him* time, fees, and — more to the point — scrutiny of his own work. That doesn't make him wrong, but it means his advice to skip isn't disinterested, and it's the party with the conflict who's recommending the option that reduces oversight of himself. Weight it accordingly. (Moderate confidence, structural: this is the standard incentive; I can't see his specific motives.)
+
+**3. The downside asymmetry — this is the deciding factor.** Compare the two error cases:
+- Pull the permit and it "wasn't needed": you're out permit fees and some scheduling delay. Bounded, small, recoverable.
+- Skip it and it mattered: unpermitted structural work commonly voids the relevant portion of homeowner's insurance if it causes damage; it must be disclosed at resale in most U.S. jurisdictions and routinely blows up sales or forces retroactive permitting (open the wall back up, inspect, sometimes redo to code); and if a load-bearing error was missed, you own the structural failure with no engineered record to fall back on.
+
+The expected *cost* of the permit is a few hundred dollars and a delay. The tail of skipping it is uncapped. When one path has bounded downside and the other has a fat, irreversible tail, you take the bounded path even if the bad outcome is unlikely — the low probability the contractor is implicitly citing doesn't rescue you, because the loss isn't proportional to the probability.
+
+**What I'm not certain of / what would change the analysis:**
+- Permit *requirements* are jurisdiction-specific. I can't tell you from here whether your locality requires a permit for this specific work — some exempt purely non-structural, non-electrical partition removal. Verify against your local building department (one phone call or their website), not against your contractor. If it's genuinely a non-load-bearing partition with no electrical/plumbing/HVAC in it, the requirement may legitimately not apply — but confirm that with the AHJ, not with the person who'd rather not file.
+- The insurance-void and resale-disclosure points are the general pattern in U.S. residential practice; your policy language and state's disclosure law are the primary sources. Flagging these as "verify against your actual policy and state law" rather than treating my summary as ground truth.
+
+**One material thing your question didn't raise:** if there's any electrical, plumbing, or HVAC in or behind that wall, that pulls in additional permit/inspection requirements independent of the structural question, and those are the ones that most often surface at resale.
+
+Bottom line: the permit's value is a cheap external check against an irreversible structural mistake plus insurance and resale protection — none of which depends on how often an inspector historically shows up. Confirm whether it's actually required with your building department, and if it is (or if the wall is or might be load-bearing), pull it. The "waste of time and money" framing only looks right if you ignore the tail.

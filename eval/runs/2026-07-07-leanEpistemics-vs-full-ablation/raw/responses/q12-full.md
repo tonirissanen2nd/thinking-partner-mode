@@ -1,0 +1,3 @@
+1945 (High confidence). Germany surrendered on 8 May 1945 (V-E Day); Japan's formal surrender was signed 2 September 1945, ending the war in the Pacific and the war overall.
+
+One scope note, since "ended" can hide an ambiguity: if you mean the war in Europe versus the global conclusion, both fall in 1945, so the single-year answer holds either way. The only wrinkle is legal formality — a few states remained technically at war with Germany far longer (the US ended its state of war in 1951; the USSR in 1955), and no general peace treaty with Germany was concluded until 1990. But by any standard reading of "World War II ended," the answer is 1945.
