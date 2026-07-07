@@ -10,9 +10,11 @@ Each run folder contains:
 - `PRE-REGISTRATION.md` — committed **before** any result (removes researcher
   degrees of freedom).
 - `RESULTS.md` — the writeup, judged against the pre-registration.
-- `spec-as-tested.md` — the exact `SPEC.md` this run evaluated, archived verbatim,
-  so the tested spec version is preserved with the run even as the live `SPEC.md`
-  evolves. (Both runs to date tested byte-identical specs — SHA `f68f436`.)
+- `spec-as-tested-vN.md` — the exact `SPEC.md` this run evaluated, archived
+  verbatim, so the tested spec version is preserved with the run even as the live
+  `SPEC.md` evolves. **Version numbering:** `v1` is the first tested spec (SHA
+  `f68f436`); the next modified spec that gets re-run is `v1.1`, then `v1.2`, and
+  so on — stamped into the filename. Both runs to date tested `v1` (byte-identical).
 - the run's data (scores CSVs, workflow scripts, battery, answer key, …).
 - optionally `raw/` — the process intermediates (per-question responses,
   normalized answers, blind judge inputs, individual judgments). Committed for

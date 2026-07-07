@@ -2,7 +2,7 @@
 
 **Spec version:** `f68f436` · **Pre-registration:** `PRE-REGISTRATION.md` (committed
 before any result). The exact spec evaluated is archived verbatim in this folder
-as `spec-as-tested.md`.
+as `spec-as-tested-v1.md` (spec version `v1`).
 **Setup:** experimenter, generator, responder, and judges were all **Claude Opus 4.8**,
 separated into independent subagent instances — a single model family. This is the
 "directional, single-family" mode both tracks explicitly permit and explicitly flag as
