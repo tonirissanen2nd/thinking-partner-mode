@@ -1,0 +1,12 @@
+# GitHub Linguist language detection.
+#
+# This is a prose / spec repository: ~96% of files are Markdown (the spec, the
+# design notes, and every eval run artifact), plus CSV/XLSX data. Linguist excludes
+# Markdown (prose) and CSV/XLSX (data) from the language bar, so the only files it
+# counts are the two eval-automation scripts under eval/runs/ — which made it read
+# a misleading "JavaScript 100%".
+#
+# Mark those scripts as documentation so they're kept out of the language stats
+# (they stay fully visible and searchable in diffs — this repo values auditability).
+# With nothing left to count, the language bar reflects what this project is.
+eval/runs/**/*.mjs linguist-documentation=true
