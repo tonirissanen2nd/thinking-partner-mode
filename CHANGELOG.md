@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-07-07 — SPEC v1.3 (narrow the triviality gate; wording-vs-ceiling test)
+
+The v1.2 ablation left the triviality gate a wash: even with the "keep context"
+clause, the model over-trimmed trivial-fact answers (q7, downside completeness lost
+to v1). v1.3 narrows the gate as far as wording can go — it now governs *only* the
+confidence phrase, and explicitly forbids shortening the answer or dropping context.
+Everything else (the sequencing change) is unchanged from v1.2.
+
+This is a deliberate **wording-vs-ceiling probe**, A/B'd against v1 in
+`eval/runs/2026-07-07-v1.3-vs-v1-ablation/` (same v1 baseline as the v1.1 and v1.2
+runs, so the three are directly comparable). If the narrowing recovers the downside
+completeness v1.2 lost, the gate was a wording problem. If it does not move, the gate
+is at the prompt-layer ceiling (the model won't reliably hold "drop the label, not
+the substance" however it's phrased) — and should be dropped rather than re-worded.
+
 ## 2026-07-07 — SPEC v1.2 (counter-counterweights for v1.1's induced cost)
 
 The v1.1 ablation (`eval/runs/2026-07-07-v1.1-vs-v1-ablation/`) found v1.1's two
