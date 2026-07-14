@@ -146,6 +146,27 @@ limits, and knowing them prevents overreliance:
    battery — but the result rests on a thin base (near-single-item error spread)
    and one model family, so it is suggestive, not settled (see `eval/runs/`).
 
+   **The one exception, and why the Verification section is ordered the way it
+   is (v1.5).** There is exactly one place at this layer where a label *can* be
+   scored against something other than its own plausibility: a tool-equipped
+   session. Verification is an external key that happens to already be present.
+   That is why Verification requires the label to be emitted *before* the check
+   and compared against it after — a `High` the tool refutes is calibration
+   theater caught in the act. This does not make the model better calibrated
+   (the ceiling holds); it converts an **unobservable** failure into an
+   **observable** one, and in an agentic context repairs it. Two consequences
+   follow, and both are in the directive. First, the check must be gated by
+   **materiality only, never by the label** — gating on confidence means a wrong
+   `High` suppresses the very check that would have caught it, and the failure
+   becomes self-concealing. (The pre-v1.5 wording did exactly this: it exempted
+   "what confident recall already covers" from verification. That was a defect,
+   not a saving.) Second, making labels consequential induces the opposite
+   failure — hedging a label downward so the check cannot score it wrong — so
+   the counterweight against defensive under-confidence ships in the same edit.
+   Note the limits: this is **inert without tools**, and the counterweight is an
+   aspiration rather than a compulsion, so the real test of it is an eval
+   (does the label distribution shift down?), not the directive.
+
 2. **It does not persist, and it drifts.** The spec lives in context, not in
    weights. It does not learn, does not save, and its influence weakens as a
    conversation lengthens and the original directives fall further back. A

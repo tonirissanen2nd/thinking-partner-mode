@@ -1,5 +1,37 @@
 # Changelog
 
+## 2026-07-15 — SPEC v1.5 (verification as calibration scoring — **unrun**)
+
+Reworks the **Verification** section. Prompted by an external critique that found a
+real defect, not just a missed improvement.
+
+- **Fixed a defect.** The old wording exempted "what confident recall already covers"
+  from verification. That is a **confidence gate on the check** — and it inverts the
+  whole point: a wrong `High` suppresses the very check that would have caught it, so
+  miscalibration becomes self-concealing. Verification is now gated by **materiality
+  only, never by the label**. This half is a bug fix by the spec's own logic.
+- **Added ordering.** Emit the confidence label *before* verifying, then verify, then
+  state whether the check confirmed, corrected, or could not resolve it. The label
+  becomes a prediction; the check scores it. This is the only point in the spec where
+  a label is tested against something other than its own plausibility — `DESIGN`'s
+  ceiling argument concedes nothing at the prompt layer can close that gap, and a
+  tool-equipped session is the one place an external key is already present. It does
+  not make the model better calibrated; it makes miscalibration **observable**.
+- **Counterweight, same edit.** Consequential labels induce the opposite failure —
+  hedging downward so the check cannot score you wrong. So: *do not lower a label to
+  protect it from the check.*
+- **Conflict handling.** Where the check and confident recall disagree and cannot be
+  reconciled in-session, name the conflict rather than silently adopting the tool's
+  answer (silent adoption destroys the calibration signal — you never see that the
+  prior label was wrong).
+
+**Scope and status.** This is **inert without tools** — in a plain chat it changes
+nothing. And it is **unrun**: by the spec's own extender rule, that makes it a
+candidate for the eval, not an improvement. It also cannot be tested by the existing
+Track 1 battery, which has no tool-use condition; testing it needs a tool-equipped run
+on a battery that can actually produce `High`-and-wrong events (stale/superseded facts
+— the "Malta-like" items that drove every error in Track 2).
+
 ## 2026-07-07 — SPEC v1.4 (distilled: keep the sequencing change, drop the triviality gate)
 
 The end state of the v1.1→v1.3 loop plus the lean-Epistemics ablation. Three
