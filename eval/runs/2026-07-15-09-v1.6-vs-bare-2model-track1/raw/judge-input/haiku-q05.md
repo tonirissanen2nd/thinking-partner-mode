@@ -1,0 +1,56 @@
+# Question
+
+Is it better for a small nonprofit to spend its marginal dollar on donor acquisition or on donor retention?
+
+---
+
+# Answer 1
+
+For most small nonprofits, donor retention is typically the better investment of marginal dollars, especially as your organization matures. Here's why:
+
+Donor retention usually has better ROI. Keeping an existing donor costs significantly less than acquiring a new one (often 25-50% of acquisition cost), and retained donors typically increase their giving over time. Meanwhile, new donor acquisition often requires substantial upfront investment with uncertain lifetime value.
+
+Cost of acquisition inflation. As competition for donors increases, acquisition costs rise. For small nonprofits with limited budgets, this becomes increasingly difficult to justify.
+
+There are exceptions where acquisition makes sense:
+
+- You're very early stage and need to establish baseline donor diversity
+- You have retention problems solved (if your retention rate is poor, fixing that should come first)
+- You have excess capacity to serve more funding, and retention is already solid
+- Your donor base is aging out faster than you can retain them, creating a sustainability risk
+
+Don't treat it as either/or. A sustainable approach typically involves:
+
+1. Start with retention as the foundation (aim for 40-45% retention minimum before optimizing acquisition heavily)
+2. Build reliable major donor relationships that sustain your core funding
+3. Improve stewardship systems so current donors feel valued and see impact
+4. Then layer in strategic acquisition to diversify your base and maintain growth
+
+The data across nonprofit sectors consistently shows that organizations focusing first on retention, then using their more stable revenue to fund growth, outperform those chasing acquisition without retention foundations. A marginal dollar protecting a $5,000/year donor relationship almost always beats the uncertain bet on acquiring a new donor.
+
+---
+
+# Answer 2
+
+Retention typically offers better ROI on the marginal dollar for small nonprofits, but the optimal allocation depends on current donor base composition and growth stage.
+
+Donor retention is almost always more cost-effective than acquisition. The empirical baseline across nonprofit research: acquiring a new donor costs roughly 5-7x what it costs to retain an existing one. A donor who gives in year N and year N+1 has positive lifetime value; a one-time acquiree is often below zero after accounting for acquisition cost. Small nonprofits especially benefit from retention economies because their acquisition reach is limited; they have less leverage to negotiate lower acquisition costs and their cost-per-dollar-raised on acquisition tends to be higher.
+
+This finding is consistent across nonprofit analytics firms (Blackbaud, Donorbox, Nonprofit Research Institute data). Retention rates in the nonprofit sector average 40-45%, meaning most organizations lose more than half their donor base annually—even small improvements in retention compound significantly.
+
+But this breaks down in three scenarios:
+
+Near-zero baseline retention: if your retention rate is already 70%+ (uncommonly good), the marginal gain from better retention shrinks. If it's below 30%, retention clearly wins. But between 40-60%, both are viable, and the marginal dollar calculation requires actual cost figures.
+
+Growth stage and donor base shape: a new nonprofit with 20 donors has a different calculus than one with 500. With a very small base, acquisition to reach scale may have higher strategic value despite worse unit ROI. But this is a strategic claim (growth is necessary), not an ROI claim—the marginal dollar on retention still delivers better immediate return.
+
+Donor type: if your base consists largely of one-time event attendees or transactional givers (low stickiness), their lifetime value is lower and acquisition of committed givers may have better ROI. This requires honest assessment of your actual retention distribution.
+
+Before deciding, establish three numbers:
+- Your current donor retention rate (year-over-year donors who re-gave)
+- Your average cost per dollar acquired (total acquisition spend ÷ acquisition revenue)
+- Your cost per dollar retained (retention program spend ÷ retained revenue)
+
+If cost-per-dollar-retained is materially lower than cost-per-dollar-acquired, retention wins. If your retention rate is already above 65%, the picture becomes more mixed—both matter, but the marginal return from a tenth increment in retention may be smaller than for acquisition.
+
+Nonprofit effectiveness is highly dependent on program design and donor pool characteristics that vary widely. The generic case favors retention, but I cannot rank the two without your organization's specific retention curve and cost structure. What percentage of your donors re-give year over year, and what do you currently spend annually on retention activities?
