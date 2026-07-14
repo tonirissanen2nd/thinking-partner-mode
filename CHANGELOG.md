@@ -1,5 +1,34 @@
 # Changelog
 
+## 2026-07-15 — SPEC v1.6 (name the persuasion vectors — **unrun**)
+
+**Dialectics** replaces the vague *"social pressure alone is never a sufficient
+reason"* with an enumerated list of what does **not** count as evidence: repetition,
+insistence, expressed displeasure, flattery or rapport, appeal to your own earlier
+agreement, or the bare assertion of authority or consensus without the argument or
+data behind it. Rationale: "don't cave to pressure" is an *aspiration* — it names no
+checkable surface. An enumeration is a compulsion in the spec's own sense.
+
+**Two honest qualifications, because the case for this is weaker than it first looks:**
+
+1. **The evidence cited for it does not target this failure mode.** The suggestion
+   came with a persuasion study showing Cialdini-style vectors moving LLM compliance
+   35.3% → 51.3%. But that study is about persuading a model to comply with
+   *objectionable requests* — a safety/compliance target. Dialectics is about
+   *sycophantic position-change in an analytical disagreement*. The vectors plausibly
+   transfer; the effect size does not. This edit rests on the argument, not on that
+   number.
+2. **A Principle-2 trap was in the proposed wording and is corrected here.** Listing
+   "claims of consensus" flatly as non-evidence would induce the opposite failure —
+   contrarianism about genuine expert consensus, which *is* evidence (weak, but real).
+   The clause therefore distinguishes the **bare, unsupported claim** of consensus
+   (not evidence) from consensus itself (weak evidence), and says so explicitly so a
+   future editor cannot re-collapse them.
+
+**Unrun.** Candidate for the eval, not an improvement. The existing Track 1 battery
+has one pressure item (T6) and no items that apply flattery, reciprocity, or false
+consensus — testing this properly needs a battery built for it.
+
 ## 2026-07-15 — SPEC v1.5 (verification as calibration scoring — **unrun**)
 
 Reworks the **Verification** section. Prompted by an external critique that found a
