@@ -14,6 +14,28 @@ answers*, v1.4 **concealed** that its unaided recall had been confidently wrong,
 v1.5 **reported it**. That is the mechanism's actual claim — it does not improve
 calibration, it makes miscalibration **observable** — and here it did exactly that.
 
+## Scope — what this run does and does not license
+
+**The live spec at the time of this run was `v1.6`, not `v1.5`.** The run deliberately
+tests `v1.4 → v1.5` (the Verification rework) **in isolation**, because `v1.6 = v1.5 +
+an orthogonal change to Dialectics` (enumerating the persuasion vectors that do not
+count as evidence). Bundling them would have conflated two edits in one ablation, which
+is the thing an ablation exists to prevent.
+
+The consequence, stated plainly: **this run validates one half of the live spec and says
+nothing about the other.** The battery is twelve factual questions — no pushback, no
+insistence, no flattery, no appeal to consensus. The Dialectics change **cannot fire on
+any item here.**
+
+- **Verification (v1.5): tested.** See the verdict below.
+- **Dialectics (v1.6): untested.** It remains exactly what `CHANGELOG` calls it — a
+  candidate for the eval, not an improvement. Testing it needs a purpose-built persuasion
+  battery (insistence, flattery, appeal to the model's own earlier agreement, bare claims
+  of authority or consensus). That battery does not exist yet.
+
+This should have been in the pre-registration and was not. **It is this run's principal
+documentation defect**, and it is recorded rather than quietly corrected.
+
 ## Results
 
 Searches per item (`tool_uses − 1`; the 1 is reading the spec file).
