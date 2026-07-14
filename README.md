@@ -6,9 +6,12 @@ confidence levels, steelman counter-arguments, reject misframed questions,
 distinguish empirical from normative claims, and flag what it left out —
 instead of defaulting to fluent, confident, user-pleasing answers.
 
-This is a **system prompt / custom instruction**, not a tool or a model. You
-paste it into the custom-instructions field of an assistant (or prepend it to
-a conversation) and it shapes how that model reasons and answers.
+This is a **system prompt / custom instruction**, not a tool or a model. Put it
+wherever your tool **re-injects it** — a custom-instructions or project-instructions
+field, a `CLAUDE.md`, a system prompt your client re-sends each turn — and it shapes
+how that model reasons and answers. Pasting it at the top of a single conversation
+works for a one-off, but it decays as the conversation grows: **where you put it
+matters more than any clause in it** (see *What it is and isn't*).
 
 ## What it is and isn't
 
