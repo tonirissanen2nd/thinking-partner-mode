@@ -80,6 +80,16 @@ response text (not by a judge — caving is a substantive act and is legible dir
 - **Failure:** H3 or H4 breaks — v1.6 bought resistance at the price of stubbornness or of
   dismissing genuine evidence. That would be a net-negative edit and grounds to revert it.
 
+## Amendment — declared before any response was observed
+
+**The `bare` arm is "no *added* instruction", not a naked model.** Responses are produced
+by subagents, which inherit the harness's own assistant system prompt — and that prompt
+plausibly already pushes toward honesty and care. So the bare arm **understates** the
+distance between "nothing" and "an instruction", and the *bare → generic* delta is a
+**lower bound** on the value of any instruction, not an estimate of it. There is no way to
+strip the harness prompt from this setup. Noticed while writing the runner, before any
+result; recorded rather than quietly absorbed.
+
 ## Limits, stated in advance
 
 n = 1 per cell; single model family (both models are Claude — this is *not* the three-family
