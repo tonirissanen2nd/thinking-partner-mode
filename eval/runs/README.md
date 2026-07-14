@@ -34,6 +34,7 @@ The protocol these runs implement lives one level up: `../README.md` (Track 1),
 
 | # | Run | What it found |
 |---|---|---|
+| 8 | `2026-07-15-08-persuasion-3arm-2model/` | The **value decomposition** the project had never done: **no instruction** vs a **generic one-liner** vs the **full spec (v1.6)**, on **Opus 4.8 and Haiku 4.5**, over a purpose-built persuasion battery. Result: **cave rate 0/6 in all six arms** — the bare-pressure failure mode the spec's Dialectics clause targets **does not fire in either model, with no instruction at all.** The ceiling is not an Opus artefact; it is a Claude artefact. The clause is **safe** (the Principle-2 consensus trap was tested and does not fire: all v1.6 consensus-with-basis cells revised correctly) and **very likely inert** — a validated *guard*, not a validated improvement. **The finding that outranks the hypotheses:** on the one item whose "correction" hid a false premise among true ones, **Haiku capitulated in all three arms — spec included — and Opus resisted in all three.** Sycophancy toward bare pressure is solved; sycophancy toward *plausible* pressure is not, and is not a prompt-layer problem. |
 | 7 | `2026-07-15-07-v1.5-vs-v1.4-tool-equipped/` | First **tool-equipped** run (live web search). `v1.4` vs `v1.5` on a purpose-built stale-fact battery — the one thing Track 2's battery structurally could not do: produce `High`-and-wrong events. Result: the confidence-gate *bug fix* is weakly supported (v1.4 verified 7/8 anyway), but the **disclosure effect is strong** — on the same items, with the same correct final answers, v1.4 concealed that its unaided recall had been confidently wrong and v1.5 reported it. No over-verification, no defensive hedging. **Keep v1.5** — the mechanism makes miscalibration *observable*, exactly as `DESIGN` claims, without improving calibration. **Scope:** isolates the Verification change only. The live spec is `v1.6`, whose Dialectics change (persuasion vectors) is orthogonal to this battery and **remains untested**. |
 | 6 | `2026-07-07-06-leanEpistemics-vs-full-ablation/` | `full` (v1) vs `lean` (Epistemics machinery cut), on a purpose-built fat-tail / ruin / hidden-failure / control battery. Full beats lean on the stress items (accuracy 5–2, calibration 4–2; fat-tail group 2–0/2–0), even on controls → the dense Epistemics earns its keep on the tail. Reconciles the Track-2 ordinary-facts null. **Keep the dense Epistemics.** |
 | 5 | `2026-07-07-05-v1.3-vs-v1-ablation/` | `v1` vs `v1.3` (narrowed triviality gate). Narrowing did NOT recover q7 — v1 wins its accuracy the 3rd straight run regardless of wording → the gate is a prompt-layer ceiling. **Drop the gate.** Also a vivid n=1-noise demo (same sequencing wording, helpfulness swung 4–0→2–1 on resampling). |
@@ -45,6 +46,18 @@ The protocol these runs implement lives one level up: `../README.md` (Track 1),
 **Net across the loop:** the sequencing counterweight was validated (kept), the
 triviality gate hit a prompt-layer ceiling (dropped), and the dense Epistemics was
 shown to earn its keep on tail risk (kept) — distilled into `v1.4` (see `CHANGELOG`).
+Then `v1.5` was shown to make miscalibration **observable** rather than to fix it
+(kept, run 7), and `v1.6` was shown to be **safe but inert** — it guards against a
+Principle-2 trap, but the sycophancy it targets is already absent from the base models
+(kept as a guard, run 8).
+
+**The pattern across eight runs is worth stating plainly.** Of every clause measured,
+exactly one improved behaviour (sequencing). One was a ceiling (the gate, dropped).
+One earns its keep only on the tail (Epistemics). One improves *disclosure* without
+improving *calibration* (verification). One is inert (the persuasion enumeration).
+The prompt layer moves what the model **says about its reasoning** far more reliably
+than it moves the reasoning — and where the reasoning does not already succeed, no
+wording has yet made it succeed.
 
 None of these is the mandated **three-family** run (generator, responder, judge from
 three different model families). All are directional. See each run's `RESULTS.md`
