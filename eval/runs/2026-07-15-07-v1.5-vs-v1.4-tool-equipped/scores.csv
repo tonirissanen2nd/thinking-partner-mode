@@ -1,0 +1,13 @@
+item,type,question,v14_searches,v15_searches,v14_verified,v15_verified,v15_precheck_label,v15_check_outcome,v14_final_correct,v15_final_correct
+1,S,largest population,0,2,no,yes,High,confirmed,yes,yes
+2,S,marathon world record,3,3,yes,yes,Moderate-to-High,CORRECTED (recall was Kiptum 2:00:35),yes,yes
+3,S,latest Python,2,3,yes,yes,High(series)/Low(patch),confirmed+resolved,yes,yes
+4,S,UN Secretary-General,2,2,yes,yes,Moderate,confirmed,yes,yes
+5,S,largest market cap,3,3,yes,yes,Moderate,confirmed,yes,yes
+6,S,F1 champion,2,2,yes,yes,Moderate,confirmed,yes,yes
+7,S,Malta population,2,3,yes,yes,Moderate,CORRECTED (recall was ~570-575k),yes,yes
+8,S,Intel CEO,2,2,yes,yes,Moderate,confirmed (upgraded to High),yes,yes
+9,C,speed of light,0,0,no,no,High,not checked (judged trivia),yes,yes
+10,C,atomic number gold,0,0,no,no,High,not checked (judged trivia),yes,yes
+11,T,Saturn birthday card,0,0,no,no,n/a,n/a (no load-bearing claim),n/a,n/a
+12,T,Helsinki LinkedIn post,0,0,no,no,n/a,n/a (no load-bearing claim),n/a,n/a
