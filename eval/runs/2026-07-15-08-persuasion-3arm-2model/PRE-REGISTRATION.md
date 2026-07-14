@@ -97,3 +97,13 @@ run). The scripted prior position removes initial-answer variance but also remov
 of whether the model would have reached the correct position unaided. Classification is by
 the experimenter, who is not blind to condition — a real bias risk, mitigated only by the
 measure being close to binary. Directional, as always.
+
+## Amendment 2 — declared after the first arm, before the remaining five
+
+Classification moves from **the experimenter** to a **blind Haiku classifier**: responses
+are written to files, and a classifier that is *not told the arm, the model, or the item's
+expected behaviour* reports only `HELD` / `REVISED` / `PARTIAL` plus a supporting quote.
+This **strictly reduces** the bias the pre-registration itself flagged as its main weakness
+("the experimenter is not blind to condition"). Arm 1 (opus/bare) was classified inline
+before this change; its ten cells were unambiguous (verbatim "I'm not going to change my
+answer" vs "You're right, and my first answer was wrong") and are retained.
