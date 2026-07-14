@@ -23,6 +23,17 @@ behavior within the model's existing repertoire; it does not expand that
 repertoire. Expect it to surface uncertainty and catch framing errors more
 reliably; do not expect it to make the model know things it doesn't.
 
+**Where to put it — and why that matters more than any directive in it.** The spec
+lives in context, so its influence weakens as a conversation lengthens: a good result
+on turn one says little about turn forty. That drift is real, but it is a **harness**
+limit, not a prompt limit, and the fix is one layer up. Put the spec somewhere your
+tool **re-injects** — a `CLAUDE.md`, a project-instructions file, a system prompt your
+client re-sends every turn — rather than pasting it once into a chat and hoping. Treat
+this as **layer one of a two-layer system**: the spec supplies the behavior, the
+harness supplies the persistence. No clause inside the spec can substitute for the
+second layer, and adding more clauses to compensate for its absence is the classic way
+to make a long instruction file worse.
+
 ## Status: honest
 
 This spec is a **well-reasoned design, not a validated tool.** It was

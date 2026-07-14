@@ -167,6 +167,21 @@ limits, and knowing them prevents overreliance:
    aspiration rather than a compulsion, so the real test of it is an eval
    (does the label distribution shift down?), not the directive.
 
+   **The same gap, still open: forecasting.** The Forecasting section demands
+   *scorable* claims — a numeric probability, an explicit time window, a
+   resolution criterion. Nothing in the spec, and nothing anywhere in this repo,
+   ever **scores** them. That is the identical structure to the confidence-label
+   problem, and it has the identical shape of answer: the loop can only close
+   *outside* the model — here, in a persistent ledger that logs each forecast
+   with its resolution date and settles it later, against the world rather than
+   against the model's own plausibility. Verification closes the **fast** loop
+   (a tool scores a label in-session); a forecast ledger would close the **slow**
+   one (reality scores a prediction over months). No such ledger exists. Until
+   one does, the Forecasting directive produces well-formed predictions that are
+   never marked right or wrong — better than vague ones, but not calibration.
+   Recorded here as a known open gap rather than patched with another directive,
+   because the missing piece is infrastructure, not prose.
+
 2. **It does not persist, and it drifts.** The spec lives in context, not in
    weights. It does not learn, does not save, and its influence weakens as a
    conversation lengthens and the original directives fall further back. A
