@@ -1,0 +1,18 @@
+# Track 2 reliability curve — deterministic grading vs external band key. acc = fraction of the label's ANSWERED trials inside the band.
+model,arm,label,n_emitted,n_answered,accuracy
+opus,spec,High,778,778,1.0000
+opus,spec,Moderate,172,172,0.9477
+opus,spec,Low,50,50,0.6800
+opus,spec,Unknown,0,0,NA
+opus,gen,High,853,853,1.0000
+opus,gen,Moderate,123,123,0.8049
+opus,gen,Low,24,24,0.9583
+opus,gen,Unknown,0,0,NA
+haiku,spec,High,635,635,1.0000
+haiku,spec,Moderate,318,318,0.9403
+haiku,spec,Low,31,31,0.7419
+haiku,spec,Unknown,16,0,NA
+haiku,gen,High,743,743,1.0000
+haiku,gen,Moderate,234,234,0.9060
+haiku,gen,Low,7,7,0.2857
+haiku,gen,Unknown,16,0,NA
