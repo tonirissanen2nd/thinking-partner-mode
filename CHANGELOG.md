@@ -74,7 +74,7 @@ included — while Opus resisted in all three.** Sycophancy toward *bare* pressu
 solved; sycophancy toward *plausible, mostly-correct* pressure is not, is not
 addressable at the prompt layer, and scales with capability.
 
-## 2026-07-15 — SPEC v1.5 (verification as calibration scoring — **unrun**)
+## 2026-07-15 — SPEC v1.5 (verification as calibration scoring — **run 07: kept, the value is disclosure**)
 
 Reworks the **Verification** section. Prompted by an external critique that found a
 real defect, not just a missed improvement.
@@ -100,11 +100,21 @@ real defect, not just a missed improvement.
   prior label was wrong).
 
 **Scope and status.** This is **inert without tools** — in a plain chat it changes
-nothing. And it is **unrun**: by the spec's own extender rule, that makes it a
-candidate for the eval, not an improvement. It also cannot be tested by the existing
-Track 1 battery, which has no tool-use condition; testing it needs a tool-equipped run
-on a battery that can actually produce `High`-and-wrong events (stale/superseded facts
-— the "Malta-like" items that drove every error in Track 2).
+nothing. Testing it required a tool-equipped run on a battery that can actually produce
+`High`-and-wrong events (stale/superseded facts — the "Malta-like" items that drove every
+error in Track 2), which the existing Track 1 battery cannot.
+
+**Run — kept, but for the reason the run found, not the one it was built on
+(`eval/runs/2026-07-15-07-v1.5-vs-v1.4-tool-equipped/`).** A purpose-built stale-fact battery
+with live web search, `v1.4` vs `v1.5`, Opus responder. The **bug-fix argument is weak**: the
+confidence gate suppressed the check only 1/8 times (v1.4 verified 7/8 anyway). The
+**disclosure argument is strong**: on the same items, with the *same correct final answers*,
+v1.4 concealed that its unaided recall had been confidently wrong (it stated a bare
+"Confidence: High") and v1.5 reported it — e.g. on the marathon record, v1.5 said its pre-check
+recall was a stale Kiptum 2:00:35 at Moderate-to-High that the check corrected. No
+over-verification, no defensive hedging. **The mechanism behaves as `DESIGN` says: not better
+calibration — visible miscalibration.** Kept. Scope: this isolates the Verification change; the
+live spec is `v1.6`, whose Dialectics change was tested separately in run 08.
 
 ## 2026-07-07 — SPEC v1.4 (distilled: keep the sequencing change, drop the triviality gate)
 
@@ -165,14 +175,15 @@ discipline v1.1 skipped. **v1.2 is being A/B'd against v1** in
 `eval/runs/2026-07-07-04-v1.2-vs-v1-ablation/` to check it closes the accuracy cost
 without losing v1.1's gains.
 
-## 2026-07-07 — SPEC v1.1 (two eval-driven counterweights, unrun)
+## 2026-07-07 — SPEC v1.1 (two eval-driven counterweights — run 03; sequencing kept, gate dropped)
 
 Two narrow changes to `SPEC.md`, each a *counterweight* to a cost the eval runs
-located (see `eval/runs/`) — not a new push in an existing direction. **v1.1 is
-modified but not yet re-run**: treat these as candidate improvements, not validated
-ones. When v1.1 is run, its run folder gets `spec-as-tested-v1.1.md`, diffable
-against v1. `SPEC-lite.md` is unchanged — its lighter framing already sidesteps
-both issues.
+located (see `eval/runs/`) — not a new push in an existing direction. **Subsequently
+run (`eval/runs/2026-07-07-03-v1.1-vs-v1-ablation/`) and its result distilled into v1.4:**
+the sequencing change was less contrarian but carried a small accuracy cost (fixed by
+v1.2's counter-counterweight and kept), while the triviality gate hit a prompt-layer
+ceiling (dropped after runs 03 and 05 — see v1.3/v1.4). `SPEC-lite.md` is unchanged —
+its lighter framing already sidesteps both issues.
 
 - **Sequencing on the XY case (Goal vs. solution).** Both runs charged the spec a
   cost for leading with a framing critique before delivering an *answerable*
