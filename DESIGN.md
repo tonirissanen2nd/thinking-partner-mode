@@ -34,6 +34,22 @@ branch off the calibration trunk, not the trunk itself. The one-line description
 that fits is: *a spec for calibrated reasoning, of which anti-sycophancy is one
 central branch.*
 
+**A finding that re-weights this branch (run 08).** On current Claude models the
+branch's headline benefit — resisting pressure — is largely **moot**: bare pressure
+(repetition, displeasure, flattery, false appeals to the model's own earlier
+agreement, bare authority, bare consensus) was resisted at a **0/6 cave rate in every
+arm, including no instruction at all, on the weak model.** A directive against a
+failure the base model no longer commits is inert. Three things survive that null,
+and they are why the branch stays: its **Principle-2 consensus counterweight is a
+validated guard** (run 08 H4 — a naive wording would have induced contrarianism about
+genuine expert consensus; the shipped one does not); its **cost is real** (the
+over-contrarianism it induces on simple questions is measurable — run 09); and the
+*live* failure it half-addresses has moved from bare pressure to **plausible,
+mostly-correct pressure** — a well-argued criticism carrying one false premise — which
+run 08 found is a **capability** limit, not a prompt one (the strong model caught it,
+the weak model did not, in every arm). So: the validated value is in the trunk; the
+branch is now mostly a guard, not an engine. See `FINDINGS.md` §1.
+
 The distinction matters for anyone evaluating the spec: a test built around
 sycophancy traps and a contrarianism measure exercises the branch, not the
 trunk. Exercising the trunk requires a calibration-and-abstention measure scored
@@ -69,6 +85,16 @@ ones most at risk of being ignored, because they are the ones fighting the
 strongest priors. Everything about how they are written — as compulsions, as
 clipped prohibitions, with high placement — is an attempt to raise their
 saliency against that headwind.
+
+**One thing this argument does *not* predict, and the eval corrected (runs 08–09).**
+It is tempting to read the prior-and-ceiling framing as "the spec should help a weaker
+model more, since a stronger one already clears the priors and the ceiling." It does
+not. The spec's **net value is roughly model-independent** — measured against no
+instruction on the full instrument, the benefit was +2 on Opus and +3 on Haiku, a gap
+that is noise (run 09), and the weak model resisted bare pressure just as well as the
+strong one (run 08). Haiku *executes* the spec; it simply gains about as much from it
+as Opus does. The deciding variable for the spec's value is **the question mix
+(analytical vs. direct), not the size of the model** it runs on. See `FINDINGS.md` §3.
 
 ## Principle 1 — Compulsion functions beat aspirations
 
@@ -142,9 +168,14 @@ limits, and knowing them prevents overreliance:
    truly calibrated one — and by the ceiling argument above, probably nothing
    at this layer can. This is why Track 2 of the eval scores labels against an
    external key: it is the only way to tell the two apart. It has now been run
-   once (single-family, directional): it found no calibration theater on that
-   battery — but the result rests on a thin base (near-single-item error spread)
-   and one model family, so it is suggestive, not settled (see `eval/runs/`).
+   twice. The second run (run 10) extended it to **two models, a 40-item battery,
+   and deterministic grading against pre-committed bands**, and still found **no
+   calibration theater — `High` was 100% accurate across ~3,000 labels, Haiku
+   included** (zero `High`-and-wrong events), with a monotone curve on both models.
+   A materially stronger base than run 01's near-single-item spread, though still
+   single-family. Two asterisks the run records: the battery is near-ceiling (97%),
+   so it lightly stresses the claim, and the labels lean slightly *under*-confident.
+   See `eval/runs/` and `FINDINGS.md`.
 
    **The one exception, and why the Verification section is ordered the way it
    is (v1.5).** There is exactly one place at this layer where a label *can* be
@@ -312,6 +343,17 @@ misframe-rejection actively *harm* generative and relational tasks — creative
 drafting, brainstorming, emotional-support-adjacent conversation — where
 committing hard and rejecting framings is the wrong register.
 
+Run 09 measured this cost directly: against no instruction, the full spec **wins
+analytical (trap) questions decisively but loses helpfulness and over-contrarianism on
+the direct/relational/generative (downside) block** — "a better analyst and a worse
+clerk." Run 11 then tested whether the harm could be fixed *inside* the full spec
+rather than by routing away from it: a candidate `Register` section that detects a
+no-stake turn and switches the apparatus off. The benefit was real (downside apparatus
+markers on Opus fell 19 → 4), but it **over-trimmed the traps** and tripped the
+pre-registered revert trigger, so it was not shipped. The tension is therefore still
+resolved by **variant-routing, not by an in-spec gate** — though a sharper counterweight
+(protect trap *depth*, not just trap apparatus) remains an open iteration.
+
 This is why the repo ships two artifacts, selected by different criteria:
 
 - **`SPEC-lite.md`** — a lightweight overlay (anti-sycophancy + calibration
@@ -351,6 +393,9 @@ win and full should lose.
    critique-first answer as more contrarian). The spec's sequencing counterweight in
    *Goal vs. solution* — lead with the deliverable, attach the critique — is the
    response. See `CHANGELOG` and `eval/runs/`.
-6. Have you validated it? The spec is unvalidated (see `/eval`). Before adding
-   the next directive, consider running the blind test on what you already
-   have — one measured result is worth more than another design iteration.
+6. Have you validated it? The spec's **trunk is validated on two models** (run 10 —
+   calibration labels carry information, no theater), its **branch is a measured
+   tradeoff** (run 09 — analytical win, downside cost), and every claim is still
+   single-family and directional. Read `FINDINGS.md` before adding the next directive,
+   and before adding it consider running the blind test on what you already have — one
+   measured result is worth more than another design iteration.

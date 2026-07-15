@@ -13,6 +13,14 @@ how that model reasons and answers. Pasting it at the top of a single conversati
 works for a one-off, but it decays as the conversation grows: **where you put it
 matters more than any clause in it** (see *What it is and isn't*).
 
+**What eleven evaluation runs found, in one line:** the spec is a **purposeful analytical
+register — "a better analyst and a worse clerk"** — whose confidence labels are honest
+and whose value is roughly **independent of model size** (it scales with *what you ask*,
+not *what you run it on*). Its calibration trunk is validated on two models; its
+anti-sycophancy branch mostly guards against a failure current frontier models no longer
+commit. Use it for analytical work, not to "stop the model being sycophantic." The full
+story is in [`FINDINGS.md`](FINDINGS.md).
+
 ## What it is and isn't
 
 It is an **inference-time behavioral spec**: a set of directives that compete
@@ -44,20 +52,26 @@ developed iteratively through repeated critique-and-revision with LLM
 assistants — not derived from the research literature (most of which surfaced
 late; see `REFERENCES.md`).
 
-It has now been run through the blind A/B protocol — but only *directionally*,
-within a single model family, in English (see `eval/runs/`). That is weaker than
-the mandated three-family design, and a single pass proves little: treat the runs
-as suggestive, not validating. Its specific claims — that it reduces sycophancy,
-that the counterweight clause prevents over-contrarianism, that it works as well
-in one language as another (untested — the runs are English only) — are plausible
-and grounded in the sycophancy literature, but not established here. If you want
-confidence in the effect size, run the three-family protocol in `/eval`. Treat the
-directives as informed design choices, not proven results. The spec is revised
-through an iterate-and-measure loop: each change is A/B-tested against the version
-before it and reverted if the eval doesn't back it. That loop is directional
-(single-family, small n) — it produces better-motivated design, not proven
-results. For the current version and what each change rests on, see `CHANGELOG.md`;
-for the runs themselves, `eval/runs/`.
+It has now been through **eleven pre-registered runs** — including two-model runs and a
+calibration track scored against an external key — but all of it is **single model family
+(Claude judging Claude) and directional**, never the mandated three-family design (see
+`eval/runs/` and [`FINDINGS.md`](FINDINGS.md)). What that program found is more useful, and
+more complicated, than "we haven't tested it":
+
+- Its calibration claim is **validated on two models** — the confidence labels carry real
+  information and show no calibration theater (run 10).
+- Its **"reduces sycophancy" claim is largely moot** on a current frontier model: the base
+  model already resists bare pressure unprompted, weak model included (run 08).
+- Its **over-contrarianism cost is real** — measured, not just feared, on simple and
+  relational questions (run 09).
+- Whether it **works across languages is still untested** — the runs are English only.
+
+If you want confidence in the effect size, run the three-family protocol in `/eval`. The spec
+is revised through an iterate-and-measure loop: each change is A/B-tested against the version
+before it and reverted if the eval doesn't back it (three changes have been reverted or
+withheld on that rule). That loop is directional — better-motivated design, not proven results.
+For the current version and what each change rests on, see `CHANGELOG.md`; for the synthesis,
+`FINDINGS.md`; for the runs themselves, `eval/runs/`.
 
 One documented risk worth knowing before you rely on it: verbalized
 confidence labels can *increase* overconfidence rather than fix it
@@ -69,11 +83,14 @@ as *more* grounded, not less. The guard plausibly still helps by making a
 *missing* basis visible, but it cannot close the gap between a plausible-sounding
 basis and a genuinely calibrated one at the prompt layer. The only way to tell
 those apart is to score labels against an external answer key — which is exactly
-what `eval` Track 2 does. It has now been run once (single-family): it found no
-calibration theater, but on a thin base — the error spread came from essentially
-one item — so treat that as directional, not settled. Treat the confidence labels
-as a discipline that surfaces reasoning, not as proof the reasoning is
-calibrated.
+what `eval` Track 2 does. It has now been run on **two models** with deterministic
+grading (run 10): it found **no calibration theater — `High` was 100% accurate across
+~3,000 labels, the weak model included** — with a monotone curve, and the spec ordered
+its labels better than a plain one-liner. Two honest asterisks: the battery is
+near-ceiling (97%), so it stresses the claim only lightly, and the labels lean slightly
+*under*-confident. Still single-family, so directional — but a far stronger base than the
+first pass. Treat the confidence labels as trustworthy where they say `High`, and as a
+discipline that surfaces reasoning elsewhere.
 
 ## Repository contents
 
@@ -83,6 +100,7 @@ calibrated.
 | `SPEC-lite.md` | The lightweight overlay — honest and calibrated without the sharpness. A safer broad default across mixed tasks. |
 | `SPEC.<lang>.md` | Translated version(s), if present. Behavior may differ by language — test the one you use. |
 | `DESIGN.md` | The reasoning behind the spec — mechanism, principles, limits, and how to extend it without breaking it. |
+| `FINDINGS.md` | Top-level synthesis of what the eleven eval runs established — read this before adopting or extending. |
 | `eval/` | Two-track evaluation: blind A/B (branch) + calibration (trunk), with prompts and scoresheets. |
 | `eval/README.md` | Track 1 — the blind A/B test that removes the obvious biases; routes to Track 2. |
 | `eval/prompts/04-calibration.md` | Track 2 — calibration & abstention scored against an external key (measures the claim Track 1 can't). |
@@ -111,6 +129,12 @@ the overhead earns its cost. The full spec's priority order (accuracy →
 calibration → sharpness → brevity) arbitrates its internal conflicts, but you
 will still feel the overhead on easy questions — which is the reason Lite
 exists.
+
+**The eval now backs this routing.** Run 09 located the full spec's cost precisely where
+this split predicts it: against no instruction, the full spec won analytical questions
+decisively (accuracy 12–0 on trap items) but lost helpfulness and over-contrarianism on the
+direct/relational/generative block. The "overhead on easy questions" is not a hunch — it is
+measured, and it is exactly what routing to Lite avoids.
 
 ## Design notes
 

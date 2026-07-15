@@ -13,9 +13,19 @@ and no single measurement covers both:
   opinion. Track 1 structurally cannot measure this — a pairwise judge scoring
   one answer at a time can only see whether a label *looks* justified, which is
   exactly what calibration theater defeats. If you only run one track, you have
-  tested only half the spec. Run both.
+  tested only half the spec. Run both. **Where the battery is numeric, grade
+  Track 2 deterministically** against a *pre-committed acceptance band per item*
+  (as run 10 did) rather than with an LLM grader — it removes grader variance
+  entirely and is fully reproducible.
 
 The rest of this document is Track 1.
+
+**For what running this has actually found**, see [`../FINDINGS.md`](../FINDINGS.md) (the
+synthesis) and [`runs/README.md`](runs/README.md) (every run). This document is the *protocol*;
+those are the *results*. Three practical refinements the runs added to the protocol below are
+folded into the relevant sections: a judge-independent mechanical measure as a co-primary on the
+soft axes, deterministic grading for a numeric Track 2 battery, and the bare control restored
+alongside the generic one.
 
 A blind A/B test of Thinking Partner Mode against a control. Its purpose is to
 measure whether the spec *produces* the behavior it claims, rather than
@@ -53,7 +63,11 @@ are named in "What this still can't establish."
 - *Underspecified control.* v1's control was "no spec (plain default)", which
   tests the value of *any* instruction, not this spec. v2 makes the **primary
   control a generic good-instruction** ("be thorough, critical, and honest");
-  the plain-default control is optional and secondary.
+  the plain-default control is optional and secondary. **In practice, restore the
+  bare control too** (runs 08–09 did, as declared deviations): "does *any*
+  instruction beat *nothing*" became the load-bearing question, and the empirical
+  finding was that on several axes the **generic one-liner ≈ bare** — so the
+  bare → generic delta is worth measuring, not assuming.
 
 **Named but not fully solved (see limits):** register leakage, judge-family
 shared preference, small n.
@@ -136,6 +150,16 @@ Judge against the pre-registration, not against a fresh read of the numbers.
   under-commit on questions it could handle — the over-caution failure mode
   documented in Wharton Report 4), or losing downside categories decisively
   (the spec is a register preference, not an improvement).
+
+**Anchor the soft axes to a judge-independent measure.** Two Claude judge families disagreed on
+**~40% of the C (over-contrarianism) and D (helpfulness) cells** (41% in run 09, 42% in run 11)
+— exactly the axes most register-laden and least determinate. Do **not** rest a soft-axis
+conclusion on judges alone. Add a co-primary measure the judge cannot skew: a **mechanical count
+of apparatus markers** (confidence labels, hedge/caveat phrases, pushback framings) per
+response, and/or a **blind classifier** reporting only a near-binary substantive act (caved /
+held). Where the mechanical read and the judge read agree, the finding is sturdy; where they
+diverge, report the divergence rather than the average. The accuracy and calibration axes are
+far less contested and can lean more on the judges.
 
 ## What this still can't establish
 
