@@ -1,0 +1,15 @@
+- The Margin Notes — double reference to book margins and the quiet space coffee creates
+- Spine & Crema — coffee's crema layered with a book's spine
+- Plot Twists — narrative arcs and the shop's hidden corners
+- Leaf & Bean — page leaves and coffee beans, clean minimalism
+- The Footnote Collective — scholarly intimate space, community-facing
+- Arabica Archives — coffee variety morphed into a library feel
+- The Prologue — threshold space before entering story worlds
+- The Letterpress Lounge — vintage print culture meets slow coffee
+- Cortado Chronicles — the espresso drink becomes a storytelling verb
+- Dogear & Espresso — worn book aesthetic with sharp coffee culture
+- The Pulped Press — physical destruction as character (pulp paper + pressed espresso)
+- Nested Chapters — recursive layers, books within the shop within the story
+- The Bookbinder's Pour — craft verb applied to coffee service
+- Index & Grind — organization system + coffee process
+- Codex & Crumb — ancient manuscript form with comfortable food culture

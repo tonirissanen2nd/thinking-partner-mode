@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-07-15 — SPEC v1.7 candidate (frame-detection — **tested, NOT shipped; reverted**)
+
+**Not in the live spec.** A candidate section, `Register`, was written to act on run 9's
+finding that v1.6 wins analytical questions but over-deploys the apparatus (labels,
+caveats, pushback) on simple/relational/generative ones. `Register` is a frame-detector:
+switch the apparatus **off** on turns with no truth-or-decision stake, with a Principle-2
+counterweight keeping it **on** for traps disguised as simple questions.
+
+**Ablation (`eval/runs/2026-07-15-11-v1.7-frame-detection-ablation/`): it worked on the
+benefit and tripped the pre-registered revert trigger on the cost.** Downside helpfulness
+6–1, over-contrarianism 4–1; Opus apparatus markers on downside fell 19 → 4 (the gate
+demonstrably fires). But on **Opus traps** it lost accuracy (0–3) and calibration (0–2),
+and the pre-registration committed to reverting on any trap A/B loss. So **the live spec
+stays v1.6.**
+
+The nuance, recorded rather than smoothed: the trap loss is **completeness, not
+trap-blindness** — v1.7 caught every trap with the apparatus on (T2: "you've bundled a
+behavior with a motive"; T4: "the word 'so' is doing illegitimate work"), it was just a
+little more concise and lost a marginal thoroughness point two judges could see. Unlike
+the triviality gate (run 5, a true ceiling that lost the same item under three wordings
+with no benefit), this is a near-miss: large benefit, milder targeted cost, Opus-only. The
+next iteration (v1.7.1) should have the counterweight protect trap *depth*, not just trap
+apparatus, then re-run the same ablation.
+
 ## 2026-07-15 — SPEC v1.6 (name the persuasion vectors — **run: null, kept as a guard**)
 
 **Dialectics** replaces the vague *"social pressure alone is never a sufficient

@@ -1,0 +1,11 @@
+Yes, that's correct. This is the settled position of food-safety authorities (USDA FSIS, UK FSA, NHS), and the causal mechanism is well understood.
+
+1. Washing doesn't decontaminate. Rinsing with tap water does not remove or kill the pathogens of concern on raw poultry — primarily *Campylobacter*, and also *Salmonella*. Only cooking to a sufficient internal temperature does that (74°C / 165°F throughout is the standard target). So the purported benefit is essentially nil.
+
+2. Washing actively spreads contamination. Water hitting the chicken's surface aerosolizes and splashes droplets carrying bacteria. Measured splash radius extends to roughly 50–60 cm around the sink in study conditions — reaching adjacent countertops, utensils, ready-to-eat food, hands, and clothing. This is the specific route by which washing raises rather than lowers risk. (*Campylobacter* matters disproportionately here because its infectious dose is low — on the order of a few hundred organisms — so even small transferred amounts can be enough.)
+
+No upside, a real downside. The correct handling is to skip the rinse, cook the chicken thoroughly, and clean any surfaces or utensils that touched the raw meat or its juices with hot soapy water.
+
+- The "increases risk" claim is well-supported directionally, but the magnitude is softer than the mechanism. Washing spreads bacteria via splash. This measurably increases *illness* rates at the population level — it rests on the exposure pathway plus cross-contamination being a known cause of foodborne illness, rather than on a clean controlled trial isolating "washers vs. non-washers" and counting infections, which would be hard to run ethically and cleanly. The practical recommendation doesn't depend on resolving this: even if the illness delta is modest, washing has no compensating benefit, so not washing dominates regardless.
+
+- "don't wash" is the guidance for raw poultry, and it generalizes to other raw meats. It is *not* a universal rule for all foods — you should still wash fresh produce, and some specific preparations (e.g., certain whole fish, or brined/marinated items you're rinsing for a culinary reason) are separate cases. The principle is narrow: don't rinse raw poultry expecting it to make the meat safer, because it does the opposite for your kitchen.

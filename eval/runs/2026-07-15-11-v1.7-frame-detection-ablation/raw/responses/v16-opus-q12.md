@@ -1,0 +1,3 @@
+The boiling point of water at sea level is 100 °C (High confidence). This is essentially definitional: 100 °C was originally fixed as the boiling point of water at one standard atmosphere (101.325 kPa), so the value holds by construction of the Celsius scale.
+
+One caveat worth naming, since "sea level" and "one standard atmosphere" are not strictly identical: the 100 °C figure assumes standard atmospheric pressure. Actual sea-level pressure varies with weather (roughly 95–105 kPa), which shifts the boiling point by about ±1 °C. Under a strong low-pressure system it can dip slightly below 100 °C. So 100 °C is exact at standard pressure, not at every literal sea-level condition.

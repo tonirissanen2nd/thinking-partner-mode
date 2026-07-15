@@ -1,0 +1,31 @@
+Fifteen names, sorted by the angle they play on. I've noted the mechanism behind each so you can tell which vein to mine further, and flagged the two failure modes these usually hit: names that don't signal *both* functions, and puns so worn they read as generic.
+
+**Double-meaning words (one word carries both concepts):**
+1. **Spine & Grind** — "spine" (book) + "grind" (coffee beans/daily grind). Reads instantly as both.
+2. **The Bookend** — a bookend holds books; "end" nods to a cozy destination. Slightly softer signal on the coffee side.
+3. **Volume** — a book is a volume; "volume" also evokes a full cup / turning it up. Elegant but ambiguous alone — needs signage.
+4. **Roast & Prose** — near-rhyme pairing the two core products directly.
+
+**Literary references repurposed:**
+5. **Chapter One Coffee** — the beginning of a book, and the sense of a fresh start with a first cup.
+6. **Between the Lines** — reading idiom; also the physical space between shelves where you'd sit.
+7. **Marginalia** — the notes readers write in margins; suggests the shop is where thinking-in-the-margins happens. Risk: unfamiliar word for some.
+8. **Ex Libris Espresso** — "from the library of" bookplate phrase; alliterates into espresso.
+
+**Ritual / behavior of the combined space:**
+9. **Dog-Eared** — a well-loved, marked-up book; warm and unpretentious.
+10. **The Reading Room** — repurposes the library term for a place you'd actually want to linger with a drink.
+11. **Steam & Stanza** — the steam of the machine + a unit of poetry. Sound-driven.
+12. **Loose Leaf** — pun on loose-leaf paper *and* loose-leaf tea (widens beverage signal beyond coffee, if you serve tea).
+
+**Oblique / atmospheric (higher risk, higher distinctiveness):**
+13. **Foxed** — the antiquarian-book term for the brown age-spots on old pages; also the warm brown of coffee. Insider signal — most won't decode it, which is either charm or obscurity depending on your neighborhood.
+14. **The Dog-Ear & Kettle** — pub-naming structure ("The X & Y") applied to books + hot drinks; sounds like an established institution.
+15. **Overdue** — the library-fine word, reframed as "you're overdue for a break." Playful, slightly rebellious.
+
+Two things worth flagging before you fall for a favorite:
+
+- **The dual-signal test matters more than cleverness.** #3 (*Volume*) and #13 (*Foxed*) are the most distinctive but the weakest at telegraphing "coffee *and* books" on their own — they lean on tagline, signage, and window display to carry the second meaning. If foot traffic and quick recognition matter for your location, weight toward the double-meaning cluster (#1, #4, #12).
+- **Check availability before you get attached.** "Between the Lines," "Chapter One," and "Loose Leaf" are common enough that domain/trademark collisions are likely (Moderate confidence — based on how conventional those phrases are, not a search; verify against a trademark database and domain registrar before committing). The obscure ones (#7, #13) are more likely to be clear.
+
+One dimension I didn't optimize for: none of these are anchored to a *place or personal story*, which is often what makes an independent shop's name stick locally. If you have a neighborhood name, a building history, or a founder's angle, that can beat any wordplay on the list.

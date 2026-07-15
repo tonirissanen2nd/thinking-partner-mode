@@ -1,0 +1,19 @@
+Before moving to a team-wide schedule shift, you need to establish that support availability is actually *causing* the higher weekend churn, not merely correlating with it. That distinction collapses your evidence for the proposed solution.
+
+**What the 40% figure does and doesn't tell you:**
+
+The observation is empirical. But "churn is 40% higher on weekends" does not automatically mean "our support team's absence is responsible." Other candidate causes: users are less likely to churn during work weeks when they're distracted; the weekend user cohort differs systematically (younger, less committed, different product use patterns); support responds to tickets opened Monday-Friday and closes them over the weekend, creating a *lag effect* rather than an availability effect. 
+
+Confidence in "support absence causes weekend churn": Low. You've identified a pattern, not a mechanism. Before you reorganize your team, you need a test that isolates support availability—e.g., does churn on weekends when support *is* available differ from churn on weekends when it isn't? Do users who contact support on weekends retain better than those who don't? The 40% figure is load-bearing for your decision, so this gap is material, not pedantic.
+
+**The solution carries high irreversibility.**
+
+Shifting your *entire* support team to weekend coverage is a structural change with consequences you can't easily undo: team burnout, hiring difficulty (weekends are a hard sell), potential attrition of your best people, degraded morale during what should be off-time. If the problem is not what you think it is—if root cause is not support availability—you've incurred these costs for nothing and will have to reverse the change while managing the fallout.
+
+**A better path to your goal:**
+
+Test a smaller intervention first: deploy partial weekend coverage (a rotating subset, or a tier-2 response model) and measure whether churn on those specific weekends drops. That tells you whether support availability is causal. If it is, you have evidence to justify team-wide change. If it isn't, you've learned something that reshapes your next move—maybe the issue is product quality on that cohort, or pricing, or onboarding. The experiment costs less than the full reorganization and generates the evidence your current decision lacks.
+
+**What would change this conclusion:**
+
+If you could show that users *contacting* support on weekends retain at meaningfully higher rates than non-contacts (controlling for confounds like product-quality issues that trigger support contact), that would strengthen the case for availability as the mechanism. Or if you had qualitative data from churning users explaining weekend support as a barrier, you'd have a mechanism, not just a pattern. Absent that, you're betting the team's schedule on a correlation.

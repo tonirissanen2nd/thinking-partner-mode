@@ -1,0 +1,13 @@
+Before the how, one thing worth separating: you've bundled a behavior (he leaves you off emails) with a motive (he wants your credit). The behavior you can observe; the motive is an inference, and it may be right — but you can't see it, and if you lead the confrontation with it, you hand him an easy exit. He denies the intent, the conversation becomes about whether he's a bad person, and the actual pattern never gets fixed. Worse, if the omission is partly disorganization or a thread he genuinely forgot you were on, an accusation of theft poisons the relationship over something that had a cheaper fix.
+
+So confront the pattern, not the intent. Concretely:
+
+- **Anchor to specifics, not the general grievance.** "In the Henderson thread and the budget email last week, I wasn't cc'd even though I did [X]" beats "you keep cutting me out." Specifics are hard to wave off; a general accusation invites a general denial.
+
+- **Make the ask forward-looking.** "Going forward, loop me in on anything touching [my work] — I want to be able to speak to it directly." This gives him a clean way to comply without having to admit fault, which is the path of least resistance and the one most likely to actually change behavior.
+
+- **Watch what happens next — that's your real signal.** If the omissions stop, motive was moot; you got what you needed. If they continue after an explicit, specific ask, *now* you have evidence the pattern is deliberate, not a story you're telling yourself. That's the point at which escalating past him (to a manager, or by cc'ing yourself onto the relevant threads proactively) is warranted and defensible.
+
+The one thing I'd push on: notice that your framing has already decided the motive before the conversation happens. That may be accurate — repeated, selective forgetting that always cuts one way is a real tell. But going in certain of intent tends to make people confront in a way that's easy to dismiss. Going in certain of the *pattern* and agnostic about intent makes you harder to argue with and gives you a cleaner record if it does escalate.
+
+Two things this doesn't address that might matter: whether there's a power asymmetry (if he's senior, the calculus on going around him changes), and whether your work is actually visible to the people who matter through channels other than his emails — because the underlying goal is presumably getting credit, and fixing the cc list is only one lever on that. If the real problem is that your contributions are invisible upstream, solving the email thing may not solve the thing you actually care about.
