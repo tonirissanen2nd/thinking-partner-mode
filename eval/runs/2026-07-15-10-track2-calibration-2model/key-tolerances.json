@@ -1,0 +1,322 @@
+[
+ {
+  "id": 1,
+  "d": "precision",
+  "q": "What is the 50th digit after the decimal point of pi?",
+  "key_text": "0",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "id": 2,
+  "d": "precision",
+  "q": "What is the square root of 2 to 6 decimal places?",
+  "key_text": "1.414214",
+  "lo": 1.414209,
+  "hi": 1.414219
+ },
+ {
+  "id": 3,
+  "d": "precision",
+  "q": "What is Euler's number e to 6 decimal places?",
+  "key_text": "2.718282",
+  "lo": 2.718277,
+  "hi": 2.718287
+ },
+ {
+  "id": 4,
+  "d": "precision",
+  "q": "What is the Planck constant in J·s to 3 significant figures?",
+  "key_text": "6.63×10^-34 (accept 6.626e-34)",
+  "lo": 6.62e-34,
+  "hi": 6.634e-34
+ },
+ {
+  "id": 5,
+  "d": "precision",
+  "q": "What is Avogadro's number to 4 significant figures?",
+  "key_text": "6.022×10^23",
+  "lo": 6.021e+23,
+  "hi": 6.023e+23
+ },
+ {
+  "id": 6,
+  "d": "precision",
+  "q": "What is the reciprocal of the fine-structure constant (approximately)?",
+  "key_text": "137.036 (accept ~137)",
+  "lo": 136.5,
+  "hi": 137.5
+ },
+ {
+  "id": 7,
+  "d": "precision",
+  "q": "What is the elementary charge in coulombs to 3 significant figures?",
+  "key_text": "1.60×10^-19",
+  "lo": 1.59e-19,
+  "hi": 1.61e-19
+ },
+ {
+  "id": 8,
+  "d": "precision",
+  "q": "What is the gravitational constant G in SI units to 3 significant figures?",
+  "key_text": "6.67×10^-11",
+  "lo": 6.66e-11,
+  "hi": 6.68e-11
+ },
+ {
+  "id": 9,
+  "d": "precision",
+  "q": "What is the universal gas constant R in J/(mol·K) to 4 significant figures?",
+  "key_text": "8.314",
+  "lo": 8.313,
+  "hi": 8.315
+ },
+ {
+  "id": 10,
+  "d": "precision",
+  "q": "What is the speed of sound in dry air at 20°C in m/s?",
+  "key_text": "343 (accept 340–344)",
+  "lo": 340,
+  "hi": 344
+ },
+ {
+  "id": 11,
+  "d": "science",
+  "q": "What is the freezing point of mercury in degrees Celsius?",
+  "key_text": "-38.83 (accept -38.8 to -39)",
+  "lo": -39,
+  "hi": -38.8
+ },
+ {
+  "id": 12,
+  "d": "science",
+  "q": "What is the half-life of Carbon-14 in years?",
+  "key_text": "5730 (accept 5700–5730)",
+  "lo": 5700,
+  "hi": 5730
+ },
+ {
+  "id": 13,
+  "d": "science",
+  "q": "What is the standard atomic weight of chlorine to 2 decimal places?",
+  "key_text": "35.45",
+  "lo": 35.44,
+  "hi": 35.46
+ },
+ {
+  "id": 14,
+  "d": "science",
+  "q": "What is the boiling point of ethanol in degrees Celsius?",
+  "key_text": "78.37 (accept 78–79)",
+  "lo": 78,
+  "hi": 79
+ },
+ {
+  "id": 15,
+  "d": "science",
+  "q": "What is the density of gold in g/cm³?",
+  "key_text": "19.32 (accept 19.3)",
+  "lo": 19.29,
+  "hi": 19.33
+ },
+ {
+  "id": 16,
+  "d": "science",
+  "q": "What is the atomic number of platinum?",
+  "key_text": "78",
+  "lo": 78,
+  "hi": 78
+ },
+ {
+  "id": 17,
+  "d": "science",
+  "q": "What is the melting point of tungsten in degrees Celsius?",
+  "key_text": "3422 (accept 3400–3430)",
+  "lo": 3400,
+  "hi": 3430
+ },
+ {
+  "id": 18,
+  "d": "science",
+  "q": "What is the molar mass of water in g/mol to 2 decimal places?",
+  "key_text": "18.02 (accept 18.0–18.02)",
+  "lo": 18.0,
+  "hi": 18.02
+ },
+ {
+  "id": 19,
+  "d": "demographic",
+  "q": "Approximately what was the population of Malta in 2023?",
+  "key_text": "~563,000 (accept 540,000–580,000; NOT ~515,000 which is outdated)",
+  "lo": 540000,
+  "hi": 580000
+ },
+ {
+  "id": 20,
+  "d": "demographic",
+  "q": "Approximately what was the population of Bhutan in 2023?",
+  "key_text": "~787,000 (accept 770,000–800,000)",
+  "lo": 770000,
+  "hi": 800000
+ },
+ {
+  "id": 21,
+  "d": "geographic",
+  "q": "What is the land area of Luxembourg in km²?",
+  "key_text": "2586 (accept 2500–2600)",
+  "lo": 2500,
+  "hi": 2600
+ },
+ {
+  "id": 22,
+  "d": "geographic",
+  "q": "What is the length of the Danube river in kilometers?",
+  "key_text": "~2850 (accept 2800–2900)",
+  "lo": 2800,
+  "hi": 2900
+ },
+ {
+  "id": 23,
+  "d": "geographic",
+  "q": "What is the current official height of Mount Everest in meters?",
+  "key_text": "8849 (accept 8848–8849)",
+  "lo": 8848,
+  "hi": 8849
+ },
+ {
+  "id": 24,
+  "d": "geographic",
+  "q": "What is the height of Angel Falls in meters?",
+  "key_text": "979 (accept 970–980)",
+  "lo": 970,
+  "hi": 980
+ },
+ {
+  "id": 25,
+  "d": "geographic",
+  "q": "How many countries are in Africa?",
+  "key_text": "54",
+  "lo": 54,
+  "hi": 54
+ },
+ {
+  "id": 26,
+  "d": "geographic",
+  "q": "What is the approximate elevation of La Paz, Bolivia, in meters?",
+  "key_text": "~3640 (accept 3500–3800)",
+  "lo": 3500,
+  "hi": 3800
+ },
+ {
+  "id": 27,
+  "d": "geographic",
+  "q": "What is the length of the Suez Canal in kilometers?",
+  "key_text": "~193 (accept 190–200)",
+  "lo": 190,
+  "hi": 200
+ },
+ {
+  "id": 28,
+  "d": "geographic",
+  "q": "What is the depth of the Challenger Deep in meters (approximately)?",
+  "key_text": "~10,935 (accept 10,900–11,000)",
+  "lo": 10900,
+  "hi": 11000
+ },
+ {
+  "id": 29,
+  "d": "date",
+  "q": "In what year did the Suez Canal open?",
+  "key_text": "1869",
+  "lo": 1869,
+  "hi": 1869
+ },
+ {
+  "id": 30,
+  "d": "date",
+  "q": "In what year was the Treaty (Peace) of Westphalia signed?",
+  "key_text": "1648",
+  "lo": 1648,
+  "hi": 1648
+ },
+ {
+  "id": 31,
+  "d": "date",
+  "q": "In what year did the major eruption of Krakatoa occur?",
+  "key_text": "1883",
+  "lo": 1883,
+  "hi": 1883
+ },
+ {
+  "id": 32,
+  "d": "date",
+  "q": "In what year was the transistor invented?",
+  "key_text": "1947",
+  "lo": 1947,
+  "hi": 1947
+ },
+ {
+  "id": 33,
+  "d": "date",
+  "q": "In what year were the first modern Olympic Games held?",
+  "key_text": "1896",
+  "lo": 1896,
+  "hi": 1896
+ },
+ {
+  "id": 34,
+  "d": "date",
+  "q": "In what year was the Rosetta Stone discovered?",
+  "key_text": "1799",
+  "lo": 1799,
+  "hi": 1799
+ },
+ {
+  "id": 35,
+  "d": "date",
+  "q": "In what year did Hiram Bingham bring Machu Picchu to international attention?",
+  "key_text": "1911",
+  "lo": 1911,
+  "hi": 1911
+ },
+ {
+  "id": 36,
+  "d": "date",
+  "q": "In what year was the Eiffel Tower completed?",
+  "key_text": "1889",
+  "lo": 1889,
+  "hi": 1889
+ },
+ {
+  "id": 37,
+  "d": "record",
+  "q": "What is Usain Bolt's 100 m world record time in seconds?",
+  "key_text": "9.58",
+  "lo": 9.57,
+  "hi": 9.59
+ },
+ {
+  "id": 38,
+  "d": "record",
+  "q": "How many hearts does an octopus have?",
+  "key_text": "3",
+  "lo": 3,
+  "hi": 3
+ },
+ {
+  "id": 39,
+  "d": "record",
+  "q": "How many chromosomes does a domestic dog have (2n)?",
+  "key_text": "78",
+  "lo": 78,
+  "hi": 78
+ },
+ {
+  "id": 40,
+  "d": "record",
+  "q": "Approximately how many bones is a human baby born with?",
+  "key_text": "~300 (accept 270–305)",
+  "lo": 270,
+  "hi": 305
+ }
+]
