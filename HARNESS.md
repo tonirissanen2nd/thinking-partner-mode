@@ -84,6 +84,14 @@ measures it.**
   reasoning (run 08 q08: Haiku caved to a false premise hidden among true ones; **Opus caught it**
   — a capability limit, not a prompt one). Cheap-by-default with escalation is the token-cheap
   deployment the question asks for.
+- **Why this is the theoretically correct fix, not just an engineering convenience.** It converges
+  (structurally, not as literal identity) with the dual-process account the spec's background
+  reading rests on: the full spec is *System-2-in-a-box*, and applying it to a fast-answer turn is
+  the same error as engaging deliberate reasoning where intuition suffices — which is what run 09's
+  helpfulness 7–1 cost *is*. Run 11's finding that the model can't self-detect its register from
+  inside the prompt is the analogue of WYSIATI: the model does not notice it is in a slow-thinking
+  situation. A system that cannot see it should be in System 2 cannot be trusted to switch itself
+  into it — so the switch belongs to a deterministic **outer** layer. That is the router.
 - **Escalation — two triggers, because one has a blind spot.** The cheap model runs the spec, so
   **its own confidence labels become an escalation signal**: a `Low`/`Unknown` on a load-bearing
   point re-runs the turn on the strong model. Run 10 validated those labels, so this reliably
@@ -138,7 +146,15 @@ measures it.**
   model may already verify, making the routing moot (run 13 B-H4).
 - **Measured by.** **Run 13, Track B** (full spec vs bare-with-tools). Build only if it beats bare.
 
-### 4. Forecast ledger — the one memory feature with a named justification
+### 4. Forecast ledger — the thesis-completing component (listed last, not least)
+
+*Ordered fourth for build-readiness, not importance. On importance it is the center of gravity:
+it is the only component that turns "the spec **forces a label**" into "the harness **forces
+calibration**" — and calibration-by-scored-feedback is the load-bearing empirical result of the
+literature the spec converges with (Tetlock's superforecasters got their edge from perpetual beta
+— scored feedback over many forecasts — not from any single instruction; Duke's poker argument is
+identical). Every other component shapes a single response; this one closes the loop across
+months. Read it as the thesis, not an accessory.*
 
 - **What.** When a response contains a **scorable** forecast (numeric probability + time window +
   resolution criterion — exactly what the spec's Forecasting section demands), log it to a
@@ -148,14 +164,24 @@ measures it.**
   but *nothing ever scores them* — "the loop can only close outside the model, in a persistent
   ledger that settles each forecast against the world rather than the model's own plausibility."
   This is that ledger. Memory here is not decoration; it is the missing infrastructure DESIGN
-  names.
+  names — and it is the **only** instrument that can reach the fat-tail / judgment domain the
+  spec's machinery exists for, which a keyed single-session battery structurally cannot (see
+  `FINDINGS.md`, "the fat-tail branch is a different epistemic category").
 - **Counterweight.** Garbage resolution → garbage calibration: the ledger needs real ground truth,
   and only forecasts that actually resolve can be scored. Mitigation: log only forecasts with a
   clear resolution criterion (the spec already requires one); settle by search where possible,
   flag ambiguous ones for the user.
+- **Why it is not built first, despite being the thesis.** It would sit on an **unmeasured
+  foundation**: the spec's Forecasting directives themselves are unvalidated — run 10 measured
+  calibration on *factual recall*, never on *judgment/prediction*. Building an elaborate scoring
+  loop on top of directives that may not even produce well-formed, calibrated forecasts is the
+  scope-creep the whole method warns against. **The prerequisite is one cheap, now-runnable
+  measurement:** a Track-2-style run that scores *forecasts* (post-cutoff/withheld resolvable
+  items, scored against the known outcome) rather than recall — the rung between run 10 and the
+  ledger. Do that first; it de-risks the whole thesis-component for the cost of one run.
 - **Measured by.** The ledger **is** the measurement instrument — it produces, over months, the
-  forecasting-calibration curve that no single-session eval can. It answers a question Track 2
-  can only approximate for recall.
+  forecasting-calibration curve that no single-session eval can. The forecast-quality run above
+  is the finite proxy that earns it the build.
 
 ### 5. Telemetry — deployment as an ongoing eval
 
@@ -181,8 +207,11 @@ another component.*
    covers the rest.
 2. **+ Verify layer** — build **after run 13 Track B** shows the spec beats bare-with-tools (skip
    if B-H4 holds).
-3. **+ Forecast ledger** — the highest-value memory feature, and the only one with a named gap;
-   build when you want the slow calibration loop closed.
+3. **+ Forecast ledger** — the thesis-completing component, not a late accessory. But gate it on
+   its prerequisite: **first run the forecast-quality eval** (score *predictions*, not recall — the
+   rung between run 10 and the ledger) to confirm the spec even produces well-formed, calibrated
+   forecasts. Build the ledger once that de-risks its foundation; don't build a scoring loop on
+   unvalidated Forecasting directives.
 4. **+ Telemetry** — cheap, add whenever you deploy for real.
 
 Do **not** build all five as a monolith. Each is independently valuable and independently

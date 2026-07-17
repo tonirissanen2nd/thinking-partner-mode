@@ -35,6 +35,19 @@ anticipate:
 The honest re-weighting: **the validated value is in the trunk. The branch is now mostly a
 guard, not an engine.**
 
+**An outside-view discount on that trunk result — applied to ourselves.** The spec preaches that
+a clean result with no conceivable failure path is *grounds for demotion, not confirmation* (the
+black-swan gate), and that a required justification makes a label read *more* grounded than it is
+(calibration theater). Turned on our own finding: "`High` = 100% across ~3,000 labels" is exactly
+the profile that most often fails to survive contact with a harder test. The exposure is precise —
+**not** judge bias (run 10 was scored deterministically against an external numeric key, zero
+judge variance), but two other things: a **near-ceiling battery** (97% overall — an
+*under-stressed* instrument) and a **single responder family** (every model is Claude). The
+replication-crisis base rate for a clean, intuitive, single-lab-shaped result is unkind. So treat
+the trunk finding's *direction* as a well-supported hypothesis with a real prior of reversal under
+a harder battery or a second model family — not a settled fact. The two cheap measurements that
+would actually move it are named under *What is still unmeasured* below.
+
 ## 2. The spec is a purposeful register, not a free upgrade — "a better analyst and a worse clerk."
 
 The one run that measured the *whole* spec against *no instruction at all* (run 09, both
@@ -130,16 +143,38 @@ standing methodological debt the whole program still carries.
 
 ## What is still unmeasured
 
-- **The three-family run.** Every result is Claude-judging-Claude. This is the single largest
-  open question and the reason nothing here is more than directional.
-- **Judgment calibration.** Run 10 validated calibration on *factual recall*. Whether the spec
-  calibrates *judgment* — the larger claim — no keyed battery can score; it is `DESIGN`'s open
-  forecast-ledger gap.
-- **The confidently-wrong regime without tools.** Run 10's battery was near-ceiling (97%); the
-  only place `High`-and-wrong events appear is post-cutoff facts with verification tools (run
-  07). Recall alone does not stress the label's honesty hard.
-- **Long-context drift.** Every run is a single turn (or two). The spec's decay over a long
-  conversation — the harness problem — is untested end to end.
+- **The three-family run.** Every judged result is Claude-judging-Claude, and every result is
+  Claude-*responding*. This is the single largest open question and the reason nothing here is
+  more than directional.
+- **The fat-tail branch is a different epistemic category — not a backlog item.** The trunk is
+  validated on *thin-tailed, knowable-answer* questions — the regime where calibration is easy and
+  low-stakes. The fat-tail branch (non-estimable-vs-`Unknown`, the black-swan demotion,
+  ruin-is-material) is validated **by mechanism and argument, not by the instrument — and it
+  *cannot* be, by this instrument**: `non-estimable` is by definition unscoreable against a key.
+  So this is not "not eval'd yet" (which implies more of the same would fix it); it is a claim
+  that lives in a different category from the trunk, reachable only by the slow real-world loop a
+  **forecast ledger** would close (see `HARNESS.md`). Naming that category difference is the
+  honest move — and it is *why* the ledger, not another battery, is the only instrument that
+  could ever reach the part of the spec that matters most.
+- **Two cheap runs that would de-risk the weakest claims** (both cheaper than the three-family run,
+  both attacking the more likely confounds):
+  - **Harden the trunk battery.** Run 10 was near-ceiling (97%) — an under-stressed instrument.
+    Build an adversarial keyed battery where even Opus's `High` is *sometimes* wrong, and see
+    whether `High` stays 100%. Holds → the ceiling-artifact worry recedes; cracks → you've found
+    the real operating point. Run 07 already produced `High`-and-wrong events with post-cutoff
+    facts, so this systematises a hint we already have.
+  - **Score forecasts, not recall (the rung before the ledger).** A Track-2-style run on
+    *resolvable prediction* items — post-cutoff/withheld questions whose outcome the scorer knows
+    (search-established) but the model cannot — scored against the known outcome exactly as run 10
+    scored recall. It tests whether the spec even produces well-formed, scorable forecasts and
+    whether calibration holds on *judgment*, not just recall. The spec's Forecasting directives
+    are otherwise **unvalidated**, so this is the measurement that must precede building the
+    ledger on them.
+- **Long-context drift — partially run, and under-tested by my own probe design (run 13A).** At
+  ~20 turns, the probed behaviours held at 100% with or without re-injection — but the probes were
+  base-model-ceiling behaviours (run-08 trap), so the null under-tests the layer-two claim rather
+  than settling it. A faithful re-run needs spec-specific probes (confidence labels, steelman,
+  sequencing) at ~20 and much longer lengths.
 - **Lite's directness cost, tuned away.** Run 12 measured lite once and found it trades directness
   for calibration versus bare. Whether that cost can be reduced — making "admit uncertainty / flag
   for checking" less hedgy while keeping the know-vs-infer discrimination — is an untested ablation.

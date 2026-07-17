@@ -187,3 +187,24 @@ does without them.
 patch to the High gate (in a fat-tailed domain the *absence* of a conceivable failure
 path is grounds for demotion, not confirmation), and ruin/irreversibility as an
 always-material dimension the recommendation must name.
+
+### The same reading, turned on our own results (the counterweight this tier must carry)
+
+The background above does not only supply directives; it supplies a **prior we are obliged to
+apply to this repo's own findings**, or the epistemics are decorative:
+
+- **Tetlock's load-bearing result is scored feedback, not any instruction.** Superforecasters
+  earn calibration through perpetual beta — many forecasts, scored against outcomes — not by
+  reading a good rule. So the spec (which forces a *label*) cannot, on its own, deliver
+  calibration; only a **forecast ledger** (see `HARNESS.md`) implements the mechanism the book
+  actually credits. The spec is the necessary front half of a loop the repo has not yet closed.
+- **The replication-crisis prior applies to our clean results.** Ego depletion was a flagship,
+  Kahneman-featured, intuitively-solid effect that vanished under an independent multi-lab
+  replication. This repo's trunk result — "`High` = 100% across ~3,000 labels" — has the same
+  shape a clean single-source finding has *before* it meets an adversarial test or a second lab.
+  The exposure here is not judge bias (run 10 was scored against an external numeric key) but an
+  **under-stressed battery** (97% near-ceiling) and a **single responder family**. The honest
+  move — the one the spec's own black-swan and calibration-theater clauses demand — is to discount
+  the *direction* of that finding, not merely its magnitude, until a harder battery or a second
+  family tests it (`FINDINGS.md` names both cheap runs). The epistemic honesty that is this
+  project's best feature is only airtight when it is aimed inward.
