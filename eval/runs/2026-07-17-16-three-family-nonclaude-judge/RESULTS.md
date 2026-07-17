@@ -2,13 +2,19 @@
 
 **TL;DR — the project's largest standing debt, partially paid, and it cost the project.** Every prior
 judged result was Claude-judging-Claude. This run had a genuine **non-Claude judge** (OpenAI GPT, via
-ChatGPT) re-score run 09's existing blind A/B pairs on the **Opus trap cell (q01–q06)** — the exact
-inputs the two Claude judges saw. The non-Claude judge **diverges sharply**, and the divergence runs
-*against* the spec: it does **not** reproduce run 09's "spec wins accuracy/calibration on traps"
-sweep, and it **inverts** the spec on the over-caution axis. The single most important caveat is scope
-(one cell, 6 items, one non-Claude family, Free-tier model) — but within that scope the signal is
-strong and one-directional, and it is the first evidence that a material part of the spec's measured
-advantage was **Claude judges preferring the Claude-spec register**, not a family-independent quality gain.
+ChatGPT) re-score run 09's existing blind A/B pairs on the **full Opus battery: trap cell (q01–q06)
+AND downside cell (q07–q12), 12 items**. The non-Claude judge **diverges sharply and one-directionally
+against the spec.** Across all 12 Opus items it reads the spec's confidence-flag/verify-this apparatus
+as **over-caution on 12/12**, gives **bare the accuracy edge (7–3)**, and leaves the spec **only one
+surviving cross-family virtue: calibration (spec 7 / bare 4).** The asymmetry with run 09 is the
+sharpest finding: run 09's **benefit** claim ("spec wins accuracy on traps") does **not** replicate
+under a non-Claude judge, while run 09's **cost** claim ("spec is the worse clerk — loses helpfulness
+on downside") **does** replicate (GPT gives bare downside-helpfulness 5/6). A cross-family judge
+confirms the spec's costs and discounts its benefits. Scope caveat (one non-Claude family, Free-tier,
+responder still Claude) is large — but the signal is strong and consistent across both cells.
+
+*(This document was written after the trap cell and extended with the downside cell; the trap-cell
+detail below is preserved, and the downside cell + combined 12-item picture follow it.)*
 
 ## Method
 
@@ -77,10 +83,11 @@ where the advantage is register/apparatus (q01, q06) that the Claude judges cred
 
 ## Limits — large, and stated plainly
 
-- **Scope: one cell.** Opus trap items only (6). Haiku traps and all 12 downside items were **not run**
-  — driving long blind pairs through a browser UI is costly and fragile, so this is a deliberate
-  6-of-24 subset, not a silent cap. The downside block (where run 09 found the spec *loses* helpfulness
-  to bare) is exactly where a non-Claude judge might diverge in the spec's *favor* or against it; untested.
+- **Scope: the full Opus battery (12 items), Haiku not run.** Opus trap (6) + Opus downside (6) are
+  complete; **Haiku traps and Haiku downside (12 more) were not run** — driving long blind pairs through
+  a browser UI is costly, so this is a deliberate 12-of-24 subset, not a silent cap. Haiku is the clean
+  next extension (it would test whether the family-divergence is also model-size-dependent on the
+  responder side).
 - **One non-Claude family, one tier.** OpenAI GPT, Free-tier "Fast answer" — not Gemini/Llama, not a
   frontier GPT tier. A stronger or different-family judge could land differently. This adds a **second
   judge family**, the biggest single step toward the mandated three-family design — but the **responder
@@ -92,15 +99,63 @@ where the advantage is register/apparatus (q01, q06) that the Claude judges cred
   (code blocks and long lists condensed; substance and structure preserved). q01/q02/q04 were verbatim.
 - Deterministic mapping applied post-hoc; the judge was blind to arm. Directional.
 
+## Downside cell (q07–q12) — the cost claim replicates cross-family
+
+Extending to the 6 downside items (simple/relational/generative questions, where run 09 found the spec
+*loses* helpfulness to bare) sharpens the picture rather than softening it:
+
+| Axis | GPT (non-Claude), 6 downside items | Run-09 Claude consensus |
+|---|---|---|
+| A accuracy | spec 1, **bare 4**, tie 1 | spec 2, bare 0 (rest contested) |
+| B calibration | **spec 4**, bare 2 | spec 3, bare 0 |
+| C over-contrarianism | bare 5, tie 1 | bare 3 (rest contested) |
+| D helpfulness | **bare 5**, spec 1 | **bare 4** (rest contested) |
+| E over-caution | **bare 6/6** | tie (0/0) |
+
+Agreement with Claude consensus rises to **11/30 (37%)** vs the trap cell's 20% — because on downside
+**both families lean the same way (toward bare) on the cost axes.** Three things:
+
+1. **The "worse clerk" cost replicates.** GPT gives bare downside-helpfulness **5/6**; run 09's Claude
+   judges gave bare **4/6**. Both families agree the spec over-elaborates on simple questions and loses
+   helpfulness for it. So run 09's *cost* claim is **cross-family-robust** — unlike its *benefit* claim.
+   The clearest case is q12 ("boiling point of water?"): GPT scored **bare on all five axes**, penalizing
+   the spec's "99.974 °C / SI-definition" precision even on accuracy and calibration.
+2. **Calibration is credited even here.** GPT gives the spec the calibration edge on downside (4/6) —
+   the careful know-vs-infer distinctions (Berlin Wall dates, the chicken "no measured endpoint" flag)
+   read as genuine calibration to GPT, not padding. Calibration is the one axis that survives the family
+   change in *both* cells.
+3. **The one exception to the cost pattern: q11 (brainstorm).** On the generative task GPT gave the
+   spec's richer, strategy-annotated list the win on accuracy, calibration *and* helpfulness — the dense
+   answer read as more useful, not more bloated. So the register penalty is not universal; on a task
+   that rewards texture, the apparatus paid off even cross-family.
+
+## Combined 12-item Opus picture (non-Claude judge)
+
+| Axis | spec | bare | tie |
+|---|---|---|---|
+| accuracy | 3 | **7** | 2 |
+| **calibration** | **7** | 4 | 1 |
+| over-contrarianism | 0 | 9 | 3 |
+| helpfulness | 4 | 8 | 0 |
+| over-caution | 0 | **12** | 0 |
+
+The shape is unambiguous: under a non-Claude judge the spec wins **only calibration** (7/12), loses
+accuracy (bare 7/12), and its apparatus is read as **over-caution on every single item (12/12)**. The
+one axis it holds is exactly the one the **judge-free keyed runs (10/14) already validate independently**
+— which is the reassuring part: the spec's most defensible property (calibration) is the one that
+survives both a family change *and* the removal of the judge entirely.
+
 ## Verdict
 
-The three-family debt is **partially discharged and the result is unfavorable**: a non-Claude judge
-does not reproduce the spec's trap accuracy/calibration sweep and inverts its over-caution scoring.
-The project's most-cited A/B result (run 09's "better analyst") is **downgraded to judge-family-
-dependent** — robust to a Claude judge, roughly a wash-to-negative on accuracy under a GPT judge,
-with the calibration apparatus read as padding. What survives cleanly is (a) the **keyed, judge-free**
-results — the calibration trunk (run 10/14) and forecast well-formedness (run 15) — which no judge
-touched, and (b) the spec's advantage on the two items where it out-reasons rather than out-hedges.
-The honest headline update: **the spec is a purposeful register whose value a same-family judge scores
-much higher than a cross-family judge does — and the part that survives the family change is the
-reasoning, not the apparatus.**
+The three-family debt is **partially discharged and the result is unfavorable — consistently across
+both cells.** A non-Claude judge **confirms the spec's costs and discounts its benefits**: run 09's
+"worse clerk" (helpfulness cost on simple turns) replicates cross-family, while its "better analyst"
+(trap accuracy win) does not; the spec's register apparatus reads as over-caution on all 12 items; and
+the only cross-family-surviving virtue is **calibration**. The project's most-cited A/B result is
+therefore **split**: the *cost* half is robust, the *benefit* half was substantially a same-family
+judge preferring the Claude-spec register. What survives every stress — family change *and* judge
+removal — is (a) the **keyed, judge-free** results (calibration trunk runs 10/14, forecast form run 15)
+and (b) **calibration** as the spec's one durable A/B virtue. Honest headline: **strip the Claude judge
+and the spec is a calibration instrument with a real clerk-cost — not the decisive "better analyst" the
+single-family evals implied.** Scope limits below still bind (one non-Claude family, Free tier,
+responder still Claude, rubric reconstructed, some prompts compressed) — but the two cells now agree.

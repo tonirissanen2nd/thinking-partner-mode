@@ -1,0 +1,6 @@
+opus-q07 A:tie/slight B:2/slight C:1/moderate D:1/slight E:1/moderate
+opus-q08 A:2/slight B:2/moderate C:tie/slight D:2/slight E:2/moderate
+opus-q09 A:1/slight B:2/slight C:1/moderate D:1/slight E:1/slight
+opus-q10 A:1/slight B:2/slight C:1/slight D:1/slight E:1/slight
+opus-q11 A:1/slight B:1/moderate C:2/slight D:1/slight E:2/slight
+opus-q12 A:2/slight B:2/moderate C:2/moderate D:2/slight E:2/slight

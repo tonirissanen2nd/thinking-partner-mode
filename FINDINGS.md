@@ -127,25 +127,27 @@ accuracy. Every finding above that survives is one with a **judge-independent an
 external answer key (run 10/14), a mechanical apparatus-marker count (run 11/15), a near-binary
 substantive act like caving or not (run 08), or a both-judges-must-agree rule.
 
-**Run 16 turned a genuinely non-Claude judge (OpenAI GPT) on the Opus trap cell, and the news is
-bad for the judged results.** A cross-family judge **did not reproduce** run 09's flagship
-"spec wins accuracy *and* calibration on traps" sweep: on accuracy GPT actually leaned *bare*
-(spec 2 / bare 3 of 6), on calibration the spec lead shrank to 3–2, and on **over-caution it fully
-inverted** — the Claude judges read the spec's confidence-flag / verify-this apparatus as
-appropriate calibration (spec 3/6), GPT read it as padding and scored **bare less over-cautious
-6/6**. One item (q01) flipped on all five axes. So the earlier sentence — "the accuracy/calibration
-results are robust to judge identity" — **was itself an artifact of a single judge family and is now
-corrected**: those results are robust to judge identity *within Claude* and **partly dissolve under a
-non-Claude judge**. What survives the family change is narrow and real: on the two items where the
-spec out-*reasons* bare unambiguously (dense citations, explicit steelman, decomposition), GPT
-credits it too. The spec buys **cross-family-visible advantage when it changes the reasoning, and
-Claude-only credit when it changes the register.** This makes the **judge-free keyed results** (the
-calibration trunk, runs 10/14; forecast well-formedness, run 15) the load-bearing spine of the whole
-program — they are the only findings no judge, of any family, can move. Scope caveat, large: run 16 is
-one cell (6 items), one non-Claude family, Free-tier — and the **responder is still Claude**, so even
-this is two families, not the mandated three. But the divergence was strong and one-directional, and
-it points one way: the A/B-judged wins (runs 08/09/11/12) are **more judge-family-dependent than the
-program assumed**, and should be read down accordingly.
+**Run 16 turned a genuinely non-Claude judge (OpenAI GPT) on the full Opus battery (12 items: trap +
+downside), and the news is bad for the judged results — consistently across both cells.** A
+cross-family judge **confirms the spec's costs and discounts its benefits.** Across all 12 Opus items
+it reads the spec's confidence-flag/verify-this apparatus as **over-caution on 12/12**, gives **bare
+the accuracy edge (7–3)**, and leaves the spec **only one surviving cross-family virtue: calibration
+(spec 7 / bare 4)**. The decisive asymmetry with run 09: its **benefit** claim ("spec wins accuracy on
+traps") does **not** replicate under GPT (on the trap cell GPT leaned bare on accuracy, 2 spec / 3 bare;
+q01 flipped all five axes), while its **cost** claim ("spec is the worse clerk — loses helpfulness on
+simple turns") **does** replicate (GPT gives bare downside-helpfulness 5/6, matching Claude's 4/6). So
+the earlier sentence — "the accuracy/calibration results are robust to judge identity" — **was itself an
+artifact of a single judge family and is now corrected**: robust *within Claude*, and under a non-Claude
+judge only **calibration** survives (the spec's out-*reasoning* wins on a few dense items like the q11
+brainstorm and the q04/q05 cited analyses; its out-*hedging* register is penalized everywhere). Reassuringly,
+the one A/B axis that survives the family change — calibration — is exactly the property the **judge-free
+keyed runs (10/14) validate independently**, which makes those keyed results the load-bearing spine of the
+whole program: they survive both a family change *and* the removal of the judge entirely. Scope caveat,
+large: run 16 is the Opus cell only (Haiku not run), one non-Claude family, Free-tier — and the
+**responder is still Claude**, so even this is two families, not three. But the two cells agree and the
+divergence is strong and one-directional: the A/B-judged wins (runs 08/09/11/12) are **more
+judge-family-dependent than the program assumed** and are read down accordingly — the spec is a
+calibration instrument with a real clerk-cost, not the decisive "better analyst" the single-family evals implied.
 
 ---
 
