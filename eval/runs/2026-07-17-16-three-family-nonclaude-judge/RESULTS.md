@@ -145,6 +145,40 @@ one axis it holds is exactly the one the **judge-free keyed runs (10/14) already
 — which is the reassuring part: the spec's most defensible property (calibration) is the one that
 survives both a family change *and* the removal of the judge entirely.
 
+## Tier control — re-run on GPT-5 Thinking (High), the free-tier confound refuted
+
+The Free-tier caveat was that a weak judge might under-credit the spec's *accuracy* (its subtlest
+axis). To test it, the 6 Opus trap items were **re-judged on ChatGPT Plus with GPT-5 Thinking at High
+reasoning effort** (temporary chat), the strongest available judge. The result **refutes the
+tier-confound as an explanation** — a stronger judge is *harder* on the spec, not softer. The gradient
+is monotone (spec-favorability: **Claude > GPT-free > GPT-5-High**):
+
+| Axis (spec–bare–tie of 6) | Claude | GPT-free | **GPT-5-High** |
+|---|---|---|---|
+| **accuracy** | 4–0–2 | 2–3–1 | **1–4–1** |
+| calibration | 5–0–1 | 3–2–1 | **3–3–0** |
+| over-contrarianism | 0–2–4 | 0–4–2 | 1–5–0 |
+| helpfulness | 1–0–5 | 3–3–0 | 1–5–0 |
+| over-caution | 3–0–3 | 0–6–0 | 1–5–0 |
+
+- **Accuracy — the diagnostic axis — moved *further* against the spec, not toward it.** Claude gave the
+  spec accuracy 4/6; the strong GPT gave it **1/6** (bare 4/6). So run 09's "spec wins trap accuracy"
+  is not a free-tier artefact — the best reasoning model available disagrees with it more strongly than
+  the Free model did. Whatever the Claude judges were rewarding on accuracy, a capable non-Claude judge
+  does not see it.
+- **The durable cross-family agreement is narrow and consistent:** q05 (accuracy + calibration) is
+  spec on *all three* judges; q04 and q06 calibration are spec on all three. These are the items with
+  explicit quantitative machinery (the 1/(1−r) LTV model; the cited RCT ledger; the ruin argument).
+  Where the spec's superiority is *arithmetic or citation-grounded*, every judge credits it; where it is
+  *register* (hedges, confidence flags, caveats), only Claude does — and the stronger the non-Claude
+  judge, the more it penalizes the register.
+- **Calibration erodes to a coin-flip** (spec 3–3) under the strong judge, from 5–0 under Claude — so
+  even the calibration edge, the spec's most durable A/B virtue, is substantially Claude-flavored on the
+  *judged* axis (its keyed, judge-free validation in runs 10/14 is untouched and remains the real basis).
+
+This is the strongest form of the run-16 finding: the divergence is **not** an artefact of a weak judge;
+it *deepens* with judge capability. Verdicts in `raw/judgments-gpt/gpt-PLUS-high-verdicts.txt`.
+
 ## Verdict
 
 The three-family debt is **partially discharged and the result is unfavorable — consistently across

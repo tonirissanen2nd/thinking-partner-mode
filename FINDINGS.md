@@ -142,12 +142,21 @@ judge only **calibration** survives (the spec's out-*reasoning* wins on a few de
 brainstorm and the q04/q05 cited analyses; its out-*hedging* register is penalized everywhere). Reassuringly,
 the one A/B axis that survives the family change — calibration — is exactly the property the **judge-free
 keyed runs (10/14) validate independently**, which makes those keyed results the load-bearing spine of the
-whole program: they survive both a family change *and* the removal of the judge entirely. Scope caveat,
-large: run 16 is the Opus cell only (Haiku not run), one non-Claude family, Free-tier — and the
-**responder is still Claude**, so even this is two families, not three. But the two cells agree and the
-divergence is strong and one-directional: the A/B-judged wins (runs 08/09/11/12) are **more
-judge-family-dependent than the program assumed** and are read down accordingly — the spec is a
-calibration instrument with a real clerk-cost, not the decisive "better analyst" the single-family evals implied.
+whole program: they survive both a family change *and* the removal of the judge entirely. **And the free-tier caveat is refuted, not merely noted:** re-judging the trap cell on **GPT-5 Thinking
+at High effort** (the strongest available judge) moved accuracy *further* against the spec, not toward
+it — spec-favorability is **monotone Claude > GPT-free > GPT-5-High** (trap accuracy spec-wins: 4/6 →
+2/6 → **1/6**). A stronger judge is harder on the spec, so the divergence is a genuine cross-family
+register preference, not judge weakness. The durable cross-family agreement is narrow and telling: the
+items with explicit *quantitative/citation* machinery (the LTV model, the cited-RCT ledger, the ruin
+argument — q05 on accuracy+calibration, q04/q06 on calibration) are spec on all three judges; where the
+spec's edge is *register* (hedges, confidence flags), only Claude credits it, and more capable
+non-Claude judges penalize it more. Scope caveat, still large: Opus cell only (Haiku not run), one
+non-Claude family, **responder still Claude** — two families, not three. But the finding is now robust
+to judge capability as well as judge family: the A/B-judged wins (runs 08/09/11/12) are **more
+judge-family-dependent than the program assumed** and are read down accordingly — the spec buys
+cross-family-visible advantage only from *arithmetic and citations*, not from its register; it is a
+calibration instrument (validated judge-free) with a real clerk-cost, not the decisive "better analyst"
+the single-family evals implied.
 
 ---
 

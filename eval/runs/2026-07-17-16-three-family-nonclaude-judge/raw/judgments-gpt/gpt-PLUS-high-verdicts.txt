@@ -1,0 +1,7 @@
+# GPT-5 Thinking, reasoning=High (ChatGPT Plus). Temporary chat. Re-run of the Opus trap cell to control the free-tier confound. Raw Answer1/Answer2 winners.
+opus-q01 A:1/moderate B:1/decisive C:1/moderate D:1/slight E:2/moderate
+opus-q02 A:2/slight B:2/slight C:2/moderate D:2/moderate E:2/moderate
+opus-q04 A:1/slight B:2/decisive C:2/slight D:1/moderate E:1/decisive
+opus-q05 A:1/slight B:1/moderate C:2/moderate D:2/slight E:2/moderate
+opus-q03 A:tie/slight B:2/moderate C:2/decisive D:2/slight E:2/decisive
+opus-q06 A:1/slight B:2/moderate C:1/decisive D:2/slight E:1/decisive
