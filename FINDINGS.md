@@ -1,9 +1,9 @@
-# What fourteen runs established
+# What fifteen runs established
 
 A top-level synthesis of the evaluation program. `DESIGN.md` says why the spec is
 *shaped* the way it is; `CHANGELOG.md` records what changed *when*; `eval/runs/` holds each
 run in full. This document answers the one question those three don't, in one place: **after
-fourteen pre-registered runs, what do we actually know about this spec?**
+fifteen pre-registered runs, what do we actually know about this spec?**
 
 Everything below is **single-family and directional** — every responder, judge, and
 classifier is a Claude model, and no result is more than a few passes deep. The mandated
@@ -106,6 +106,7 @@ Clause by clause, the loop separated the wins from the ceilings:
 | Verification-as-scoring (v1.5) | **Improves *disclosure*, not calibration** — makes miscalibration observable, doesn't reduce it | 07 |
 | Persuasion-vector enumeration (v1.6) | **Inert** on current models — kept only as a Principle-2 guard | 08 |
 | Frame-detection (v1.7) | **Near-miss — not shipped:** real benefit, but tripped the pre-registered trap-regression trigger | 11 |
+| Forecasting section (outside view, non-estimable) | **Improves *form*, not *accuracy*** — installs the base rate (85% vs 3%) and non-estimable refusal (67% vs 0%), but Brier marginally worse; scorable, not prescient | 15 |
 
 The pattern under the table: the spec **reliably changes the model's account of its reasoning**
 — confidence labels appear, steelmen appear, apparatus is suppressed on cue (run 11's gate cut
@@ -170,19 +171,34 @@ standing methodological debt the whole program still carries.
   that lives in a different category from the trunk, reachable only by the slow real-world loop a
   **forecast ledger** would close (see `HARNESS.md`). Naming that category difference is the
   honest move — and it is *why* the ledger, not another battery, is the only instrument that
-  could ever reach the part of the spec that matters most.
+  could ever reach the part of the spec that matters most. **Run 15 sharpens this:** the *behaviour*
+  the fat-tail branch prescribes — refusing a point estimate on a genuine black swan — *is* mechanically
+  testable, and it fired (AGI marked `non-estimable` 67% vs 0% bare, and *selectively*: a
+  circuit-breaker-bounded tail still got a point estimate). What remains unreachable by any battery is
+  whether that refusal was *right about the world* — the outcome, not the behaviour. So the branch is
+  now validated one layer deeper (the discipline executes and discriminates) while the category claim
+  stands (the outcome is unscoreable; only the ledger reaches it).
 - **The trunk battery has now been hardened (run 14) — done, and it cracked as predicted.** An
   adversarial keyed battery (run 10's method, harder items) dropped the full spec's `High` from 100%
   to **91% pooled**, with the leak confined to post-cutoff volatile facts and `High` still 100% on
   stable facts. The ceiling-artifact worry did *not* recede — it was confirmed, and the real operating
-  point is now measured. See run 14. This leaves **one** cheap run and the standing family debt:
-  - **Score forecasts, not recall (the rung before the ledger).** A Track-2-style run on
-    *resolvable prediction* items — post-cutoff/withheld questions whose outcome the scorer knows
-    (search-established) but the model cannot — scored against the known outcome exactly as run 10
-    scored recall. It tests whether the spec even produces well-formed, scorable forecasts and
-    whether calibration holds on *judgment*, not just recall. The spec's Forecasting directives
-    are otherwise **unvalidated**, so this is the measurement that must precede building the
-    ledger on them.
+  point is now measured. See run 14. This leaves the standing family debt as the one large gap:
+  - **Score forecasts, not recall (the rung before the ledger) — now run (run 15).** The spec's
+    **Forecasting** section, previously the largest **unvalidated** surface, was tested by scoring
+    resolvable post-cutoff predictions against known outcomes (search-established). Result: it is
+    **validated on *form*, not *accuracy*.** The spec reliably installs the outside view (explicit
+    base rate / reference class on **85% of forecasts vs 3% bare**; 92% vs 26% counting implicit
+    base-rate reasoning) and correctly declines a point estimate on a genuine black swan (AGI:
+    non-estimable **67% vs 0%**), *selectively* — it still gives a point estimate on a
+    circuit-breaker-bounded tail. But it does **not** improve calibration accuracy: Brier **0.202
+    vs 0.181 bare** — marginally *worse*, because genuine surprises are ceiling-bound on both arms
+    and the outside-view caution drags confident-correct recall toward 50% on knowable items. So the
+    spec makes forecasts **scorable, not prescient** — which is the concrete argument that the
+    accuracy loop needs the **ledger** (real-world scored feedback), not a better prompt. The rung
+    is climbed: the ledger can be built on a section now shown to emit scorable forecasts, knowing
+    the prompt alone will not deliver the accuracy the ledger exists to earn. (One honest sub-null:
+    the spec does *not* reliably restate an explicit resolution criterion — the "scorable claim"
+    win is on the probability + base rate, not the resolution half.)
 - **Long-context drift — partially run, and under-tested by my own probe design (run 13A).** At
   ~20 turns, the probed behaviours held at 100% with or without re-injection — but the probes were
   base-model-ceiling behaviours (run-08 trap), so the null under-tests the layer-two claim rather

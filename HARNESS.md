@@ -171,17 +171,24 @@ months. Read it as the thesis, not an accessory.*
   and only forecasts that actually resolve can be scored. Mitigation: log only forecasts with a
   clear resolution criterion (the spec already requires one); settle by search where possible,
   flag ambiguous ones for the user.
-- **Why it is not built first, despite being the thesis.** It would sit on an **unmeasured
-  foundation**: the spec's Forecasting directives themselves are unvalidated — run 10 measured
-  calibration on *factual recall*, never on *judgment/prediction*. Building an elaborate scoring
-  loop on top of directives that may not even produce well-formed, calibrated forecasts is the
-  scope-creep the whole method warns against. **The prerequisite is one cheap, now-runnable
-  measurement:** a Track-2-style run that scores *forecasts* (post-cutoff/withheld resolvable
-  items, scored against the known outcome) rather than recall — the rung between run 10 and the
-  ledger. Do that first; it de-risks the whole thesis-component for the cost of one run.
+- **Why it is not built first, despite being the thesis — and what run 15 changed.** It would have
+  sat on an **unmeasured foundation**: the spec's Forecasting directives were unvalidated — run 10
+  measured calibration on *factual recall*, never on *judgment/prediction*. The named prerequisite
+  was one cheap run that scores *forecasts* rather than recall. **That run is now done (run 15), and
+  it lands exactly where this section bet it would:** the Forecasting directives *do* produce
+  well-formed, scorable forecasts (explicit base rate 85% vs 3% bare; non-estimable refusal on a
+  genuine black swan 67% vs 0%) — so the ledger will not sit on directives that fail to emit scorable
+  forecasts. But run 15 also found the forecasts are **not more accurate** (Brier marginally worse
+  than bare; surprises ceiling-bound) — which is not a reason to withhold the ledger but the
+  **sharpest argument for it**: form is prompt-layer-reachable and now confirmed; accuracy is not,
+  and only the ledger's real-world scored feedback can earn it. The prerequisite is met; the ledger
+  can be built on a validated front half, with eyes open that its whole job is the accuracy the
+  prompt cannot deliver. One caveat run 15 adds to the design below: the spec does *not* reliably
+  restate an explicit resolution criterion, so **[4] must not assume one is present — extract it, or
+  synthesise and confirm it, before logging** (see the mitigation two bullets up).
 - **Measured by.** The ledger **is** the measurement instrument — it produces, over months, the
-  forecasting-calibration curve that no single-session eval can. The forecast-quality run above
-  is the finite proxy that earns it the build.
+  forecasting-calibration curve that no single-session eval can. Run 15 is the finite proxy that
+  earned it the build (form validated) and simultaneously proved it necessary (accuracy not).
 
 ### 5. Telemetry — deployment as an ongoing eval
 
@@ -207,11 +214,14 @@ another component.*
    covers the rest.
 2. **+ Verify layer** — build **after run 13 Track B** shows the spec beats bare-with-tools (skip
    if B-H4 holds).
-3. **+ Forecast ledger** — the thesis-completing component, not a late accessory. But gate it on
-   its prerequisite: **first run the forecast-quality eval** (score *predictions*, not recall — the
-   rung between run 10 and the ledger) to confirm the spec even produces well-formed, calibrated
-   forecasts. Build the ledger once that de-risks its foundation; don't build a scoring loop on
-   unvalidated Forecasting directives.
+3. **+ Forecast ledger** — the thesis-completing component, not a late accessory. Its gating
+   prerequisite — **the forecast-quality eval** (score *predictions*, not recall) — **is now met
+   (run 15):** the spec produces well-formed, scorable forecasts (base rate 85% vs 3%; non-estimable
+   refusal 67% vs 0%), so the foundation is de-risked. Run 15 also showed the forecasts are *not*
+   more accurate than bare (Brier marginally worse) — which is the ledger's reason to exist, not a
+   reason to skip it: only scored real-world feedback earns calibration the prompt cannot. Build it,
+   with one design fix run 15 forces — **do not assume a resolution criterion is present** (the spec
+   emits one only ~9% of the time); extract or synthesise-and-confirm it before logging.
 4. **+ Telemetry** — cheap, add whenever you deploy for real.
 
 Do **not** build all five as a monolith. Each is independently valuable and independently
