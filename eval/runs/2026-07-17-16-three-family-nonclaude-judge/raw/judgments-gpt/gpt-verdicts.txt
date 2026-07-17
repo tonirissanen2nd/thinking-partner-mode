@@ -1,0 +1,7 @@
+# GPT (ChatGPT Free tier, "Fast answer" / GPT-5-class) verdicts. Temporary chat. Format: <item> A:<w/m> B C D E   (w=1|2|tie, winner of the blind A/B; margin slight/moderate/decisive)
+opus-q01 A:1/slight B:1/moderate C:1/moderate D:1/slight E:1/moderate
+opus-q02 A:tie/slight B:2/slight C:2/slight D:1/slight E:2/moderate
+opus-q03 A:2/slight B:tie/slight C:tie/slight D:1/slight E:2/slight
+opus-q04 A:2/slight B:2/moderate C:tie/slight D:2/slight E:1/slight
+opus-q05 A:1/moderate B:1/moderate C:2/slight D:2/slight E:2/slight
+opus-q06 A:1/slight B:2/slight C:1/moderate D:1/moderate E:1/moderate

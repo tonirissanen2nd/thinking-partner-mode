@@ -1,13 +1,17 @@
-# What fifteen runs established
+# What sixteen runs established
 
 A top-level synthesis of the evaluation program. `DESIGN.md` says why the spec is
 *shaped* the way it is; `CHANGELOG.md` records what changed *when*; `eval/runs/` holds each
 run in full. This document answers the one question those three don't, in one place: **after
-fifteen pre-registered runs, what do we actually know about this spec?**
+sixteen pre-registered runs, what do we actually know about this spec?**
 
-Everything below is **single-family and directional** — every responder, judge, and
-classifier is a Claude model, and no result is more than a few passes deep. The mandated
-three-family run has still not happened. Read these as well-supported directions, not proofs.
+Everything below is **near-single-family and directional** — every *responder* and classifier is a
+Claude model, and no result is more than a few passes deep. The one exception is **run 16, which added
+a genuine non-Claude *judge* (GPT)** on a single cell — and it diverged sharply from the Claude judges
+(finding 5), which is why the A/B-judged results are now read down. The full three-family run (a
+non-Claude *responder*, a second non-Claude family, more cells) still has not happened. Read these as
+well-supported directions, not proofs — and trust the **judge-free keyed results** (runs 10/14/15)
+most, since they are the only ones no judge of any family can move.
 
 ---
 
@@ -120,11 +124,28 @@ observed six times.
 Two judge families (both Claude) **disagree on ~40% of the soft-axis cells** (41% in run 09,
 42% in run 11) — helpfulness and over-contrarianism are genuinely less determinate than
 accuracy. Every finding above that survives is one with a **judge-independent anchor**: an
-external answer key (run 10), a mechanical apparatus-marker count (run 11), a near-binary
-substantive act like caving or not (run 08), or a both-judges-must-agree rule. The
-accuracy/calibration results are robust to judge identity; the helpfulness/contrarianism
-results are judge-dependent and reported as such. And all of it is one model family — the
-standing methodological debt the whole program still carries.
+external answer key (run 10/14), a mechanical apparatus-marker count (run 11/15), a near-binary
+substantive act like caving or not (run 08), or a both-judges-must-agree rule.
+
+**Run 16 turned a genuinely non-Claude judge (OpenAI GPT) on the Opus trap cell, and the news is
+bad for the judged results.** A cross-family judge **did not reproduce** run 09's flagship
+"spec wins accuracy *and* calibration on traps" sweep: on accuracy GPT actually leaned *bare*
+(spec 2 / bare 3 of 6), on calibration the spec lead shrank to 3–2, and on **over-caution it fully
+inverted** — the Claude judges read the spec's confidence-flag / verify-this apparatus as
+appropriate calibration (spec 3/6), GPT read it as padding and scored **bare less over-cautious
+6/6**. One item (q01) flipped on all five axes. So the earlier sentence — "the accuracy/calibration
+results are robust to judge identity" — **was itself an artifact of a single judge family and is now
+corrected**: those results are robust to judge identity *within Claude* and **partly dissolve under a
+non-Claude judge**. What survives the family change is narrow and real: on the two items where the
+spec out-*reasons* bare unambiguously (dense citations, explicit steelman, decomposition), GPT
+credits it too. The spec buys **cross-family-visible advantage when it changes the reasoning, and
+Claude-only credit when it changes the register.** This makes the **judge-free keyed results** (the
+calibration trunk, runs 10/14; forecast well-formedness, run 15) the load-bearing spine of the whole
+program — they are the only findings no judge, of any family, can move. Scope caveat, large: run 16 is
+one cell (6 items), one non-Claude family, Free-tier — and the **responder is still Claude**, so even
+this is two families, not the mandated three. But the divergence was strong and one-directional, and
+it points one way: the A/B-judged wins (runs 08/09/11/12) are **more judge-family-dependent than the
+program assumed**, and should be read down accordingly.
 
 ---
 
@@ -159,9 +180,15 @@ standing methodological debt the whole program still carries.
 
 ## What is still unmeasured
 
-- **The three-family run.** Every judged result is Claude-judging-Claude, and every result is
-  Claude-*responding*. This is the single largest open question and the reason nothing here is
-  more than directional.
+- **The three-family run — first slice run (run 16), and it moved the needle against the spec.** A
+  non-Claude judge (GPT) re-scored the Opus trap cell and diverged sharply from the Claude judges
+  (see finding 5): the spec's trap accuracy/calibration sweep did not replicate and its over-caution
+  scoring inverted. This is the **judge** half, one cell, one non-Claude family, Free tier — the
+  **responder** half (a non-Claude model *answering* under the spec) is still untouched, and so is
+  Gemini/Llama and the downside block. The debt is now partially paid and the direction is unkind;
+  completing it (more cells, a second non-Claude family, and a non-Claude responder) is still the
+  single largest open question, and the priority just rose because the first slice found a real effect
+  rather than a null.
 - **The fat-tail branch is a different epistemic category — not a backlog item.** The trunk is
   validated on *thin-tailed, knowable-answer* questions — the regime where calibration is easy and
   low-stakes. The fat-tail branch (non-estimable-vs-`Unknown`, the black-swan demotion,
