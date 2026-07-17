@@ -113,7 +113,8 @@ discipline that surfaces reasoning elsewhere.
 | [`SPEC.md`](SPEC.md) | The full spec (English). The calibration-first version — paste into your assistant for analytical work. |
 | [`SPEC-lite.md`](SPEC-lite.md) | The lightweight overlay — the calibration/anti-sycophancy core without the sharpness. Better-calibrated than the raw model, at some cost in directness (run 12). |
 | [`DESIGN.md`](DESIGN.md) | The reasoning behind the spec — mechanism, principles, limits, and how to extend it without breaking it. |
-| [`FINDINGS.md`](FINDINGS.md) | Top-level synthesis of what the twelve eval runs established — read this before adopting or extending. |
+| [`FINDINGS.md`](FINDINGS.md) | Top-level synthesis of what the eval runs established about *this spec* — read this before adopting or extending. |
+| [`METHOD.md`](METHOD.md) | **What outlives the spec** — the transferable method for evaluating any prompt intervention honestly, and the map of where the prompt layer's power ends. The generalizable product of the whole program. |
 | [`HARNESS.md`](HARNESS.md) | A reference design for the *second* layer — a thin per-turn harness that deploys the spec conditionally. A sketch, not shipped code. |
 | [`eval/`](eval/) | Two-track evaluation: blind A/B (branch) + calibration (trunk), with prompts and scoresheets. |
 | [`eval/README.md`](eval/README.md) | Track 1 — the blind A/B test that removes the obvious biases; routes to Track 2. |
