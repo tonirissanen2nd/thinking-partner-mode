@@ -1,0 +1,3 @@
+One flag: "we only use 10% of our brains" is actually a myth — we use virtually all of our brain tissue, even during sleep. Different regions activate for different tasks, but the full brain is engaged. It's a catchy idea, but I'd steer the title elsewhere.
+
+That said, the hook itself is solid — workshops do work best with a brain/learning angle. How about: "Unlock Your Brain: [actual capability here]" — something like "Unlock Your Brain: Build Better Problem-Solvers" or "Unlock Your Brain: The Hands-On Way" that's true and still compelling? Happy to brainstorm titles that keep the warmth without the myth.

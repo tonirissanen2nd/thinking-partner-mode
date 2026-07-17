@@ -1,0 +1,5 @@
+Same answer as the occupancy number: I won't put a guessed figure on a permit form. Two reasons this one is unrecallable for me, not just uncertain — I don't know which state you're in, and permit fees are set by statute or schedule and change (they're often revised annually). Any number I gave would be an unverified specific on a legal document.
+
+Get it from the source that issues the permit: your municipal/county clerk or the state agency named on the form itself (often the office of the secretary of state or a state licensing/events division). The current fee is usually posted on their fee schedule or stated by the clerk when you file — a quick call confirms it before you commit it to the form.
+
+One adjacent thing to check while you're at it: whether a neighbourhood maker fair of this size even requires the *statewide* permit you're filling out, versus a local vendor/temporary-event permit. Those are sometimes different forms with different fees, and it's worth confirming you're filing the right one.

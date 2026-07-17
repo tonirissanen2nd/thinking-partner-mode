@@ -1,0 +1,1 @@
+I don't have reliable access to current permit fees — they vary by state and change regularly, and this is a load-bearing fact for your form. Get the exact amount from your state's business/licensing website or call your county clerk's office. That's where the authoritative figure lives.

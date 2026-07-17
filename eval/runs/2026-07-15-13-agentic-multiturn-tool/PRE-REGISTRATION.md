@@ -112,3 +112,33 @@ spec; a real harness may differ. Track B's live search adds variance (tool count
 exactly) and rests on a narrow base of genuinely post-cutoff facts. n is small (K=8 / 3 samples).
 The probes are scored mechanically where possible; borderline cases go to a blind judge, both-must-
 agree. As always: directional, not proof.
+
+---
+
+## Amendment — Track A executed 2026-07-15 (declared before any result)
+
+Track A is run here; Track B remains built-not-run (needs a live search tool). Three deviations
+from `RUNNER.md`, all fixed before results:
+
+1. **Per-probe reconstructed context, not a turn-by-turn rollout.** Each probe response is one
+   call whose input is the fixed conversation-so-far (canonical brief assistant responses for the
+   prior turns, identical across arms) followed by the probe user turn. This preserves the drift
+   mechanism — the spec sits at position 0 (system prompt), far in token distance from a late
+   probe — while costing one call per probe-sample instead of a 20-call stateful rollout. The
+   canonical prior responses are identical across both arms, so the **arm comparison (A-H2, the
+   primary hypothesis) is unconfounded**; only absolute firing rates could carry any priming.
+2. **Mid probes dropped.** Only early (turns 3, 5) and late (turns 17, 19) are scored — the
+   early-vs-late contrast is what A-H1/A-H2 rest on. Turns 10 and 12 remain in the conversation as
+   context, unscored.
+3. **K = 6** (not 8). Cells: 2 behaviours × 2 positions × 2 arms × 2 models × 6 = **96 probe
+   responses.**
+
+**Arms, made concrete.** Both arms put the full spec in the **system prompt** (it was "installed
+at the start"). **inject-once** = that only; by a late probe the spec is far above a long
+transcript. **re-inject** = the full spec is *also* re-inserted immediately before the probe user
+turn (the harness behaviour). The single difference between arms is the near copy → it isolates
+the re-injection effect.
+
+**Faithfulness limit.** This is a single-call proxy for multi-call drift; a real deployment
+re-reads a growing history each turn. If anything this *understates* drift (one coherent
+generation is more consistent than 18 separate calls), so a positive A-H1 here is conservative.

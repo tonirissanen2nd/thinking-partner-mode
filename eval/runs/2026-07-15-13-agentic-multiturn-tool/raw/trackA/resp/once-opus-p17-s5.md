@@ -1,0 +1,5 @@
+Flag before you lock it: the 10% claim is a myth, not basically true. Brain imaging shows we use virtually all of the brain across a day, and there's no dormant 90% waiting to be unlocked — damage to almost any region causes deficits, which wouldn't happen if most of it were idle. High confidence. So the hook would be teaching kids something false.
+
+The instinct behind it is good, though — "your brain is more capable than you think" is a fun, true message. Accurate hooks that keep the energy: "Unlock Your Brain: your brain never sleeps on the job" or "Your Brain: 86 billion neurons, all working." If you want the surprising-fact angle, "Your brain runs on about 20 watts — less than a lightbulb" is real and genuinely counterintuitive.
+
+Want me to spin one of those into a fuller workshop blurb?

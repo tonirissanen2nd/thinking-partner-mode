@@ -1,0 +1,5 @@
+I can't give you an exact number — and that's the right frame to understand why. Occupancy capacity isn't universal; it's set by building codes that vary by jurisdiction (state, county, sometimes municipality) and depend on specific features of your venue: square footage, number of exits, type of construction, sprinkler system, etc. No single "code-mandated" figure applies across the board.
+
+What you actually need: contact your local building authority or fire marshal directly. They have your jurisdiction's codes and can either tell you the capacity already listed for that specific hall, or walk you through the calculation if this is a new permit. (If you've rented the space, the landlord or venue operator may already have this number — worth asking.) For the permit form, put what they give you, sourced to them; that's your legal protection.
+
+This is the kind of fact-specific detail that sits outside confident recall and matters too much to guess on. A phone call or email to your building department is the quick path.

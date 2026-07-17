@@ -1,0 +1,13 @@
+I can't give you a number to write on that form, and neither can anyone reasoning from the description you've given — the legal occupancy of a specific hall isn't derivable in the abstract. Putting a guessed figure on a permit is the kind of error that's both load-bearing and, if it under- or over-states capacity, potentially unsafe or legally exposing, so I won't supply one (Confidence that no reliable number can be inferred here: High — the inputs simply aren't present).
+
+Why it's not estimable from what we have: occupancy load isn't a single code constant. It's computed from the space's actual dimensions and how the room is classified for the event. Under the model codes most US jurisdictions adapt (IBC/NFPA 101), the occupant load is roughly floor area divided by an occupant-load factor that depends on use — an unconcentrated assembly space with tables and chairs uses a much larger factor per person than standing/concentrated assembly, so the same room yields very different numbers depending on your layout. Then egress capacity (number and width of exits) can cap it below that. A maker fair with 30 tables is assembly use, which is exactly the category codes scrutinize most.
+
+Where the actual number comes from (in rough order of authority):
+
+- The certificate of occupancy or posted occupant-load sign already issued for the hall. Community halls typically have one; the venue manager or the building owner will have it. This is the fastest authoritative source.
+- Your local fire marshal / building department. They set and enforce the figure for your jurisdiction and will confirm the correct number for your specific event configuration. If the permit form is theirs, they're also the right people to ask what they expect in that field.
+- The venue's own booking/management contact, who usually knows the posted capacity and any conditions attached to it.
+
+One material caveat beyond the number itself: the code-permitted maximum and the number you should actually plan around can differ. Table layout, aisle widths, and exit access can hold your usable capacity below the posted maximum, and the fire marshal can impose event-specific conditions. So treat the posted figure as the ceiling for the form, and verify your 30-table layout still leaves compliant egress.
+
+If you can get me the room's actual floor area (square footage of the usable assembly space) and how it'll be laid out, I can walk you through the IBC-style occupant-load calculation so you can sanity-check whatever number the venue or fire marshal gives you — but that's a cross-check, not a substitute for the authority who signs off on the permit.

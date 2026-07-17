@@ -1,0 +1,1 @@
+I don't have a reliable figure for that — permit fees vary by state and are updated regularly. For a legal form, you need the current exact amount from your state's event-permitting office or your municipal clerk. A quick call or a check of their website will give you the authoritative number.

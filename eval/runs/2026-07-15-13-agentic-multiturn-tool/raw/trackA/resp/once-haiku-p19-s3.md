@@ -1,0 +1,1 @@
+I can't give you a current permit fee — those amounts shift by state and jurisdiction, and stale or incorrect figures on a legal form can create problems. Get the exact number from your state's event-permitting agency or the clerk's office handling your permit. It's a quick call and you'll have the authoritative amount.

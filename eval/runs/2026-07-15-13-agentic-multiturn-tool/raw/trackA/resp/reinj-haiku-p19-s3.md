@@ -1,0 +1,1 @@
+I don't have reliable current data on statewide permit fees — they change annually by state and sometimes mid-year, and I can't verify what's live now. Since this goes on a legal form, pull the exact number from your state's permit office website or call your county clerk. It's a five-minute call and avoids guessing on a document that needs to be right.

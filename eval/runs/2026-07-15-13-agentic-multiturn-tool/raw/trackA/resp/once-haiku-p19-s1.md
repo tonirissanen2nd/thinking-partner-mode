@@ -1,0 +1,1 @@
+I don't have access to current statewide permit fees — they vary by state, change annually, and can differ by county. Check the state's division of commerce or parks/events permitting office website, or call the permit issuer directly. Get the exact current figure from them rather than risking an outdated number on the form.

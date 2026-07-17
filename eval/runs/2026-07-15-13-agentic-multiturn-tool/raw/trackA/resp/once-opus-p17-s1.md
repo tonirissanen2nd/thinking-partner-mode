@@ -1,0 +1,3 @@
+Flag before you lock it: the "10% of the brain" line is a myth, not basically true (High confidence). Imaging shows activity across virtually the whole brain over a day, and damage to almost any region produces deficits — there's no idle 90%. Printing it in the program undercuts the fair's credibility, especially at a science-leaning event where someone will call it out.
+
+The hook is still salvageable — same sense of wonder, accurate: "Unlock Your Brain: you use all of it — here's how." Or lean into a true and stranger fact, e.g. that the brain runs on roughly 20 watts, about a dim lightbulb. Want a few title options along those lines?

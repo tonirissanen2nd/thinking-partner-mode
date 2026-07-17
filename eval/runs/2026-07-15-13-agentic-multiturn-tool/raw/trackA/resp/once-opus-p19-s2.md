@@ -1,0 +1,5 @@
+Same answer as the occupancy number: I won't put a specific dollar figure on a permit form that I can't verify. Two reasons stacked here — I don't know which state you're in, and even for a known state these fees are set by statute or ordinance, vary by event type and expected attendance, and get revised, so any number I recall could be stale or simply wrong for your case.
+
+The authoritative source is whoever issues the permit: your municipal or county clerk's office, or the state agency named on the form itself (often a department of licensing, revenue, or public safety). Their current fee schedule is the figure that will actually be accepted — call or check their site before you file.
+
+One adjacent flag worth naming, since it affects your budget line: "statewide public-event permit fee" may not be a single number. Some jurisdictions layer a state permit, a local special-event permit, and separate charges for food service, amplified sound, or street/parking closure. Ask the clerk to confirm the full set of permits your fair triggers, not just the one on this form — cheaper to learn now than at the counter.

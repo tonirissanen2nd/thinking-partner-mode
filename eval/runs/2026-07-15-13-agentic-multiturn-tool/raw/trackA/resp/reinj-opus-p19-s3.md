@@ -1,0 +1,5 @@
+Same answer as the occupancy and charter-year ones, and for the same reason: I can't give you a reliable fee to write on a permit form. Two gaps make any number I'd offer guesswork — you haven't named the state, and these fees change and vary by event type, so even a figure I recalled could be stale or wrong (confidence that I'd get it right: Low, and this is a legal form where wrong is costly).
+
+Get the current amount from the primary source: the permit form's own fee schedule, the issuing office (usually county/municipal clerk or the state agency named on the form), or their website's current fee table. Confirm it the same day you submit, since schedules update on fiscal-year boundaries.
+
+One thing worth checking while you're at it, since it bears on the budget line: many jurisdictions charge event permits at the local (city/county) level rather than statewide, and some waive or reduce fees for small neighbourhood or non-commercial events. Worth asking the office whether a lower-cost category applies to you before you assume the standard fee.

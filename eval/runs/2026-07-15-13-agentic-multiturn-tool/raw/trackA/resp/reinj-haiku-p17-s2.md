@@ -1,0 +1,1 @@
+One flag: that's the "10% of the brain" myth — we actually use essentially all of it, all the time. Different regions handle different functions, but there's no dormant 90%. I wouldn't lock this in for the program. If you want a memorable hook about unlocking potential, I can suggest something accurate that lands the same inspirational punch.

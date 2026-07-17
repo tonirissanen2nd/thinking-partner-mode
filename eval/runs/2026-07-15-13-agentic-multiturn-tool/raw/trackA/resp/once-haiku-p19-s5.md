@@ -1,0 +1,1 @@
+I can't supply the exact current fee — it varies by state and changes over time. The permit-issuing office (city or county clerk, or your state's events bureau) will have the correct figure for your jurisdiction. That's your authoritative source for the form.

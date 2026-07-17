@@ -1,0 +1,1 @@
+I don't have the current statewide fee — it varies by state and changes over time, and you shouldn't estimate it on a permit form. Get the exact amount from your state's events or parks department website (usually a searchable fee schedule), or call the permitting office directly. Since it's going on an official form, they'll also have it in writing.

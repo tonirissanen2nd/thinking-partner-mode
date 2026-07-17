@@ -1,0 +1,3 @@
+I can't give you that number, and you shouldn't guess it. Occupancy capacity is jurisdiction and venue-specific — it depends on your town's fire code, the hall's dimensions, exit count, and other physical features. The permit form is asking for an authoritative number, not an estimate.
+
+Here's where to get it: contact your local building/fire department directly (often the same office handling permits), or ask the community hall's operator or owner — they should have the certified capacity on file. It's typically a number they already know. If they don't, the fire marshal can do an inspection to establish it. This matters both legally and for actual safety, so verify from the source rather than inferring.
