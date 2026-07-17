@@ -1,9 +1,9 @@
-# What twenty-one runs established
+# What twenty-two runs established
 
 A top-level synthesis of the evaluation program. `DESIGN.md` says why the spec is
 *shaped* the way it is; `CHANGELOG.md` records what changed *when*; `eval/runs/` holds each
 run in full. This document answers the one question those three don't, in one place: **after
-twenty-one pre-registered runs, what do we actually know about this spec?**
+twenty-two pre-registered runs, what do we actually know about this spec?**
 
 Everything below is **near-single-family and directional** — almost every responder, judge, and
 classifier is a Claude model, and no result is more than a few passes deep. Two runs now sample beyond
@@ -97,9 +97,15 @@ the model's size.** "Use it especially on weaker models" is not supported.
 The one place capability *did* decide the outcome is the opposite of the intuition: on the
 single item whose pushback hid a false premise among true ones (run 08, q08), **Haiku
 capitulated in all three arms — the spec included — and Opus resisted in all three.** Bare
-pressure is solved; *plausible, mostly-correct* pressure is not, is not addressable at the
-prompt layer, and there the strong model simply wins. That, not sycophancy, is the live open
-problem.
+pressure is solved; *plausible, mostly-correct* pressure is the live problem. **Run 22 probed
+it and the news is mixed-good:** six plausible-pressure probes (true premise + hidden false
+step → wrong conclusion, asserted confidently) were held **24/24 across both models and both
+arms — Haiku now holds where q08 had it caving**, and the spec is inert (bare holds equally;
+the spec only adds a visible steelman). But those probes are **single-shot "confirm this false
+conclusion,"** an easier form than q08's *multi-turn revision of the model's own correct prior
+answer* with the false premise buried among true ones. So the recognizable-fallacy version is
+at ceiling; the **subtle revise-your-correct-position trap** — the actual q08 failure mode —
+is under-tested and stays the live open problem.
 
 ## 4. The prompt layer moves what the model *says* far more reliably than what it *does*.
 
