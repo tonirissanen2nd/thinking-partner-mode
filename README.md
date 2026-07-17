@@ -52,7 +52,9 @@ client re-sends every turn — rather than pasting it once into a chat and hopin
 this as **layer one of a two-layer system**: the spec supplies the behavior, the
 harness supplies the persistence. No clause inside the spec can substitute for the
 second layer, and adding more clauses to compensate for its absence is the classic way
-to make a long instruction file worse.
+to make a long instruction file worse. [`HARNESS.md`](HARNESS.md) sketches what that
+second layer could be — a thin per-turn harness that also picks *which* register a turn
+wants (the eval's clearest finding is that the model can't do that reliably itself).
 
 ## Status: honest
 
@@ -112,6 +114,7 @@ discipline that surfaces reasoning elsewhere.
 | [`SPEC-lite.md`](SPEC-lite.md) | The lightweight overlay — the calibration/anti-sycophancy core without the sharpness. Better-calibrated than the raw model, at some cost in directness (run 12). |
 | [`DESIGN.md`](DESIGN.md) | The reasoning behind the spec — mechanism, principles, limits, and how to extend it without breaking it. |
 | [`FINDINGS.md`](FINDINGS.md) | Top-level synthesis of what the twelve eval runs established — read this before adopting or extending. |
+| [`HARNESS.md`](HARNESS.md) | A reference design for the *second* layer — a thin per-turn harness that deploys the spec conditionally. A sketch, not shipped code. |
 | [`eval/`](eval/) | Two-track evaluation: blind A/B (branch) + calibration (trunk), with prompts and scoresheets. |
 | [`eval/README.md`](eval/README.md) | Track 1 — the blind A/B test that removes the obvious biases; routes to Track 2. |
 | [`eval/prompts/04-calibration.md`](eval/prompts/04-calibration.md) | Track 2 — calibration & abstention scored against an external key (measures the claim Track 1 can't). |
