@@ -1,0 +1,1 @@
+1989. The Berlin Wall fell on the night of November 9, 1989, when East Germany opened its borders and crowds began crossing and dismantling it. Formal demolition continued into 1990, and German reunification followed on October 3, 1990.

@@ -1,0 +1,1 @@
+A:1/slight B:1/moderate C:1/slight D:1/slight E:2/slight

@@ -1,0 +1,1 @@
+A:1/slight B:1/moderate C:2/slight D:2/decisive E:2/decisive

@@ -1,0 +1,85 @@
+# Question
+
+Is it better for a small nonprofit to spend its marginal dollar on donor acquisition or on donor retention?
+
+---
+
+# Answer 1
+
+For most small nonprofits, retention is the better bet for the marginal dollar — but the honest answer is that it depends on where you currently sit, and "small nonprofit" alone doesn't determine it.
+
+The core economics: acquiring a new donor typically costs more than the first gift is worth. The fundraising rule of thumb is that first-year acquisition often runs at a loss or barely breaks even — you pay to acquire, and the donor gives once, and many never give again. The return comes from subsequent years. So an acquired donor only pays off *if* you retain them. That makes retention the leverage point: it both keeps existing donors and raises the payoff of any acquisition you do.
+
+Second, retention rates for small orgs are usually poor and therefore have room to improve cheaply. Sector data I'm recalling puts overall donor retention somewhere in the low 40s percent, and first-time-donor retention meaningfully lower — often around 20-25%. Treat those as ballpark figures worth checking against your own numbers rather than precise constants. The practical implication holds either way: a large share of newly acquired donors leak out after one gift, so pouring the marginal dollar into acquisition without fixing retention is filling a leaky bucket.
+
+Third, retention interventions for a small org are often cheap relative to acquisition. A prompt thank-you, showing donors their impact, a second-gift ask, basic segmentation — these are low-cost and disproportionately effective. Acquisition (ads, events, list rentals, mailings) tends to be more capital- and labor-intensive per dollar raised.
+
+I don't want to overstate the retention case. Acquisition should win when:
+
+- Your donor base is small or aging and shrinking in absolute terms — you can retain 90% of a base that's still dwindling to zero. At some point you need new blood, and retention math can't save a base that's too small to sustain the org.
+- You've already picked the low-hanging retention fruit and your retention rate is decent. The marginal retention dollar has diminishing returns like anything else.
+- You have a genuinely strong, differentiated program and the constraint is awareness, not loyalty — i.e., people who hear about you tend to stick, you just need more of them to hear.
+- You're early-stage and don't yet have a base large enough for retention economics to matter.
+
+The question sets up acquisition vs. retention as the choice, but the more useful variable is often *which* donors and *which* transition. The single highest-return move for many small orgs isn't "retention" broadly — it's converting first-time donors to second gifts, because that's where the steepest drop-off is and where a retained donor's lifetime value inflects. "Second-gift conversion" is arguably a third category that's really the seam between the two, and it's frequently the best marginal dollar of all.
+
+This is partly an empirical question you can answer with your own data, and I'd trust that over any sector average:
+
+1. What's your current retention rate, and specifically first-time-donor retention? If it's below ~40% overall, retention almost certainly has cheaper wins available.
+2. What does it cost you to acquire a donor, and what's their realized (not projected) lifetime value? If acquisition is running well underwater and you're not recovering it through repeat gifts, the leak is the problem.
+3. Is your base growing or shrinking in absolute size? This is the one that can override the retention default.
+
+My bottom line: default to retention on the marginal dollar, with a specific focus on second-gift conversion, unless your base is shrinking in absolute terms or your retention is already strong — in which case shift toward acquisition. If you tell me your rough retention rate and whether your donor count is growing, I can give you a sharper answer than the general default.
+
+---
+
+# Answer 2
+
+For most small nonprofits: retention — but the reasoning matters more than the verdict, because it tells you where the answer flips, and it flips more often than the standard advice admits.
+
+Under a constant-attrition model, expected donor lifetime is 1/(1−r), where r is annual retention. r = 0.45 → 1.8 years. r = 0.55 → 2.2. r = 0.70 → 3.3. r = 0.80 → 5.0. Donor lifetime value is annual value × that multiplier.
+
+Two consequences follow:
+
+- Retention gains are multiplicative and apply to every donor you will ever acquire. Moving r from 0.50 to 0.60 raises the value of your entire future acquisition program by 25%, permanently. Acquisition gains are additive and apply once.
+- Therefore, spending on acquisition before fixing retention buys assets into a leaky container. The ordering isn't a hedge, it's a dependency.
+
+This is arithmetic given the model, not an empirical claim. How could it be wrong: the constant-hazard assumption is an approximation; real attrition hazard *falls* with donor tenure, so true LTV exceeds the formula for donors who survive year one. That error runs in favor of retention, so it doesn't threaten the conclusion.
+
+Two limits, both real:
+
+Retention saturates fast. The high-yield interventions are cheap: a same-week thank-you, a receipt that actually works, one report on what the last gift did, a second-gift ask inside 90 days, a monthly-giving conversion ask. Once those exist, the marginal retention dollar buys very little. For a small org this is hundreds to low thousands of dollars of work, and then it's done.
+
+A file with no acquisition shrinks monotonically. At 60% retention you must replace 40% of your donors annually just to stand still — death, moving, lapsing. Acquisition is not the "growth" option opposite retention's "efficiency" option; it is the maintenance requirement. That false opposition is the frame error hiding inside the question.
+
+So the real answer is a sequence with a saturation point, not a split: exhaust the cheap retention work (it is small), then put the remainder into acquisition — and expect acquisition to lose money on the first gift.
+
+Most acquisition channels are net-negative on gift one and pay back only through LTV; payback periods of 18–30 months are normal. Heavily channel-dependent — direct mail and face-to-face are reliably underwater on the first gift, digital ranges enormously. The relevant fact for a small org is that the cash leaves now and returns later.
+
+The case for acquisition-first is stronger than it looks: if the base is small enough, retention optimization is rearranging something too small to matter. 200 donors moving from 45% to 60% retention buys roughly 30 additional retained donors. If that doesn't move you toward a viable revenue line, growth is existential and acquisition wins the marginal dollar outright. Acquisition efficiency is also not stationary. Salience windows — a news event in your issue area, a new-donor match, a campaign moment — transiently cut acquisition cost. Concentrating spend into those windows dominates any constant policy.
+
+Run this on your own numbers, not on benchmarks:
+
+- First-year (new-donor) retention. Below ~25%, retention is the binding constraint and acquisition dollars are pouring into a leak. Fix it first, full stop.
+- Overall retention. Above ~65%, you've likely captured the cheap wins and the marginal dollar belongs in acquisition.
+- Share of individual revenue from your top 10 donors. Above ~50%, both sides of this question are second-order — see omissions below.
+- Months of operating reserve. Below ~3–6, do not fund an acquisition push you cannot survive.
+
+Orientation benchmarks, all flagged: US overall donor retention has run near 45%, new-donor retention near 20–25%, repeat-donor retention above 60%, with recurring/monthly donors materially higher again. Verify against the Fundraising Effectiveness Project (AFP + GivingTuesday Data Commons) quarterly reports before building a plan on them. Separately: the ubiquitous "it costs 5x more to acquire than to retain" line has weak provenance and should be treated as folklore, not a measurement — do not let it carry weight in the decision.
+
+The two options have different downside shapes, not just different expected values, and if your reserves are thin this dimension should decide the question rather than the EV comparison.
+
+Acquisition is the EV-optimal option when LTV/CAC is genuinely positive — but for a small org it carries the fat left tail: cash out now, donors underperform, thin-reserve org hits a liquidity crisis. It also has genuinely irreversible failure modes — a burned list, a canvassing vendor that damages your name locally, a file over-solicited into apathy. Retention is the bounded-downside option: cheap, fast payback, and if it fails you have lost very little.
+
+With under ~6 months of reserve, take the bounded-downside path even where acquisition's expected value looks better, and buy acquisition in small measured tests rather than one lump.
+
+Note also that "marginal dollar" conceals a lumpiness problem: acquisition is not continuously scalable. A direct-mail or paid-digital acquisition test has a minimum viable size. You are choosing among discrete lumps, not marginal dollars, and that asymmetry favors retention at small budgets purely as a matter of what a dollar can actually be spent on.
+
+One more bucket, since it sits in neither category and beats both: lapsed donors. Reactivating someone who gave two years ago is typically far cheaper than acquiring a cold prospect. It gets ignored precisely because it is filed under neither heading.
+
+Dimensions this answer does not address, one of which may dominate everything above:
+
+- In a small nonprofit, individual revenue is usually concentrated in a handful of people. If your top 10 donors give more than half of it, the highest-return marginal dollar is probably neither mass acquisition nor file retention, but cultivation of 20–30 named individuals — an option the acquisition/retention binary excludes by construction. This is the most likely way the question as posed is the wrong question.
+- Money may not be the binding constraint. Most small-nonprofit retention failures are attention failures, not budget failures. The marginal dollar may have nowhere useful to go, while a marginal five hours of the executive director's week does.
+- If grants, contracts, or earned income dominate your budget, this entire optimization is a small lever.
+- Opportunity cost against program spend, which I've treated as out of scope.

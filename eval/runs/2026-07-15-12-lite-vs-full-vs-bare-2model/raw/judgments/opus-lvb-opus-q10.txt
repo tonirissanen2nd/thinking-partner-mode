@@ -1,0 +1,1 @@
+A:1/slight B:tie/none C:1/slight D:1/moderate E:tie/none

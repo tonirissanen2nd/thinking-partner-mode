@@ -1,0 +1,65 @@
+# Question
+
+I've run the numbers and I'm pretty sure our churn rate is about 40% higher on weekends — should we shift the whole support team's schedule to cover weekends more heavily?
+
+---
+
+# Answer 1
+
+Before shifting the whole team, I'd want to pin down what the 40% number actually represents, because the decision hinges on it and a couple of things could make it misleading.
+
+- 40% higher relative to what? If weekday churn is 1% and weekend is 1.4%, that's a 0.4-point difference — real, but small in absolute terms. The same "40% higher" could be large or trivial depending on the base rate. The absolute gap matters more than the ratio for deciding how much to invest.
+- How is churn attributed to a day? Is it the day the customer canceled, the day they last engaged, the day their subscription lapsed? Cancellations often *process* on weekends (billing cycles, people finally getting around to it on their day off) even when the underlying dissatisfaction built up all week. If so, weekend staffing won't touch the cause.
+- Sample size and stability. Is 40% consistent across many weekends, or driven by a few bad ones? A wide confidence interval would change how much weight to put on it.
+
+The plan assumes churn is high on weekends *because* support coverage is thin on weekends. That's plausible, but it's a hypothesis, not something the churn number establishes. Weekend churners might be a different segment (e.g., consumer/self-serve users who behave differently), or the trigger might be something unrelated to support entirely. Before restaffing, I'd look at: are weekend churners actually contacting support and getting slow/no responses? If they're churning silently, more staff won't help.
+
+Rather than shifting the whole team's schedule — which is disruptive and hard to reverse — you could run a smaller experiment. Add limited weekend coverage (or faster response SLAs on weekends) for a few weeks and see whether weekend churn moves. If it does, scale up with evidence. If it doesn't, you've saved yourself a painful reorg and learned the cause is elsewhere.
+
+I can't verify your churn calculation or the base rates — those are yours to check. "Weekend churn is higher" and "weekend support coverage is the fix" are two separate claims, and the numbers you've run support the first but not yet the second.
+
+If you can share the base rates and how the day is attributed, I can help you think through whether the gap is big enough to act on and whether staffing is the right lever.
+
+---
+
+# Answer 2
+
+No — not on this evidence, and probably not "the whole team" even if the evidence holds up. The number may well be real, but it doesn't support the conclusion you've drawn from it, and there's a cheap test that separates the two.
+
+If weekend daily churn rate is 1.4× the weekday rate, then across a week: 5 weekday-units × 1.0 + 2 weekend-units × 1.4 = 7.8, against a counterfactual of 7.0 if weekends behaved like weekdays. The entire weekend excess is 0.8/7.8 ≈ 10% of total churn. That's the ceiling — the prize if you eliminate 100% of the weekend effect. No support intervention captures 100% of a behavioral effect; capturing a quarter of it would be a good outcome, which puts the realistic payoff at ~2–3% of total churn. This is arithmetic, conditional on the 40% being a per-active-user daily rate rather than a raw count. If it's a raw count, the whole thing may be a traffic-volume artifact and the prize could be near zero.
+
+Whether 2–3% of churn justifies restructuring an entire org function is a real question with a real answer, but it's a much smaller question than the one you asked.
+
+"Churn on weekends" almost always means cancellations timestamped on weekends. The cancellation click is the last event in a decision that formed days or weeks earlier. Three things to check before you act on it:
+
+- Rate per active account, or count? Weekend traffic composition differs from weekday.
+- Self-serve consumers cancel on Saturdays; B2B admins cancel on Tuesdays. If your weekend churners are disproportionately one segment, you've found a segment effect wearing a calendar costume.
+- 40% on what N, over how many weeks? A 40% lift on a small weekly cancellation count is unremarkable noise.
+
+People do their subscription admin when they have free time. Saturday morning is when you finally cancel the thing you resented in April. This hypothesis predicts your data exactly — same 40%, same weekend concentration — and it implies weekend support staffing would do nothing at all, because the churn decision was made on a weekday and support was reachable the whole time.
+
+Your hypothesis (users hit a problem, couldn't reach support, cancelled in frustration) also predicts the data. The two are observationally identical in the aggregate. The leisure-time hypothesis carries more of the weight — based on the general structure of cancellation behavior in self-serve products, not on your data, which I can't see. But you don't need to trust my prior, because the hypotheses come apart in data you already have.
+
+For accounts that cancelled on a weekend, look for a contact attempt trace in the 72 hours before cancellation:
+
+- an open or unanswered ticket at time of cancellation
+- a chat session opened and abandoned outside coverage hours
+- a help-center / contact-page visit with no ticket filed
+- a failed in-app support action
+
+Then compare that rate to weekday churners. If weekend churners show materially elevated unresolved-contact rates, your causal story is live. If they look like weekday churners — no contact attempt, they just clicked cancel — the support-coverage lever is disconnected from the outcome and no amount of weekend staffing will move it. This is a query, not a project.
+
+If you run the pilot below as a controlled experiment, I put ~20% on it producing a ≥15% relative reduction in weekend-timestamped churn, measured over a 90-day window with statistical significance at conventional thresholds. Reference class: ops/product interventions in mature web products that confirm their predicted effect — roughly a third succeed, per the standard A/B-testing literature (I recall Kohavi's Microsoft figure as approximately one-third positive / one-third neutral / one-third negative; treat that specific number as needing verification against the primary source). I depart downward from that base rate because this intervention rests on an untested causal step that the base-rate ideas typically don't.
+
+The asymmetry matters. Shifting the whole team is close to a one-way door:
+
+- If support coverage really is the cause, you capture the most churn. But you degrade weekday coverage, where the large majority of ticket volume almost certainly sits, and you pay a real cost in staff attrition and morale — schedule changes are among the most resented things you can do to a support org, and reversing one after people have restructured their lives around it costs credibility you don't get back.
+- Staff a skeleton weekend rotation (volunteers, differential pay), measure for a quarter against a holdout, and expand only if the contact-attempt data and the pilot both hold. You forgo some upside; you cap the downside at a small, reversible expense.
+
+Take the bounded option. The information value of the pilot is high and its cost is low; the information value of a full shift is the same and its cost is not.
+
+If weekend churners are hitting problems, async coverage (fast-response queues, better self-serve resolution, an in-app save-offer in the cancel flow) may capture most of the same value at a fraction of the staffing cost. I'd look at the cancel flow before I'd look at the roster.
+
+2–3% relative reduction on 30% annual churn is a different business case than on 3%. I don't know which you're in.
+
+If weekend churners are your lowest-LTV cohort, the prize shrinks again even if the causal story is true.
