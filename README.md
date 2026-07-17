@@ -110,7 +110,6 @@ discipline that surfaces reasoning elsewhere.
 |---|---|
 | [`SPEC.md`](SPEC.md) | The full spec (English). The calibration-first version — paste into your assistant for analytical work. |
 | [`SPEC-lite.md`](SPEC-lite.md) | The lightweight overlay — honest and calibrated without the sharpness. A safer broad default across mixed tasks. |
-| `SPEC.<lang>.md` | Translated version(s), if present. Behavior may differ by language — test the one you use. |
 | [`DESIGN.md`](DESIGN.md) | The reasoning behind the spec — mechanism, principles, limits, and how to extend it without breaking it. |
 | [`FINDINGS.md`](FINDINGS.md) | Top-level synthesis of what the eleven eval runs established — read this before adopting or extending. |
 | [`eval/`](eval/) | Two-track evaluation: blind A/B (branch) + calibration (trunk), with prompts and scoresheets. |
