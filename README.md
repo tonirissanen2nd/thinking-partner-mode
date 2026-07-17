@@ -6,6 +6,10 @@ confidence levels, steelman counter-arguments, reject misframed questions,
 distinguish empirical from normative claims, and flag what it left out —
 instead of defaulting to fluent, confident, user-pleasing answers.
 
+**Get the spec:** [`SPEC.md`](SPEC.md) — the full version, for analytical work — or
+[`SPEC-lite.md`](SPEC-lite.md), a safer everyday default. (Which one, and why, is in
+*When to use it* below.)
+
 This is a **system prompt / custom instruction**, not a tool or a model. Put it
 wherever your tool **re-injects it** — a custom-instructions or project-instructions
 field, a `CLAUDE.md`, a system prompt your client re-sends each turn — and it shapes
@@ -57,7 +61,7 @@ assistants, not by translating the research literature into directives (the
 empirical sources mostly surfaced late). But not on a blank slate: the author
 had read Kahneman, Tetlock, and Taleb, so those frameworks were internalized
 priors behind the design — the convergence with them is partly recall, not pure
-independent re-derivation (see `REFERENCES.md`).
+independent re-derivation (see [`REFERENCES.md`](REFERENCES.md)).
 
 It has now been through **eleven pre-registered runs** — including two-model runs and a
 calibration track scored against an external key — but all of it is **single model family
@@ -103,17 +107,17 @@ discipline that surfaces reasoning elsewhere.
 
 | Path | What it is |
 |---|---|
-| `SPEC.md` | The full spec (English). The calibration-first version — paste into your assistant for analytical work. |
-| `SPEC-lite.md` | The lightweight overlay — honest and calibrated without the sharpness. A safer broad default across mixed tasks. |
+| [`SPEC.md`](SPEC.md) | The full spec (English). The calibration-first version — paste into your assistant for analytical work. |
+| [`SPEC-lite.md`](SPEC-lite.md) | The lightweight overlay — honest and calibrated without the sharpness. A safer broad default across mixed tasks. |
 | `SPEC.<lang>.md` | Translated version(s), if present. Behavior may differ by language — test the one you use. |
-| `DESIGN.md` | The reasoning behind the spec — mechanism, principles, limits, and how to extend it without breaking it. |
-| `FINDINGS.md` | Top-level synthesis of what the eleven eval runs established — read this before adopting or extending. |
-| `eval/` | Two-track evaluation: blind A/B (branch) + calibration (trunk), with prompts and scoresheets. |
-| `eval/README.md` | Track 1 — the blind A/B test that removes the obvious biases; routes to Track 2. |
-| `eval/prompts/04-calibration.md` | Track 2 — calibration & abstention scored against an external key (measures the claim Track 1 can't). |
-| `eval/runs/` | Completed eval runs — one folder each (pre-registration + results + raw artifacts). Directional and single-family so far; not yet three-family. |
-| `REFERENCES.md` | Prior art, empirical grounding, and where to verify claims — tiered by actual relationship to the spec. |
-| `LICENSE` | MIT. |
+| [`DESIGN.md`](DESIGN.md) | The reasoning behind the spec — mechanism, principles, limits, and how to extend it without breaking it. |
+| [`FINDINGS.md`](FINDINGS.md) | Top-level synthesis of what the eleven eval runs established — read this before adopting or extending. |
+| [`eval/`](eval/) | Two-track evaluation: blind A/B (branch) + calibration (trunk), with prompts and scoresheets. |
+| [`eval/README.md`](eval/README.md) | Track 1 — the blind A/B test that removes the obvious biases; routes to Track 2. |
+| [`eval/prompts/04-calibration.md`](eval/prompts/04-calibration.md) | Track 2 — calibration & abstention scored against an external key (measures the claim Track 1 can't). |
+| [`eval/runs/`](eval/runs/) | Completed eval runs — one folder each (pre-registration + results + raw artifacts). Directional and single-family so far; not yet three-family. |
+| [`REFERENCES.md`](REFERENCES.md) | Prior art, empirical grounding, and where to verify claims — tiered by actual relationship to the spec. |
+| [`LICENSE`](LICENSE) | MIT. |
 
 ## When to use it — and which variant
 
@@ -167,7 +171,11 @@ conflict problem the same way this spec does. OpenAI's Model Spec assigns
 each instruction a "level of authority" so higher overrides lower; this
 spec's priority order is the same mechanism at a personal scale. The Model
 Spec is public domain (CC0) and worth reading alongside this. See
-`REFERENCES.md`.
+[`REFERENCES.md`](REFERENCES.md).
+
+The full reasoning — the mechanism, the ceiling, the fat-tail branch, and a
+checklist for extending the spec without breaking it — is in
+[`DESIGN.md`](DESIGN.md).
 
 ## License
 
