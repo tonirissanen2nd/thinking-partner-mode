@@ -74,5 +74,7 @@ No dependencies beyond the Python standard library.
 
 - `HARNESS.md` — the full second-layer design; this implements its Ledger component as a measurement tool.
 - `METHOD.md` — why this is the only instrument that reaches "Layer 3" (accuracy / calibration over time).
-- `PRE-REGISTRATION-improvement-bet.md` — the open question: does the *feedback* improve the model, or
-  hit the same say-vs-do ceiling the prompt layer did?
+- `PRE-REGISTRATION-improvement-bet.md` — the improvement bet. **Run (run 20): it failed** — feeding the
+  model its own record did *not* improve calibration (it mostly ignored it, and over-corrected once,
+  harmfully). The **measurement** value above stands; the **improvement** value is not shown, and naive
+  feedback can harm. Rule: the *user* reads the ledger and discounts — don't feed raw scores back to the model.

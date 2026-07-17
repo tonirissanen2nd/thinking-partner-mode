@@ -1,9 +1,9 @@
-# What nineteen runs established
+# What twenty runs established
 
 A top-level synthesis of the evaluation program. `DESIGN.md` says why the spec is
 *shaped* the way it is; `CHANGELOG.md` records what changed *when*; `eval/runs/` holds each
 run in full. This document answers the one question those three don't, in one place: **after
-nineteen pre-registered runs, what do we actually know about this spec?**
+twenty pre-registered runs, what do we actually know about this spec?**
 
 Everything below is **near-single-family and directional** — almost every responder, judge, and
 classifier is a Claude model, and no result is more than a few passes deep. Two runs now sample beyond
@@ -255,6 +255,21 @@ the single-family evals implied.
     the prompt alone will not deliver the accuracy the ledger exists to earn. (One honest sub-null:
     the spec does *not* reliably restate an explicit resolution criterion — the "scorable claim"
     win is on the probability + base rate, not the resolution half.)
+  - **The ledger, built and split into measurement vs improvement (runs on `ledger/`, and run 20).**
+    The forecast ledger is now a *real* instrument (runnable, seeded with 264 real resolved forecasts),
+    and its two values were separated on purpose. **Measurement works and is the point:** it scores the
+    track record judge-free (Brier, ECE, reliability, discrimination, per-class), localises the
+    miscalibration, and compares arms without a taste-contaminated judge. **Improvement does not (run
+    20):** feeding the model its own scored record did **not** improve its calibration (Brier 0.457 fed
+    vs 0.414 cold — marginally *worse*; discrimination unchanged). The model **mostly ignored** the
+    feedback (10/12 items ≤3-pt moves — the say-vs-do ceiling, now for context-feedback), and its one
+    large response was a **harmful over-correction** (a bold-correct 75% collapsed to 2%). So the
+    ledger's "layer two" pays off as a **scoreboard, not (in-context) an improvement mechanism** — and
+    naive feedback can *harm*: the user reads the ledger and discounts; you do not feed raw scores back
+    to the model. Run 20 also surfaced a caution about the instrument itself: a Brier/ECE on a
+    **surprise-heavy resolved sample mis-diagnoses the *direction* of miscalibration** ("underconfident"
+    can be a sampling artifact), so the ledger's *diagnosis* needs stratified sampling before it is
+    trusted — its *scoring* is sound regardless.
 - **Long-context drift — partially run, and under-tested by my own probe design (run 13A).** At
   ~20 turns, the probed behaviours held at 100% with or without re-injection — but the probes were
   base-model-ceiling behaviours (run-08 trap), so the null under-tests the layer-two claim rather

@@ -82,3 +82,18 @@ the model can *use* a track record, not whether accumulating one over months wor
 ledger delivers that). One model/tier, small K. Same pre-register / judge-free-key / revert discipline
 as every run. Do **not** read a positive proxy as the longitudinal result — it is the necessary first
 rung, exactly as run 15 was the rung before this.
+
+---
+
+## OUTCOME (run 20, appended after running — the pre-registration above is unchanged)
+
+**Run and reported: the bet failed.** Arm B (ledger-fed) did not improve calibration over arm A (cold)
+— Brier 0.457 vs 0.414, ECE 0.483 vs 0.443, discrimination tied (0.167). Mechanism: the model **mostly
+ignored** the feedback (10/12 items moved ≤3 points), and its one large response was a **harmful
+over-correction** (q9: a bold-correct 75% collapsed to 2%), which drove the entire gap. P1 (failure)
+confirmed; P2 (improvement) not observed; effectively P3 (measurement-only) plus a caution. **New
+finding not in the design:** the fed-back "underconfident" diagnosis is partly a *surprise-heavy-battery
+sampling artifact*, so the ledger as a *feedback source* can mis-diagnose direction — fix its sampling
+before trusting its diagnosis. Full write-up: `eval/runs/2026-07-17-20-ledger-improvement-bet/RESULTS.md`.
+Operational rule confirmed: **the user reads the ledger and discounts; do not feed raw scores back to
+the model.**

@@ -1,0 +1,26 @@
+=== FORECAST LEDGER REPORT ===
+records: 264 total | 132 resolved (arm=full) | 0 open
+
+Brier score: 0.202   (0 = perfect, 0.25 = always-50%, lower is better)
+ECE (calibration error): 0.162   (0 = perfectly calibrated)
+Discrimination (top-half minus bottom-half resolve rate): +0.36
+
+Reliability curve (forecast bin -> how often it actually resolved TRUE):
+  bin           n  mean p  resolved  calibration
+  [0.0,0.1)     8    0.04      1.00  +0.96 underconfident
+  [0.1,0.3)    26    0.20      0.38  +0.19 underconfident
+  [0.3,0.5)    25    0.38      0.48  +0.10 ok
+  [0.5,0.7)    22    0.59      0.73  +0.14 underconfident
+  [0.7,0.9)    17    0.81      0.94  +0.13 underconfident
+  [0.9,1.0)    34    0.96      1.00  +0.04 ok
+
+Per reference class (Brier, n):
+  corporate              Brier 0.262  (n=12)
+  demographics           Brier 0.099  (n=24)
+  macro                  Brier 0.035  (n=12)
+  markets                Brier 0.160  (n=24)
+  software-release       Brier 0.011  (n=12)
+  sports-final           Brier 0.028  (n=12)
+  sports-record          Brier 0.842  (n=12)
+  sports-season          Brier 0.289  (n=12)
+  tech-milestone         Brier 0.237  (n=12)

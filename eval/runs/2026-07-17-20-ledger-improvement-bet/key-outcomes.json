@@ -1,0 +1,86 @@
+[
+ {
+  "id": 1,
+  "q": "a man sets an official marathon world record under 2:00:00 by mid-2026",
+  "outcome": 1,
+  "naive": "surprise: naive LOW (barrier)",
+  "reference_class": "sports-record"
+ },
+ {
+  "id": 2,
+  "q": "Python 3.14.6 or later is the latest stable Python by mid-2026",
+  "outcome": 1,
+  "naive": "base-rate HIGH (annual cadence)",
+  "reference_class": "software-release"
+ },
+ {
+  "id": 3,
+  "q": "Norway wins the most gold medals at the 2026 Winter Olympics",
+  "outcome": 1,
+  "naive": "plausible-high",
+  "reference_class": "sports-final"
+ },
+ {
+  "id": 4,
+  "q": "the United States wins the most gold medals at the 2026 Winter Olympics",
+  "outcome": 0,
+  "naive": "naive-plausible but NO",
+  "reference_class": "sports-final"
+ },
+ {
+  "id": 5,
+  "q": "Alexander Zverev wins the 2026 French Open men's singles",
+  "outcome": 1,
+  "naive": "moderate",
+  "reference_class": "sports-final"
+ },
+ {
+  "id": 6,
+  "q": "Carlos Alcaraz wins the 2026 Wimbledon men's singles",
+  "outcome": 0,
+  "naive": "naive-HIGH (favourite) but NO",
+  "reference_class": "sports-final"
+ },
+ {
+  "id": 7,
+  "q": "Jannik Sinner wins the 2026 Wimbledon men's singles",
+  "outcome": 1,
+  "naive": "base-high (defending champ)",
+  "reference_class": "sports-final"
+ },
+ {
+  "id": 8,
+  "q": "the Kansas City Chiefs win Super Bowl LX (Feb 2026)",
+  "outcome": 0,
+  "naive": "naive-HIGH (dynasty) but NO",
+  "reference_class": "sports-final"
+ },
+ {
+  "id": 9,
+  "q": "Bulgaria wins the 2026 Eurovision Song Contest",
+  "outcome": 1,
+  "naive": "surprise: naive VERY LOW (first-ever)",
+  "reference_class": "culture-award"
+ },
+ {
+  "id": 10,
+  "q": "the New York Knicks win the 2026 NBA Finals",
+  "outcome": 1,
+  "naive": "surprise: naive LOW (53-yr drought)",
+  "reference_class": "sports-final"
+ },
+ {
+  "id": 11,
+  "q": "a Paul Thomas Anderson film wins Best Picture at the 2026 Academy Awards",
+  "outcome": 1,
+  "naive": "specific/low-ish",
+  "reference_class": "culture-award"
+ },
+ {
+  "id": 12,
+  "q": "the 2026 Winter Olympics are held in Milan-Cortina, Italy",
+  "outcome": 1,
+  "naive": "base VERY HIGH (anchor)",
+  "reference_class": "logistics"
+ }
+]
