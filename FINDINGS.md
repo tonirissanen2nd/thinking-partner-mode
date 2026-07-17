@@ -1,17 +1,19 @@
-# What sixteen runs established
+# What seventeen runs established
 
 A top-level synthesis of the evaluation program. `DESIGN.md` says why the spec is
 *shaped* the way it is; `CHANGELOG.md` records what changed *when*; `eval/runs/` holds each
 run in full. This document answers the one question those three don't, in one place: **after
-sixteen pre-registered runs, what do we actually know about this spec?**
+seventeen pre-registered runs, what do we actually know about this spec?**
 
-Everything below is **near-single-family and directional** — every *responder* and classifier is a
-Claude model, and no result is more than a few passes deep. The one exception is **run 16, which added
-a genuine non-Claude *judge* (GPT)** on a single cell — and it diverged sharply from the Claude judges
-(finding 5), which is why the A/B-judged results are now read down. The full three-family run (a
-non-Claude *responder*, a second non-Claude family, more cells) still has not happened. Read these as
-well-supported directions, not proofs — and trust the **judge-free keyed results** (runs 10/14/15)
-most, since they are the only ones no judge of any family can move.
+Everything below is **near-single-family and directional** — almost every responder, judge, and
+classifier is a Claude model, and no result is more than a few passes deep. Two runs now sample beyond
+Claude, on single slices: **run 16 added a non-Claude *judge* (GPT, up to GPT-5 Thinking High)** and it
+diverged sharply from the Claude judges (finding 5) — which is why the A/B-judged results are read down;
+**run 17 applied the spec to a non-Claude *responder* (GPT-5 High)** and it transferred cleanly (the
+register is portable). Neither is the full three-family run (a second non-Claude family, keyed accuracy
+on the GPT responder, more cells) — those still have not happened. Read these as well-supported
+directions, not proofs — and trust the **judge-free keyed results** (runs 10/14/15) most, since they are
+the only ones no judge of any family can move.
 
 ---
 
@@ -191,15 +193,21 @@ the single-family evals implied.
 
 ## What is still unmeasured
 
-- **The three-family run — first slice run (run 16), and it moved the needle against the spec.** A
-  non-Claude judge (GPT) re-scored the Opus trap cell and diverged sharply from the Claude judges
-  (see finding 5): the spec's trap accuracy/calibration sweep did not replicate and its over-caution
-  scoring inverted. This is the **judge** half, one cell, one non-Claude family, Free tier — the
-  **responder** half (a non-Claude model *answering* under the spec) is still untouched, and so is
-  Gemini/Llama and the downside block. The debt is now partially paid and the direction is unkind;
-  completing it (more cells, a second non-Claude family, and a non-Claude responder) is still the
-  single largest open question, and the priority just rose because the first slice found a real effect
-  rather than a null.
+- **The three-family run — both halves now have a first slice, pulling in opposite directions.**
+  *Judge half (run 16):* a non-Claude judge (GPT, up to GPT-5 Thinking High) diverged sharply from the
+  Claude judges (finding 5) — the spec's trap accuracy/calibration sweep did not replicate and its
+  over-caution scoring inverted, *more* so with a stronger judge. *Responder half (run 17):* the spec
+  was applied to a non-Claude **responder** (GPT-5 High) for the first time and **transferred cleanly**
+  — GPT under the spec produces the full analytical apparatus a strong bare GPT omits (explicit
+  confidence+basis, scorable forecast, non-estimable, ruin/EV-vs-bounded), with a *mild* clerk-cost and
+  the *same inert anti-sycophancy branch* (base-model ceiling, both arms hold on a bare-pressure myth).
+  The two halves compose into the program's sharpest single tension: **a non-Claude model, instructed,
+  *produces* the very register that the same model, judging freely, *penalizes* as padding.** The spec
+  overrides house style at inference without changing what the model values. Still open: a keyed
+  *accuracy* battery on the GPT responder (does it help, not just change behaviour), the harder
+  plausible-pressure sycophancy probes, a second non-Claude family (Gemini), and more cells/items. The
+  debt is now sampled on both axes; the responder half looks *favorable* to portability, the judge half
+  *unfavorable* to the register — and both are single-slice, directional.
 - **The fat-tail branch is a different epistemic category — not a backlog item.** The trunk is
   validated on *thin-tailed, knowable-answer* questions — the regime where calibration is easy and
   low-stakes. The fat-tail branch (non-estimable-vs-`Unknown`, the black-swan demotion,
