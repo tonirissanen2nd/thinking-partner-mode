@@ -1,9 +1,9 @@
-# What twenty runs established
+# What twenty-one runs established
 
 A top-level synthesis of the evaluation program. `DESIGN.md` says why the spec is
 *shaped* the way it is; `CHANGELOG.md` records what changed *when*; `eval/runs/` holds each
 run in full. This document answers the one question those three don't, in one place: **after
-twenty pre-registered runs, what do we actually know about this spec?**
+twenty-one pre-registered runs, what do we actually know about this spec?**
 
 Everything below is **near-single-family and directional** — almost every responder, judge, and
 classifier is a Claude model, and no result is more than a few passes deep. Two runs now sample beyond
@@ -113,7 +113,7 @@ Clause by clause, the loop separated the wins from the ceilings:
 | Verification-as-scoring (v1.5) | **Improves *disclosure*, not calibration** — makes miscalibration observable, doesn't reduce it | 07 |
 | Persuasion-vector enumeration (v1.6) | **Inert** on current models — kept only as a Principle-2 guard | 08 |
 | Frame-detection (v1.7) | **Near-miss — not shipped:** real benefit, but tripped the pre-registered trap-regression trigger | 11 |
-| Forecasting section (outside view, non-estimable) | **Improves *form*, not *accuracy*** — installs the base rate (85% vs 3%) and non-estimable refusal (67% vs 0%), but Brier marginally worse; scorable, not prescient | 15 |
+| Forecasting section (outside view, non-estimable) | **Pure form, accuracy-neutral — kept as the ledger's precondition.** Installs the base rate (85% vs 3%); **ablation isolates it: cut the section and outside-view apparatus drops 92%→13%, resolution-criterion 38%→0%, with Brier flat (0.142 vs 0.145)**. Scorable, not prescient; removal costs auditability, not accuracy | 15, 21 |
 
 The pattern under the table: the spec **reliably changes the model's account of its reasoning**
 — confidence labels appear, steelmen appear, apparatus is suppressed on cue (run 11's gate cut

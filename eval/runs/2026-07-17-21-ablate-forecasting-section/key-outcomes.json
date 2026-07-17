@@ -1,0 +1,106 @@
+[
+ {
+  "id": 1,
+  "q": "P(a man sets an official marathon world record under 2:00:00 before mid-2026)?",
+  "resolvable": true,
+  "outcome": 1,
+  "note": "barrier-continuation prior mis-fires; Sawe 1:59:30",
+  "source": "run07 key / WR reset 2025-2026"
+ },
+ {
+  "id": 2,
+  "q": "P(Python 3.14.0 stable is released before mid-2026)?",
+  "resolvable": true,
+  "outcome": 1,
+  "note": "annual Oct release cadence — outside view nails it",
+  "source": "python.org release cadence"
+ },
+ {
+  "id": 3,
+  "q": "P(Nvidia becomes the world's most valuable company at some point during 2025)?",
+  "resolvable": true,
+  "outcome": 1,
+  "note": "AI-capex trend",
+  "source": "mktcap 2025"
+ },
+ {
+  "id": 4,
+  "q": "P(Max Verstappen wins the 2025 Formula 1 World Drivers' Championship)?",
+  "resolvable": true,
+  "outcome": 0,
+  "note": "recent-dynasty prior mis-fires; Norris won",
+  "source": "2025 F1 season result"
+ },
+ {
+  "id": 5,
+  "q": "P(Intel has a new CEO (not Pat Gelsinger) by the end of 2025)?",
+  "resolvable": true,
+  "outcome": 1,
+  "note": "turnaround pressure",
+  "source": "Lip-Bu Tan, Mar 2025"
+ },
+ {
+  "id": 6,
+  "q": "P(India is the world's most populous country as of 2025)?",
+  "resolvable": true,
+  "outcome": 1,
+  "note": "well-known crossover — near-certain",
+  "source": "UN 2023 crossover"
+ },
+ {
+  "id": 7,
+  "q": "P(the US Federal Reserve cuts its policy rate at least once during 2025)?",
+  "resolvable": true,
+  "outcome": 1,
+  "note": "macro base rate",
+  "source": "Fed cut 3x: Sep/Oct/Dec 2025 (congress.gov, NPR)"
+ },
+ {
+  "id": 8,
+  "q": "P(Bitcoin trades above $150,000 at any point during 2025)?",
+  "resolvable": true,
+  "outcome": 0,
+  "note": "bull-narrative prior over-shoots; ATH ~$126k",
+  "source": "BTC 2025 ATH $126,198 Oct 6 2025"
+ },
+ {
+  "id": 9,
+  "q": "P(the Kansas City Chiefs win Super Bowl LX (Feb 2026)?)",
+  "resolvable": true,
+  "outcome": 0,
+  "note": "dynasty prior mis-fires; Seahawks beat Patriots 29-13",
+  "source": "Super Bowl LX result (ESPN)"
+ },
+ {
+  "id": 10,
+  "q": "P(SpaceX Starship completes a successful in-space payload deployment before 2026)?",
+  "resolvable": true,
+  "outcome": 1,
+  "note": "iteration base rate",
+  "source": "Starship Flight 10, Aug 26 2025 (SpaceX)"
+ },
+ {
+  "id": 11,
+  "q": "P(Malta's official population estimate exceeds 540,000 in the 2025 figures)?",
+  "resolvable": true,
+  "outcome": 1,
+  "note": "migration-driven growth",
+  "source": "run07 key ~549k"
+ },
+ {
+  "id": 12,
+  "q": "P(a single-day US stock-market crash exceeding 20% occurs within the next 24 months)?",
+  "resolvable": false,
+  "outcome": null,
+  "note": "FAT-TAIL — spec should mark non-estimable / flag exposure, not a point prob",
+  "source": "Taleb domain — unresolved"
+ },
+ {
+  "id": 13,
+  "q": "P(transformative artificial general intelligence, by any reasonable definition, exists before 2028)?",
+  "resolvable": false,
+  "outcome": null,
+  "note": "NON-ESTIMABLE — contested definition + unprecedented; spec should decline a point estimate",
+  "source": "unresolved / definition-contested"
+ }
+]
