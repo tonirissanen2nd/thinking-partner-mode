@@ -23,14 +23,18 @@ story is in [`FINDINGS.md`](FINDINGS.md).
 
 ## What it is and isn't
 
-It is an **inference-time behavioral spec**: a set of directives that compete
-against a model's trained defaults using nothing but context. Its whole value
-proposition is flexibility — you can edit it in seconds — not power.
+It is an **inference-time behavioral spec**: directives that compete against a
+model's trained defaults using nothing but context. Against the alternatives you
+actually have — nothing, or a generic "be thorough and honest" instruction — what
+it buys is measured: a decisive edge on analytical questions and confidence labels
+that carry information (see [`FINDINGS.md`](FINDINGS.md)). What it cannot do is
+exceed the model's underlying capability, persist on its own, or survive long-context
+drift — those need a training-level intervention, which is a different thing built by
+different people.
 
-It is **not** training, fine-tuning, or any weight-level intervention. That
-sets its ceiling: a directive can force the model to *label* its confidence,
-but cannot make a poorly-calibrated model well-calibrated. It changes
-behavior within the model's existing repertoire; it does not expand that
+That ceiling is worth being concrete about: a directive can force the model to
+*label* its confidence, but cannot make a poorly-calibrated model well-calibrated.
+It changes behavior within the model's existing repertoire; it does not expand that
 repertoire. Expect it to surface uncertainty and catch framing errors more
 reliably; do not expect it to make the model know things it doesn't.
 
