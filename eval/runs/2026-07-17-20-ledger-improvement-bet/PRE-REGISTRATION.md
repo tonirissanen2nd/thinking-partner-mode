@@ -6,7 +6,7 @@ this registers the *separate, uncertain* question it does not assume.
 
 ## The bet, stated plainly
 
-The ledger's **measurement** value is certain and already realised (`ledger/README.md`). The **bet** is
+The ledger's **measurement** value is certain and already realised (see this run’s results; the ledger tool was retired after). The **bet** is
 whether the ledger's *feedback* also *improves* the model — i.e. whether **giving the model its own
 scored track record at forecast time makes its next forecasts better-calibrated** than forecasting cold.
 

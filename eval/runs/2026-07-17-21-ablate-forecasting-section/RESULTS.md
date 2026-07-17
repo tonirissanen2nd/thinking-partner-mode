@@ -43,7 +43,7 @@ resolvable items. Raw in `raw/`.
    accuracy benefit — consistent with the program's finding that the prompt installs *form*, not
    prescience).
 3. **The real cost of removal is downstream: scorability and the ledger.** The section is the
-   *precondition* for the forecast ledger (`ledger/`) — the ledger needs a numeric probability with a
+   *precondition* for the forecast ledger (built and tested in run 20, since retired) — the ledger needs a numeric probability with a
    resolution criterion to log and score, and run 15 was "the rung before the ledger." Remove the
    section and forecasts stop being reliably scorable (resolution-criterion 38%→0%), which starves the
    ledger's structured input and forfeits the auditability that is the project's most valuable remaining

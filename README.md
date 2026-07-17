@@ -18,13 +18,43 @@ spec once into a chat and it works for a one-off, but it decays as the conversat
 grows, so **where you put it matters more than any clause in it** (see *What it is and
 isn't* for the two-layer picture).
 
-**What twelve evaluation runs found, in one line:** the spec is a **purposeful analytical
-register — "a better analyst and a worse clerk"** — whose confidence labels are honest
-and whose value is roughly **independent of model size** (it scales with *what you ask*,
-not *what you run it on*). Its calibration trunk is validated on two models; its
-anti-sycophancy branch mostly guards against a failure current frontier models no longer
-commit. Use it for analytical work, not to "stop the model being sycophantic." The full
-story is in [`FINDINGS.md`](FINDINGS.md).
+## Start here
+
+**Three things live in this repo:**
+
+1. **A spec** — [`SPEC.md`](SPEC.md) (full, for analytical work) / [`SPEC-lite.md`](SPEC-lite.md)
+   (a calmer everyday register). A calibration-first behavioral instruction for LLM assistants.
+2. **A 22-run evaluation program** — [`eval/runs/`](eval/runs/), synthesized in
+   [`FINDINGS.md`](FINDINGS.md) — that measured the spec honestly, including *deflating its own
+   headline results* when the evidence said so.
+3. **The transferable product** — [`METHOD.md`](METHOD.md) — a reusable method for evaluating *any*
+   prompt intervention, plus a **map of where the prompt layer's power ends.** This is the part that
+   outlives this particular spec.
+
+**What 22 runs actually established, in five lines:**
+
+- The **calibration trunk is the validated core**: the spec's confidence labels track truth on Claude
+  (`High` is ~accurate on stable facts; it cuts the confidently-wrong rate). Scored against external
+  keys — no judge — on two models (runs 10/14).
+- The spec is a **purposeful register — "a better analyst and a worse clerk"** — a real tradeoff, not
+  a free upgrade (run 09).
+- Its value is **model-independent in what it *installs*** (the register ports cleanly to GPT) but its
+  **benefit is base-model-relative and shrinking**: GPT-5 already self-calibrates, so the spec's
+  calibration gain is *inert* there (runs 17–19).
+- **A non-Claude judge discounts the register** — much of the "better analyst" A/B win was a
+  *same-family judge's taste*; only calibration survives a cross-family judge (run 16).
+- The through-line: **the prompt layer installs legible *reasoning*, not *accuracy* or *judgment*.**
+  Accuracy, calibration-over-time, and the fat-tail branch need a real-world feedback loop the prompt
+  can't reach — and even feeding a scored forecast track record back to the model didn't improve it
+  (run 20).
+
+**Practically:** use the spec for truth-tracking analytical work (full) or a calmer, better-calibrated
+everyday register (lite) — *not* to "stop the model being sycophantic," which current frontier models
+already do (runs 08/17/22). And **where you put it** (a re-injecting harness) matters more than any
+clause in it.
+
+**Read next:** [`FINDINGS.md`](FINDINGS.md) before adopting or extending; [`METHOD.md`](METHOD.md) if
+you're evaluating your own prompt or spec; [`eval/runs/`](eval/runs/) for the runs themselves.
 
 ## What it is and isn't
 
@@ -66,11 +96,12 @@ had read Kahneman, Tetlock, and Taleb, so those frameworks were internalized
 priors behind the design — the convergence with them is partly recall, not pure
 independent re-derivation (see [`REFERENCES.md`](REFERENCES.md)).
 
-It has now been through **twelve pre-registered runs** — including two-model runs and a
-calibration track scored against an external key — but all of it is **single model family
-(Claude judging Claude) and directional**, never the mandated three-family design (see
-`eval/runs/` and [`FINDINGS.md`](FINDINGS.md)). What that program found is more useful, and
-more complicated, than "we haven't tested it":
+It has now been through **twenty-two pre-registered runs** — including two-model runs, a
+calibration track scored against an external key, and a first cross-family slice (a non-Claude
+GPT *judge* in run 16 and *responder* in runs 17–19) — but **most of it is single model family
+and directional**, and it is never yet the full three-family design (see `eval/runs/` and
+[`FINDINGS.md`](FINDINGS.md)). What that program found is more useful, and more complicated,
+than "we haven't tested it":
 
 - Its calibration claim is **validated on two models** — the confidence labels carry real
   information and show no calibration theater (run 10).
@@ -116,7 +147,6 @@ discipline that surfaces reasoning elsewhere.
 | [`FINDINGS.md`](FINDINGS.md) | Top-level synthesis of what the eval runs established about *this spec* — read this before adopting or extending. |
 | [`METHOD.md`](METHOD.md) | **What outlives the spec** — the transferable method for evaluating any prompt intervention honestly, and the map of where the prompt layer's power ends. The generalizable product of the whole program. |
 | [`HARNESS.md`](HARNESS.md) | A reference design for the *second* layer — a thin per-turn harness that deploys the spec conditionally. A sketch, not shipped code. |
-| [`ledger/`](ledger/) | The forecast ledger, **built for real as a measurement instrument** (the one thing that reaches forecast accuracy / calibration-over-time). Runnable Python + a store seeded with 264 real resolved forecasts; `python ledger/ledger.py report` scores them. The *improvement* bet (does feeding the record back help?) is pre-registered, not assumed. |
 | [`eval/`](eval/) | Two-track evaluation: blind A/B (branch) + calibration (trunk), with prompts and scoresheets. |
 | [`eval/README.md`](eval/README.md) | Track 1 — the blind A/B test that removes the obvious biases; routes to Track 2. |
 | [`eval/prompts/04-calibration.md`](eval/prompts/04-calibration.md) | Track 2 — calibration & abstention scored against an external key (measures the claim Track 1 can't). |

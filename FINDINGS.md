@@ -261,7 +261,7 @@ the single-family evals implied.
     the prompt alone will not deliver the accuracy the ledger exists to earn. (One honest sub-null:
     the spec does *not* reliably restate an explicit resolution criterion — the "scorable claim"
     win is on the probability + base rate, not the resolution half.)
-  - **The ledger, built and split into measurement vs improvement (runs on `ledger/`, and run 20).**
+  - **The ledger, built and split into measurement vs improvement (run 20; the runnable tool has since been retired — concept kept, code removed).**
     The forecast ledger is now a *real* instrument (runnable, seeded with 264 real resolved forecasts),
     and its two values were separated on purpose. **Measurement works and is the point:** it scores the
     track record judge-free (Brier, ECE, reliability, discrimination, per-class), localises the

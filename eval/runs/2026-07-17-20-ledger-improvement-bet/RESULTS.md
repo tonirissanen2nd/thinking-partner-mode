@@ -1,3 +1,8 @@
+> **Note (tool retired):** the ledger was built and demonstrated as a measurement instrument this
+> session, then **retired** — it will not remain in use. This run (20) is the permanent record of the
+> improvement bet; the ledger *concept* and *finding* live on in `METHOD.md`, `HARNESS.md`, and
+> `FINDINGS.md`, but the runnable code and store were removed.
+
 # Results — the improvement bet (run 20)
 
 **TL;DR — the improvement bet failed, and instructively.** Feeding the model its own scored forecast
@@ -8,8 +13,8 @@ and the one large response was a **catastrophic over-correction** that destroyed
 A third finding emerged that neither arm's design anticipated: the fed-back *"you are underconfident"*
 diagnosis is partly a **surprise-heavy-battery sampling artifact** — so the ledger, as a *feedback
 source*, fed a possibly-spurious signal, which the model was arguably right to mostly ignore. The
-ledger's *measurement* value (run 19 / `ledger/`) is untouched; its *improvement* value is not
-demonstrated and naive feedback can harm. Pre-registered in `ledger/PRE-REGISTRATION-improvement-bet.md`.
+ledger's *measurement* value (run 19) is untouched; its *improvement* value is not
+demonstrated and naive feedback can harm. Pre-registered in `PRE-REGISTRATION.md` (this run).
 
 Responder: Claude Opus 4.8 (the ledger *is* Claude's track record, from run 15). Fresh 12-item forecast
 battery of 2026 events post-dating Opus's cutoff (outcomes web-established 2026-07-17). Arm A = spec,
