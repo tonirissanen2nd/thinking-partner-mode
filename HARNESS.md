@@ -16,9 +16,9 @@ portability, model-independence, editing in seconds.
 
 ## What the harness is, and isn't
 
-- **It is** a thin, per-turn pipeline that (1) picks which register a turn wants, (2) re-injects
-  the chosen spec, (3) optionally exposes verify tools, (4) optionally logs forecasts to a ledger,
-  and (5) records telemetry.
+- **It is** a thin, per-turn pipeline that (1) picks which register — and, optionally, which model
+  *tier* — a turn wants, (2) re-injects the chosen spec on the chosen model, (3) optionally exposes
+  verify tools, (4) optionally logs forecasts to a ledger, and (5) records telemetry.
 - **It is not** a fusion of spec-and-agent. The spec stays a portable file you can drop into any
   harness; this is separate infrastructure that runs *around* a model. **Disable any component
   and it degrades gracefully** — the injector alone (persistence) is already useful; the router
@@ -35,10 +35,15 @@ portability, model-independence, editing in seconds.
   incoming user turn
     │
     ▼
-  [1] Router ───────── classify the turn's register → {full · lite · none}
-    │                  (unsure → full; misreading a trap as simple is the worse error)
+  [1] Router ───────── classify the turn → (register, tier)
+    │                  register: {full · lite · none}   tier: {cheap · strong}
+    │                  (unsure → strong + full; misreading a trap as simple is the worse error)
     ▼
-  [2] Injector ─────── re-prepend the chosen spec THIS turn  (persistence / anti-drift)
+  [2] Injector ─────── re-prepend the chosen spec, on the chosen model, THIS turn
+    │                  (persistence / anti-drift)
+    │                  ── cheap model may escalate mid-turn: a Low/Unknown label on a
+    │                     load-bearing point re-runs the turn on the strong model
+    ▼-- (escalation)
     │
     ▼
   [3] Verify layer ─── if the turn is factual & load-bearing, expose a search/retrieval tool
@@ -62,24 +67,48 @@ measures it.**
 
 ### 1. Router — the core, and the best-grounded
 
-- **What.** A cheap classifier reads the incoming turn (and a little context) and outputs a
-  register: **analytical** → `SPEC.md`, **everyday / relational / generative** → `SPEC-lite.md`
-  or none, **ambiguous** → default. It can be a small model call, a rule set, or a hybrid.
-- **Gap it closes.** Run 09 measured the cost of applying the full apparatus to a turn that
-  wanted a short/warm/committed answer (helpfulness 7–1 loss on the downside block). Run 11
-  showed the model can't be made to suppress its own apparatus reliably from inside the prompt.
-  A harness-level router does the suppression **by choosing the spec**, deterministically, before
-  the model ever sees the turn. This is the "when needed" deployment the whole idea rests on.
-- **Counterweight (Principle 2).** The router is itself a classifier that can be wrong, in two
-  directions: (a) route a **disguised trap** to lite/none → miss the trap (the dangerous error);
-  (b) route a **simple turn** to full → the "worse clerk" cost returns. Mitigation is the same
-  asymmetric default the spec uses internally: **when unsure, default to full** — misreading a
-  trap as simple is the worse error (run 11's own logic). Add a **sticky bias** so one ambiguous
-  turn doesn't flip register mid-thread.
-- **Measured by.** A *new* eval (call it the router accuracy run): label a battery of turns by
-  intended register, measure router agreement, tune the unsure-threshold. **The router is the
-  one genuinely new failure surface this harness introduces — it must be evaluated, not assumed.**
-  Grounding for the *benefit* itself is already in runs 09 and 11.
+- **What.** A cheap classifier reads the incoming turn (and a little context) and outputs a pair:
+  **(register, tier).** The *same* "is this a load-bearing analytical turn?" decision drives both
+  — which spec, and which model. So the two collapse into one classifier:
+  - **everyday / relational / generative / simple factual** → `SPEC-lite.md` (or none) on a
+    **cheap, token-light model**;
+  - **high-stakes analytical / contested / subtle-reasoning** → `SPEC.md` on a **strong model**;
+  - **ambiguous** → strong + full (the asymmetric default, below).
+- **Gap it closes.** Two, from one classifier. *Register:* run 09 measured the cost of applying
+  the full apparatus to a turn that wanted a short/warm/committed answer (helpfulness 7–1 on the
+  downside block), and run 11 showed the model can't suppress its own apparatus reliably from
+  inside the prompt — so the harness suppresses it by *choosing the spec*. *Tier:* the eval gives
+  a usable map of where the raw capability gap actually bites — the cheap model is fine (with the
+  spec) on the everyday majority (run 10: Haiku's `High` labels are as reliable as Opus's; run 12:
+  lite improves Haiku's calibration *more* than Opus's), but the strong model is needed on subtle
+  reasoning (run 08 q08: Haiku caved to a false premise hidden among true ones; **Opus caught it**
+  — a capability limit, not a prompt one). Cheap-by-default with escalation is the token-cheap
+  deployment the question asks for.
+- **Escalation — two triggers, because one has a blind spot.** The cheap model runs the spec, so
+  **its own confidence labels become an escalation signal**: a `Low`/`Unknown` on a load-bearing
+  point re-runs the turn on the strong model. Run 10 validated those labels, so this reliably
+  catches the *known* unknowns. But it **cannot** catch the dangerous case — a cheap model that is
+  *confidently wrong* on a subtle trap does not emit `Low`; it caves with a `High` (run 08 q08).
+  So the router's **pre-classification** is the second, necessary trigger: a turn tagged
+  high-stakes-analytical goes straight to the strong model, catching exactly the confidently-wrong
+  case the label signal misses. Belt and suspenders.
+- **Counterweight (Principle 2).** Adding the tier decision **raises the cost of a misrouting.**
+  Register-only, sending a disguised trap to lite costs some trap accuracy — bad but bounded.
+  With tiers, sending a disguised trap to the *cheap model* costs the capability itself: run 08
+  showed the cheap model **misses the subtle trap entirely.** So the same two error directions
+  apply, but the trap-as-simple error is now worse. Mitigation is the spec's own asymmetric
+  default, hardened: **when unsure, strong + full** — misreading a trap as simple is the worse
+  error (run 11's logic), and now more so. Add a **sticky bias** so one ambiguous turn doesn't
+  flip register/tier mid-thread. And note the honest limit of the token-saving: it is real **only
+  if the traffic is mostly everyday** — a workload dominated by hard analysis routes to the strong
+  model anyway and saves little.
+- **Measured by.** Two new evals, both this design's own failure surfaces, neither assumed:
+  (i) **router accuracy** — label a battery of turns by intended (register, tier), measure the
+  classifier's agreement, tune the unsure-threshold; (ii) **cheap+escalate vs strong-always** —
+  does the cheap-default pipeline match a strong-model-always baseline on answer quality, at lower
+  cost? (A relative of run 13 Track A: switching tiers mid-conversation is a cousin of the drift
+  question.) Grounding for the *routing benefit* and the *tier map* is already in runs 08, 09, 10,
+  11, 12; the *policy* is not — build it behind these two measurements.
 
 ### 2. Injector — persistence / anti-drift
 
@@ -146,7 +175,10 @@ another component.*
 
 1. **MVP — Router + Injector.** The two best-grounded pieces: they address the measured findings
    (worse-clerk cost, drift) and need no tools or memory. This alone is a useful harness: the
-   right register, kept fresh every turn.
+   right register — and, if you want the token saving, the right *tier* — kept fresh every turn.
+   Add the tier split only once the router-accuracy eval shows the classifier is good enough that
+   a misroute-to-cheap on a hidden trap is rare; the asymmetric default (unsure → strong + full)
+   covers the rest.
 2. **+ Verify layer** — build **after run 13 Track B** shows the spec beats bare-with-tools (skip
    if B-H4 holds).
 3. **+ Forecast ledger** — the highest-value memory feature, and the only one with a named gap;
@@ -160,8 +192,15 @@ measurable; coupling them is how a clean two-layer system turns into an unaudita
 
 - **Grounded now (runs 09, 11):** the *routing* benefit — the model can't self-detect register,
   and misapplied full-spec has a real cost. This is why the harness exists.
+- **Grounded now (runs 08, 10, 12):** the *tier map* — where the raw capability gap bites (subtle
+  reasoning → strong; everyday calibrated assistance → cheap suffices with the spec). This tells
+  you *how* to route across model tiers, but not that the cheap-default *policy* works as a system.
 - **Pending run 13:** persistence (Track A) and tool-verification (Track B). Build components 2
   and 3 only if those runs back them.
+- **Pending two new evals this design creates:** *router accuracy* (does the classifier pick the
+  right (register, tier)?) and *cheap+escalate vs strong-always* (does the token-cheap pipeline
+  match a strong-always baseline on quality?). The tier split is only as safe as the first, and
+  only worth it if the second holds.
 - **Pending the ledger's own operation:** whether the spec's forecasts are actually calibrated —
   the ledger is the instrument that will find out.
 - **A new eval this design creates:** router accuracy. The harness's one new failure surface;
