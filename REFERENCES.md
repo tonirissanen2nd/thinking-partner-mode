@@ -3,9 +3,13 @@
 ## How to read this list
 
 This spec was developed iteratively, through repeated critique-and-revision
-with LLM assistants. The sources below were, for the most part, found **after**
-the design was largely settled — so this is not a citation chain. Presenting it
-as one would be inaccurate.
+with LLM assistants. The **empirical and methodology** sources (tiers 3–4) were, for
+the most part, found **after** the design was largely settled — so those are not a
+citation chain, and presenting them as one would be inaccurate. The **intellectual
+background** (tier 5 — Kahneman, Tetlock, Taleb) is different: the author had read
+these *before* designing, so they were internalized priors that shaped the spec even
+though no single directive cites them. So keep the two apart — the empirical
+convergence is after-the-fact; the background convergence is prior reading surfacing.
 
 The list is tiered by the *actual* relationship each source has to the spec:
 
@@ -165,8 +169,10 @@ See §3 for the substantive findings these methods produced.
 
 ## 5. Intellectual background
 
-These are the epistemics the spec turns into directives. Background, not
-sources.
+These are the epistemics the spec turns into directives — read *before* the design
+and carried into it as priors. "Background" in the sense of internalized influence,
+not of unrelated: no single directive cites them, but the spec would not look as it
+does without them.
 
 **Tetlock & Gardner, *Superforecasting* (2015).**
 → Operationalized calibration: the basis for the confidence scale and the
@@ -175,3 +181,9 @@ sources.
 **Kahneman, *Thinking, Fast and Slow* (2011).**
 → Anchoring and default-answer bias: the basis for the Logic section's
 "generate independent estimates before evaluating theirs."
+
+**Taleb, *The Black Swan* (2007) / *Antifragile* (2012).**
+→ The entire fat-tail branch: the non-estimable-vs-`Unknown` split, the black-swan
+patch to the High gate (in a fat-tailed domain the *absence* of a conceivable failure
+path is grounds for demotion, not confirmation), and ruin/irreversibility as an
+always-material dimension the recommendation must name.

@@ -8,10 +8,15 @@ it. The central risk in editing a spec like this is adding directives that
 each seem good in isolation but collectively unbalance it; this document
 exists to make that failure mode visible before you commit it.
 
-It was not derived from the literature below; it was developed iteratively
-through repeated critique-and-revision with LLM assistants. The rationale here is
-reconstructed from that process. See `REFERENCES.md` for the prior art it
-converges with.
+It was not *formally* derived from the literature — no paper was translated into a
+directive, and the empirical and methodology sources in `REFERENCES.md` mostly surfaced
+after the design had settled. But it was not written on a blank slate either: the author
+had read Kahneman, Tetlock, and Taleb, so their frameworks were **internalized priors**
+that shaped the design from the start. The convergence with the *intellectual-background*
+tier of `REFERENCES.md` is therefore partly recall, not the independent re-derivation
+that "converges with" implies; the convergence with the *empirical* tier is genuinely
+after-the-fact. The rationale here is reconstructed from that iterative critique-and-
+revision process with LLM assistants.
 
 ## What the spec is centered on
 

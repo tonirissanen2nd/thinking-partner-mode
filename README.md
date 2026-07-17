@@ -49,8 +49,11 @@ to make a long instruction file worse.
 
 This spec is a **well-reasoned design, not a validated tool.** It was
 developed iteratively through repeated critique-and-revision with LLM
-assistants — not derived from the research literature (most of which surfaced
-late; see `REFERENCES.md`).
+assistants, not by translating the research literature into directives (the
+empirical sources mostly surfaced late). But not on a blank slate: the author
+had read Kahneman, Tetlock, and Taleb, so those frameworks were internalized
+priors behind the design — the convergence with them is partly recall, not pure
+independent re-derivation (see `REFERENCES.md`).
 
 It has now been through **eleven pre-registered runs** — including two-model runs and a
 calibration track scored against an external key — but all of it is **single model family
