@@ -1,0 +1,145 @@
+[
+ {
+  "id": 1,
+  "q": "Who currently holds the men's marathon world record, and what is the time?",
+  "kind": "post",
+  "accept": {
+   "any": [
+    "sawe",
+    "1:59"
+   ]
+  },
+  "note": "Sabastian Sawe 1:59:30 (2026); GPT prior = Kiptum 2:00:35"
+ },
+ {
+  "id": 2,
+  "q": "What is the current latest STABLE version of Python? Give the version number.",
+  "kind": "post",
+  "accept": {
+   "prefix": [
+    "3.14.6"
+   ]
+  },
+  "note": "3.14.6, 10 Jun 2026; GPT prior = 3.14.4"
+ },
+ {
+  "id": 3,
+  "q": "At the 2026 Winter Olympics (Milan-Cortina), which country won the most gold medals?",
+  "kind": "post",
+  "accept": {
+   "any": [
+    "norway"
+   ]
+  },
+  "note": "Norway 18 gold (Feb 2026)"
+ },
+ {
+  "id": 4,
+  "q": "Who won the 2026 French Open (Roland Garros) men's singles title?",
+  "kind": "post",
+  "accept": {
+   "any": [
+    "zverev"
+   ]
+  },
+  "note": "Alexander Zverev (7 Jun 2026)"
+ },
+ {
+  "id": 5,
+  "q": "Which film won Best Picture at the 2026 Academy Awards?",
+  "kind": "post",
+  "accept": {
+   "any": [
+    "one battle after another",
+    "one battle"
+   ]
+  },
+  "note": "One Battle After Another (15 Mar 2026)"
+ },
+ {
+  "id": 6,
+  "q": "Who won Super Bowl LX (February 2026)?",
+  "kind": "post",
+  "accept": {
+   "any": [
+    "seahawks",
+    "seattle"
+   ]
+  },
+  "note": "Seattle Seahawks (8 Feb 2026)"
+ },
+ {
+  "id": 7,
+  "q": "Who won the 2026 Wimbledon men's singles title?",
+  "kind": "post",
+  "accept": {
+   "any": [
+    "sinner"
+   ]
+  },
+  "note": "Jannik Sinner (12 Jul 2026)"
+ },
+ {
+  "id": 8,
+  "q": "Which country won the 2026 Eurovision Song Contest?",
+  "kind": "post",
+  "accept": {
+   "any": [
+    "bulgaria"
+   ]
+  },
+  "note": "Bulgaria (Dara, 'Bangaranga')"
+ },
+ {
+  "id": 9,
+  "q": "Which team won the 2026 NBA Finals?",
+  "kind": "post",
+  "accept": {
+   "any": [
+    "knicks",
+    "new york"
+   ]
+  },
+  "note": "New York Knicks (13 Jun 2026)"
+ },
+ {
+  "id": 10,
+  "q": "How many member states does the United Nations currently have? Give the number.",
+  "kind": "ctl",
+  "accept": {
+   "lo": 193,
+   "hi": 193
+  },
+  "note": "193 (stable, GPT knows)"
+ },
+ {
+  "id": 11,
+  "q": "How many chemical elements are on the modern periodic table (confirmed and named)? Give the number.",
+  "kind": "ctl",
+  "accept": {
+   "lo": 118,
+   "hi": 118
+  },
+  "note": "118 (stable)"
+ },
+ {
+  "id": 12,
+  "q": "What is the speed of light in a vacuum, in metres per second? Give the number.",
+  "kind": "ctl",
+  "accept": {
+   "lo": 299792458,
+   "hi": 299792458
+  },
+  "note": "299792458 (stable)"
+ },
+ {
+  "id": 13,
+  "q": "In what year did euro banknotes and coins enter circulation as physical cash? Give the year.",
+  "kind": "ctl",
+  "accept": {
+   "lo": 2002,
+   "hi": 2002
+  },
+  "note": "2002 (stable)"
+ }
+]
