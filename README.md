@@ -7,8 +7,8 @@ distinguish empirical from normative claims, and flag what it left out —
 instead of defaulting to fluent, confident, user-pleasing answers.
 
 **Get the spec:** [`SPEC.md`](SPEC.md) — the full version, for analytical work — or
-[`SPEC-lite.md`](SPEC-lite.md), a safer everyday default. (Which one, and why, is in
-*When to use it* below.)
+[`SPEC-lite.md`](SPEC-lite.md), a calmer, better-calibrated everyday register. (Which one,
+and why, is in *When to use it* below.)
 
 This is a **system prompt / custom instruction**, not a tool or a model. Put it
 wherever your tool **re-injects it** — a custom-instructions or project-instructions
@@ -18,7 +18,7 @@ spec once into a chat and it works for a one-off, but it decays as the conversat
 grows, so **where you put it matters more than any clause in it** (see *What it is and
 isn't* for the two-layer picture).
 
-**What eleven evaluation runs found, in one line:** the spec is a **purposeful analytical
+**What twelve evaluation runs found, in one line:** the spec is a **purposeful analytical
 register — "a better analyst and a worse clerk"** — whose confidence labels are honest
 and whose value is roughly **independent of model size** (it scales with *what you ask*,
 not *what you run it on*). Its calibration trunk is validated on two models; its
@@ -64,7 +64,7 @@ had read Kahneman, Tetlock, and Taleb, so those frameworks were internalized
 priors behind the design — the convergence with them is partly recall, not pure
 independent re-derivation (see [`REFERENCES.md`](REFERENCES.md)).
 
-It has now been through **eleven pre-registered runs** — including two-model runs and a
+It has now been through **twelve pre-registered runs** — including two-model runs and a
 calibration track scored against an external key — but all of it is **single model family
 (Claude judging Claude) and directional**, never the mandated three-family design (see
 `eval/runs/` and [`FINDINGS.md`](FINDINGS.md)). What that program found is more useful, and
@@ -109,9 +109,9 @@ discipline that surfaces reasoning elsewhere.
 | Path | What it is |
 |---|---|
 | [`SPEC.md`](SPEC.md) | The full spec (English). The calibration-first version — paste into your assistant for analytical work. |
-| [`SPEC-lite.md`](SPEC-lite.md) | The lightweight overlay — honest and calibrated without the sharpness. A safer broad default across mixed tasks. |
+| [`SPEC-lite.md`](SPEC-lite.md) | The lightweight overlay — the calibration/anti-sycophancy core without the sharpness. Better-calibrated than the raw model, at some cost in directness (run 12). |
 | [`DESIGN.md`](DESIGN.md) | The reasoning behind the spec — mechanism, principles, limits, and how to extend it without breaking it. |
-| [`FINDINGS.md`](FINDINGS.md) | Top-level synthesis of what the eleven eval runs established — read this before adopting or extending. |
+| [`FINDINGS.md`](FINDINGS.md) | Top-level synthesis of what the twelve eval runs established — read this before adopting or extending. |
 | [`eval/`](eval/) | Two-track evaluation: blind A/B (branch) + calibration (trunk), with prompts and scoresheets. |
 | [`eval/README.md`](eval/README.md) | Track 1 — the blind A/B test that removes the obvious biases; routes to Track 2. |
 | [`eval/prompts/04-calibration.md`](eval/prompts/04-calibration.md) | Track 2 — calibration & abstention scored against an external key (measures the claim Track 1 can't). |
@@ -129,23 +129,29 @@ framing has real value. A known cost: it makes the model blunter and more
 willing to push back. That is the point, not a bug — but it is the wrong
 default for warm or creative work.
 
-**Lite (`SPEC-lite.md`)** — a safer broad default for mixed, everyday use:
-honest and calibrated without the sharpness. It keeps the anti-sycophancy and
-calibration core but drops the immediate misframe rejection, the mandatory
-steelman, and the forecasting/tail-risk machinery — the directives that make
-the full spec a poor fit for generative or relational tasks.
+**Lite (`SPEC-lite.md`)** — a calmer everyday register: honest and calibrated
+without the sharpness. It keeps the anti-sycophancy and calibration core but drops
+the immediate misframe rejection, the mandatory steelman, and the forecasting/tail-risk
+machinery — the directives that make the full spec a poor fit for generative or
+relational tasks.
 
-If in doubt, start with Lite. Reach for Full when the work is analytical and
-the overhead earns its cost. The full spec's priority order (accuracy →
-calibration → sharpness → brevity) arbitrates its internal conflicts, but you
-will still feel the overhead on easy questions — which is the reason Lite
-exists.
+Reach for Full when the work is analytical and the overhead earns its cost. The full
+spec's priority order (accuracy → calibration → sharpness → brevity) arbitrates its
+internal conflicts, but you will still feel the overhead on easy questions — which is
+the reason Lite exists.
 
-**The eval now backs this routing.** Run 09 located the full spec's cost precisely where
-this split predicts it: against no instruction, the full spec won analytical questions
-decisively (accuracy 12–0 on trap items) but lost helpfulness and over-contrarianism on the
-direct/relational/generative block. The "overhead on easy questions" is not a hunch — it is
-measured, and it is exactly what routing to Lite avoids.
+**The eval backs the routing, and pins down what Lite actually is (runs 09, 12).** Run 09
+located the full spec's cost precisely where this split predicts it: against no instruction,
+the full spec won analytical questions decisively (accuracy 12–0 on traps) but lost
+helpfulness and over-contrarianism on the direct/relational/generative block. Run 12 then
+measured Lite directly, and the honest picture is narrower than "safe broad default": against
+the full spec, Lite is the **better clerk** (wins helpfulness on everyday turns) and the
+**worse analyst** (full wins trap accuracy 8–1); against *nothing*, Lite is **not**
+decoration — it is **better calibrated** than the raw model (the one thing the base model
+doesn't already do) — but it **costs some directness** (the raw model is more helpful and less
+cautious on analytical items). So **Lite trades directness for calibration.** Pick Lite if you
+value a better-calibrated everyday assistant; if you'd rather have raw directness, the model
+without any spec is a defensible everyday choice too.
 
 ## Design notes
 

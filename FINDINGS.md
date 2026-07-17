@@ -1,9 +1,9 @@
-# What eleven runs established
+# What twelve runs established
 
 A top-level synthesis of the evaluation program. `DESIGN.md` says why the spec is
 *shaped* the way it is; `CHANGELOG.md` records what changed *when*; `eval/runs/` holds each
 run in full. This document answers the one question those three don't, in one place: **after
-eleven pre-registered runs, what do we actually know about this spec?**
+twelve pre-registered runs, what do we actually know about this spec?**
 
 Everything below is **single-family and directional** — every responder, judge, and
 classifier is a Claude model, and no result is more than a few passes deep. The mandated
@@ -14,7 +14,7 @@ three-family run has still not happened. Read these as well-supported directions
 ## 1. The trunk is validated; the branch mostly fires into empty air.
 
 The spec describes itself (`DESIGN.md`) as *a calibration spec of which anti-sycophancy is one
-central branch.* Eleven runs sharpen that into an asymmetry the original framing didn't
+central branch.* Twelve runs sharpen that into an asymmetry the original framing didn't
 anticipate:
 
 - **The calibration trunk works — on both a strong and a weak model.** Scored against an
@@ -111,6 +111,14 @@ standing methodological debt the whole program still carries.
 - **Do not adopt it to "stop the model being sycophantic"** on a current frontier model — that
   failure mode is already handled by the base model, and the spec's cost (over-analysis of
   simple turns) may leave you worse off on a mixed workload. Use lite, or nothing.
+- **The lite variant is a real register with a narrow, honest value (run 12).** Against the full
+  spec it is the better clerk (wins helpfulness on simple/relational/generative turns) and the
+  worse analyst (full wins trap accuracy 8–1). Against *nothing* it is not decoration — it beats
+  bare on **calibration** (the one thing the base model doesn't already do) — but it **costs some
+  directness** (bare is more helpful and less cautious on the analytical items). So lite's real
+  proposition is "a better-calibrated everyday assistant, at some cost in directness," **not** a
+  free upgrade on the raw model. Pick it if you value calibration over raw directness; otherwise
+  the raw model is a defensible everyday choice.
 - **Do not expect it to rescue a weak model** more than a strong one. Its value scales with
   *what you ask*, not with *what you run it on*.
 - **Trust the confidence labels, with one asterisk:** a `High` means correct (validated on both
@@ -132,7 +140,9 @@ standing methodological debt the whole program still carries.
   07). Recall alone does not stress the label's honesty hard.
 - **Long-context drift.** Every run is a single turn (or two). The spec's decay over a long
   conversation — the harness problem — is untested end to end.
-- **The lite variant.** Nearly everything here tests the full spec. Lite is even less measured.
+- **Lite's directness cost, tuned away.** Run 12 measured lite once and found it trades directness
+  for calibration versus bare. Whether that cost can be reduced — making "admit uncertainty / flag
+  for checking" less hedgy while keeping the know-vs-infer discrimination — is an untested ablation.
 - **Frame-detection, done right.** Run 11 showed the idea works but the wording over-trimmed
   traps. A v1.7.1 that protects trap *depth*, not just trap apparatus, is the open next
   iteration.
