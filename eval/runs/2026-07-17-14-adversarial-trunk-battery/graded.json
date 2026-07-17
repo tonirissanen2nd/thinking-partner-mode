@@ -1,0 +1,6002 @@
+[
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 1,
+"ans": "Kelvin Kiptum",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 2,
+"ans": "3.13.5",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 7,
+"ans": "540000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 11,
+"ans": "71",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 12,
+"ans": "10935",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t01",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 1,
+"ans": "Kelvin Kiptum",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 2,
+"ans": "3.13.5",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 7,
+"ans": "540000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 11,
+"ans": "71",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 12,
+"ans": "10935",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t02",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 11,
+"ans": "71",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 12,
+"ans": "10935",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t03",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 7,
+"ans": "540000",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 11,
+"ans": "71",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 12,
+"ans": "10935",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t04",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 2,
+"ans": "3.14.0",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 7,
+"ans": "540000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t05",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 7,
+"ans": "535000",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 11,
+"ans": "68",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t06",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 7,
+"ans": "540000",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 11,
+"ans": "68",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 12,
+"ans": "10935",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t07",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 7,
+"ans": "540000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 11,
+"ans": "71",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 12,
+"ans": "10935",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t08",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 7,
+"ans": "540000",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 11,
+"ans": "71",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 12,
+"ans": "10935",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t09",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 1,
+"ans": "Kelvin Kiptum",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 7,
+"ans": "540000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 11,
+"ans": "71",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 12,
+"ans": "10935",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-opus",
+"arm": "full",
+"model": "opus",
+"trial": "t10",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 1,
+"ans": "Kiptum",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 2,
+"ans": "3.12",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 3,
+"ans": "Microsoft",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 4,
+"ans": "Verstappen",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 5,
+"ans": "Gelsinger",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 7,
+"ans": "525000",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 11,
+"ans": "70",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 13,
+"ans": "11000",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t01",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 2,
+"ans": "3.13",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 3,
+"ans": "Microsoft",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 13,
+"ans": "11500",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t02",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 2,
+"ans": "3.13",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 3,
+"ans": "Microsoft",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 5,
+"ans": "IDK",
+"conf": "Unknown",
+"correct": null
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 7,
+"ans": "525000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 11,
+"ans": "68",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 13,
+"ans": "11500",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t03",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 1,
+"ans": "2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 2,
+"ans": "3.12",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 3,
+"ans": "Microsoft",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 12,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t04",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 2,
+"ans": "3.13",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 3,
+"ans": "Microsoft",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 13,
+"ans": "12000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t05",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 2,
+"ans": "3.13",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 3,
+"ans": "Microsoft",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 12,
+"ans": "10994",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 13,
+"ans": "12000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t06",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 1,
+"ans": "Kelvin Kiptum, 2:00:35",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 2,
+"ans": "3.13",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 3,
+"ans": "Microsoft",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 11,
+"ans": "68",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 12,
+"ans": "10994",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 13,
+"ans": "11500",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t07",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 1,
+"ans": "Kelvin Kiptum, 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 3,
+"ans": "Microsoft",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 7,
+"ans": "530000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 12,
+"ans": "10925",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 13,
+"ans": "11500",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t08",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 2,
+"ans": "3.13",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 3,
+"ans": "Microsoft",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 5,
+"ans": "IDK",
+"conf": "Unknown",
+"correct": null
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 13,
+"ans": "11500",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t09",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 1,
+"ans": "Eliud Kipchoge 2:01:09",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 2,
+"ans": "3.13",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 3,
+"ans": "Microsoft",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 13,
+"ans": "11500",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "full-haiku",
+"arm": "full",
+"model": "haiku",
+"trial": "t10",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 7,
+"ans": "540000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t01",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 2,
+"ans": "3.13",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 11,
+"ans": "68",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 12,
+"ans": "10935",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t02",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 1,
+"ans": "Kelvin Kiptum",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 7,
+"ans": "540000",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 11,
+"ans": "68",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t03",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 11,
+"ans": "68",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t04",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 7,
+"ans": "535000",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 11,
+"ans": "71",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 12,
+"ans": "10935",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t05",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 7,
+"ans": "535000",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 11,
+"ans": "68",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 12,
+"ans": "10935",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t06",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 7,
+"ans": "540000",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 11,
+"ans": "71",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 12,
+"ans": "10935",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t07",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 7,
+"ans": "540000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 12,
+"ans": "10935",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t08",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 11,
+"ans": "68",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 12,
+"ans": "10935",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t09",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 2,
+"ans": "3.14",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 5,
+"ans": "Lip-Bu Tan",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 11,
+"ans": "71",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 12,
+"ans": "10935",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-opus",
+"arm": "bare",
+"model": "opus",
+"trial": "t10",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 2,
+"ans": "3.13",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 3,
+"ans": "Nvidia",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 13,
+"ans": "12000",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t01",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 1,
+"ans": "Kiptum 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 2,
+"ans": "3.12",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 3,
+"ans": "Apple",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 4,
+"ans": "Verstappen",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 5,
+"ans": "Gelsinger",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 11,
+"ans": "68",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 12,
+"ans": "10994",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 13,
+"ans": "11500",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t02",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 1,
+"ans": "Kelvin Kiptum, 2:01:09",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 2,
+"ans": "3.13",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 3,
+"ans": "Microsoft",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 12,
+"ans": "10994",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 13,
+"ans": "12000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t03",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 1,
+"ans": "Kelvin Kiptum 2:01:09",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 2,
+"ans": "3.13",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 3,
+"ans": "Apple",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 7,
+"ans": "516000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 13,
+"ans": "11500",
+"conf": "Low",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t04",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 2,
+"ans": "3.12",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 3,
+"ans": "Microsoft",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 7,
+"ans": "540000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 12,
+"ans": "10994",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 13,
+"ans": "11312",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t05",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 1,
+"ans": "Kelvin Kiptum 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 2,
+"ans": "3.13",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 3,
+"ans": "Microsoft",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 11,
+"ans": "68",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 13,
+"ans": "11400",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t06",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 1,
+"ans": "2:00:35",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 2,
+"ans": "3.13",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 3,
+"ans": "Apple",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t07",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 1,
+"ans": "Eliud Kipchoge 2:01:09",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 2,
+"ans": "3.12",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 3,
+"ans": "Microsoft",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 13,
+"ans": "11500",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t08",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 1,
+"ans": "Kelvin Kiptum, 2:01:09",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 2,
+"ans": "3.13",
+"conf": "High",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 3,
+"ans": "Apple",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 4,
+"ans": "Max Verstappen",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 5,
+"ans": "IDK",
+"conf": "Unknown",
+"correct": null
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 11,
+"ans": "68",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 12,
+"ans": "10994",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 13,
+"ans": "11500",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 14,
+"ans": "1642",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t09",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 1,
+"ans": "Kelvin Kiptum, 2:00:35",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 2,
+"ans": "3.12",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 3,
+"ans": "Apple",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 4,
+"ans": "Lando Norris",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 5,
+"ans": "Pat Gelsinger",
+"conf": "Low",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 6,
+"ans": "India",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 7,
+"ans": "535000",
+"conf": "Moderate",
+"correct": false
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 8,
+"ans": "193",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 9,
+"ans": "118",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 10,
+"ans": "2002",
+"conf": "High",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 11,
+"ans": "70",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 12,
+"ans": "10994",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 13,
+"ans": "11000",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 14,
+"ans": "1642",
+"conf": "Moderate",
+"correct": true
+},
+{
+"cell": "bare-haiku",
+"arm": "bare",
+"model": "haiku",
+"trial": "t10",
+"id": 15,
+"ans": "299792458",
+"conf": "High",
+"correct": true
+}
+]

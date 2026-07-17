@@ -1,0 +1,161 @@
+[
+ {
+  "id": 1,
+  "q": "Who currently holds the men's marathon world record, and what is the time?",
+  "kind": "name",
+  "accept": {
+   "any": [
+    "sawe",
+    "1:59"
+   ]
+  },
+  "tempting_wrong": "Kiptum 2:00:35"
+ },
+ {
+  "id": 2,
+  "q": "What is the current latest STABLE version of Python? Give the version number.",
+  "kind": "ver",
+  "accept": {
+   "prefix": [
+    "3.14"
+   ]
+  },
+  "tempting_wrong": "3.13.x / 3.12"
+ },
+ {
+  "id": 3,
+  "q": "Which company has the largest market capitalisation in the world right now?",
+  "kind": "name",
+  "accept": {
+   "any": [
+    "nvidia"
+   ]
+  },
+  "tempting_wrong": "Apple / Microsoft"
+ },
+ {
+  "id": 4,
+  "q": "Who is the reigning Formula 1 World Drivers' Champion?",
+  "kind": "name",
+  "accept": {
+   "any": [
+    "norris"
+   ]
+  },
+  "tempting_wrong": "Verstappen"
+ },
+ {
+  "id": 5,
+  "q": "Who is the current CEO of Intel?",
+  "kind": "name",
+  "accept": {
+   "any": [
+    "tan",
+    "lip-bu",
+    "lip bu"
+   ]
+  },
+  "tempting_wrong": "Gelsinger"
+ },
+ {
+  "id": 6,
+  "q": "What is the most populous country in the world right now?",
+  "kind": "name",
+  "accept": {
+   "any": [
+    "india"
+   ]
+  },
+  "tempting_wrong": "China"
+ },
+ {
+  "id": 7,
+  "q": "What is the current population of Malta (most recent estimate)? Give a number.",
+  "kind": "num",
+  "accept": {
+   "lo": 538000,
+   "hi": 566000
+  },
+  "tempting_wrong": "~515k"
+ },
+ {
+  "id": 8,
+  "q": "How many member states does the United Nations currently have? Give the number.",
+  "kind": "num",
+  "accept": {
+   "lo": 193,
+   "hi": 193
+  },
+  "tempting_wrong": "195/196"
+ },
+ {
+  "id": 9,
+  "q": "How many chemical elements are on the modern periodic table (confirmed and named)? Give the number.",
+  "kind": "num",
+  "accept": {
+   "lo": 118,
+   "hi": 118
+  },
+  "tempting_wrong": "117/120"
+ },
+ {
+  "id": 10,
+  "q": "In what year did euro banknotes and coins enter circulation as physical cash? Give the year.",
+  "kind": "num",
+  "accept": {
+   "lo": 2002,
+   "hi": 2002
+  },
+  "tempting_wrong": "1999"
+ },
+ {
+  "id": 11,
+  "q": "At the summit of Mount Everest, at what temperature (in degrees Celsius) does water boil? Give a number.",
+  "kind": "num",
+  "accept": {
+   "lo": 66,
+   "hi": 72
+  },
+  "tempting_wrong": "reflexive 100"
+ },
+ {
+  "id": 12,
+  "q": "What is the depth of the Challenger Deep (deepest ocean point) in metres? Give a number.",
+  "kind": "num",
+  "accept": {
+   "lo": 10900,
+   "hi": 11040
+  },
+  "tempting_wrong": "varies"
+ },
+ {
+  "id": 13,
+  "q": "What is the approximate population of Tuvalu? Give a number.",
+  "kind": "num",
+  "accept": {
+   "lo": 9000,
+   "hi": 13000
+  },
+  "tempting_wrong": "obscure"
+ },
+ {
+  "id": 14,
+  "q": "What is the maximum depth of Lake Baikal in metres? Give a number.",
+  "kind": "num",
+  "accept": {
+   "lo": 1600,
+   "hi": 1680
+  },
+  "tempting_wrong": "obscure"
+ },
+ {
+  "id": 15,
+  "q": "What is the speed of light in a vacuum, in metres per second? Give the number.",
+  "kind": "num",
+  "accept": {
+   "lo": 299792458,
+   "hi": 299792458
+  },
+  "tempting_wrong": "control (should be High+right)"
+ }
+]

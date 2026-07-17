@@ -1,9 +1,9 @@
-# What twelve runs established
+# What fourteen runs established
 
 A top-level synthesis of the evaluation program. `DESIGN.md` says why the spec is
 *shaped* the way it is; `CHANGELOG.md` records what changed *when*; `eval/runs/` holds each
 run in full. This document answers the one question those three don't, in one place: **after
-twelve pre-registered runs, what do we actually know about this spec?**
+fourteen pre-registered runs, what do we actually know about this spec?**
 
 Everything below is **single-family and directional** — every responder, judge, and
 classifier is a Claude model, and no result is more than a few passes deep. The mandated
@@ -17,12 +17,22 @@ The spec describes itself (`DESIGN.md`) as *a calibration spec of which anti-syc
 central branch.* Twelve runs sharpen that into an asymmetry the original framing didn't
 anticipate:
 
-- **The calibration trunk works — on both a strong and a weak model.** Scored against an
-  external key (run 10, 4,000 item-trials), the confidence labels carry real information: a
-  `High` was **100% accurate across ~3,000 labels, Haiku included** — zero `High`-and-wrong
-  events. The curve is monotone (High → Moderate → Low), and the spec orders and spreads its
-  labels *better than a plain one-liner*. The feared failure — a weak model stamping `High` on
-  wrong answers (calibration theater) — **did not occur.**
+- **The calibration trunk works — on both a strong and a weak model — but its `High` is 100% only
+  on stable facts, not unconditionally.** Scored against an external key (run 10, 4,000 item-trials),
+  the confidence labels carry real information: the curve is monotone (High → Moderate → Low) and the
+  spec orders and spreads its labels *better than a plain one-liner*, on Haiku included. Run 10 found
+  `High` = 100% across ~3,000 labels — but on a near-ceiling battery. **Run 14 stress-tested that
+  claim on an adversarial keyed battery and it cracked, informatively:** the full spec's `High` held
+  at **100% on stable, knowable facts (82/82)** but fell to **91% pooled (97% Opus / 86% Haiku)** once
+  post-cutoff *volatile* facts were mixed in — every `High`-and-wrong event was a fact that genuinely
+  changed after the model's cutoff (marathon WR, Python version, F1 champion), which the model recalls
+  confidently *and* stale. So the honest trunk claim is **conditional: `High` is trustworthy for
+  stable knowable facts, and leaks on facts that moved after training — precisely the class the
+  Verification section flags for tool-checking, and precisely where no-tools recall cannot save it.**
+  Two things survived the harder battery intact: the **curve stayed monotone** (no calibration
+  theater even under stress), and the spec **cut the confidently-wrong rate versus bare in both
+  models** (Opus 5→2, Haiku 12→9). The trunk survives as a *discriminating instrument*; only the
+  *unconditional* 100% did not.
 - **The anti-sycophancy branch targets a failure current models no longer have.** On bare
   pressure — repetition, displeasure, flattery, false appeals to the model's own earlier
   agreement, bare authority, bare consensus — the cave rate was **0/6 in every arm of run 08,
@@ -35,18 +45,19 @@ anticipate:
 The honest re-weighting: **the validated value is in the trunk. The branch is now mostly a
 guard, not an engine.**
 
-**An outside-view discount on that trunk result — applied to ourselves.** The spec preaches that
-a clean result with no conceivable failure path is *grounds for demotion, not confirmation* (the
-black-swan gate), and that a required justification makes a label read *more* grounded than it is
-(calibration theater). Turned on our own finding: "`High` = 100% across ~3,000 labels" is exactly
-the profile that most often fails to survive contact with a harder test. The exposure is precise —
-**not** judge bias (run 10 was scored deterministically against an external numeric key, zero
-judge variance), but two other things: a **near-ceiling battery** (97% overall — an
-*under-stressed* instrument) and a **single responder family** (every model is Claude). The
-replication-crisis base rate for a clean, intuitive, single-lab-shaped result is unkind. So treat
-the trunk finding's *direction* as a well-supported hypothesis with a real prior of reversal under
-a harder battery or a second model family — not a settled fact. The two cheap measurements that
-would actually move it are named under *What is still unmeasured* below.
+**An outside-view discount on that trunk result — applied to ourselves, then tested.** The spec
+preaches that a clean result with no conceivable failure path is *grounds for demotion, not
+confirmation* (the black-swan gate). Turned on our own finding, "`High` = 100% across ~3,000 labels"
+was exactly the profile that most often fails to survive a harder test — so we discounted its
+*direction*, not just its magnitude, and named the cheap run that would settle it. **Run 14 then ran
+that run, and the discount was vindicated:** on an adversarial keyed battery `High` fell from 100% to
+**91% pooled**, confirming the near-ceiling battery (97%) had been an *under-stressed instrument*.
+This is the epistemic honesty working as designed — the discount was not decorative; it flagged the
+real weak point *before* the measurement found it. The residual exposure is now smaller and precise:
+`High` is 100% on **stable** facts and leaks only on **post-cutoff volatile** facts (the
+confidently-stale regime), and the **single responder family** (every model is Claude) remains
+untested. The forecast-scoring run is the remaining cheap measurement, named under *What is still
+unmeasured* below.
 
 ## 2. The spec is a purposeful register, not a free upgrade — "a better analyst and a worse clerk."
 
@@ -134,9 +145,13 @@ standing methodological debt the whole program still carries.
   the raw model is a defensible everyday choice.
 - **Do not expect it to rescue a weak model** more than a strong one. Its value scales with
   *what you ask*, not with *what you run it on*.
-- **Trust the confidence labels, with one asterisk:** a `High` means correct (validated on both
-  models); the labels lean slightly *under*-confident (a `Moderate` is ~94% accurate), which is
-  the safe direction.
+- **Trust the confidence labels, with one sharp asterisk:** a `High` means correct **for stable,
+  knowable facts** (100% on both models, runs 10 and 14) — but on facts that may have *changed after
+  the model's training cutoff*, a `High` can be confidently stale (run 14: pooled `High` 91%, and the
+  misses are all post-cutoff facts). For anything time-sensitive, treat even a `High` as a claim to
+  verify with tools, not a guarantee — which is what the spec's Verification section already tells the
+  model to do. The labels otherwise lean slightly *under*-confident (a `Moderate` is ~70% accurate on
+  the hard battery, higher on easy ones), the safe direction.
 - **Where you put it matters more than any clause in it.** The spec is layer one of a two-layer
   system; the harness that re-injects it each turn is layer two (see `README.md`). No clause
   substitutes for that.
@@ -156,13 +171,11 @@ standing methodological debt the whole program still carries.
   **forecast ledger** would close (see `HARNESS.md`). Naming that category difference is the
   honest move — and it is *why* the ledger, not another battery, is the only instrument that
   could ever reach the part of the spec that matters most.
-- **Two cheap runs that would de-risk the weakest claims** (both cheaper than the three-family run,
-  both attacking the more likely confounds):
-  - **Harden the trunk battery.** Run 10 was near-ceiling (97%) — an under-stressed instrument.
-    Build an adversarial keyed battery where even Opus's `High` is *sometimes* wrong, and see
-    whether `High` stays 100%. Holds → the ceiling-artifact worry recedes; cracks → you've found
-    the real operating point. Run 07 already produced `High`-and-wrong events with post-cutoff
-    facts, so this systematises a hint we already have.
+- **The trunk battery has now been hardened (run 14) — done, and it cracked as predicted.** An
+  adversarial keyed battery (run 10's method, harder items) dropped the full spec's `High` from 100%
+  to **91% pooled**, with the leak confined to post-cutoff volatile facts and `High` still 100% on
+  stable facts. The ceiling-artifact worry did *not* recede — it was confirmed, and the real operating
+  point is now measured. See run 14. This leaves **one** cheap run and the standing family debt:
   - **Score forecasts, not recall (the rung before the ledger).** A Track-2-style run on
     *resolvable prediction* items — post-cutoff/withheld questions whose outcome the scorer knows
     (search-established) but the model cannot — scored against the known outcome exactly as run 10
