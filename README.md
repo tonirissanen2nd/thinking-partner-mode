@@ -116,6 +116,7 @@ discipline that surfaces reasoning elsewhere.
 | [`FINDINGS.md`](FINDINGS.md) | Top-level synthesis of what the eval runs established about *this spec* — read this before adopting or extending. |
 | [`METHOD.md`](METHOD.md) | **What outlives the spec** — the transferable method for evaluating any prompt intervention honestly, and the map of where the prompt layer's power ends. The generalizable product of the whole program. |
 | [`HARNESS.md`](HARNESS.md) | A reference design for the *second* layer — a thin per-turn harness that deploys the spec conditionally. A sketch, not shipped code. |
+| [`ledger/`](ledger/) | The forecast ledger, **built for real as a measurement instrument** (the one thing that reaches forecast accuracy / calibration-over-time). Runnable Python + a store seeded with 264 real resolved forecasts; `python ledger/ledger.py report` scores them. The *improvement* bet (does feeding the record back help?) is pre-registered, not assumed. |
 | [`eval/`](eval/) | Two-track evaluation: blind A/B (branch) + calibration (trunk), with prompts and scoresheets. |
 | [`eval/README.md`](eval/README.md) | Track 1 — the blind A/B test that removes the obvious biases; routes to Track 2. |
 | [`eval/prompts/04-calibration.md`](eval/prompts/04-calibration.md) | Track 2 — calibration & abstention scored against an external key (measures the claim Track 1 can't). |
