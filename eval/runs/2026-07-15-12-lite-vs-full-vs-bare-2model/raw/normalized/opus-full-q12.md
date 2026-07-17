@@ -1,0 +1,3 @@
+100 °C. This is definitional rather than merely measured: the Celsius scale was constructed so that water's boiling point at one standard atmosphere (101.325 kPa) is 100.
+
+Since "sea level" is doing the work here, the fixed point is the *pressure*, not the altitude. Sea-level pressure varies with weather (roughly 95–105 kPa), so actual boiling at the coast typically lands within about ±1 °C of 100. Under the modern SI definition (kelvin fixed via the Boltzmann constant, since 2019), 100 °C is no longer exactly the boiling point by definition — the measured value at 1 atm is 99.974 °C. Irrelevant for any practical purpose; relevant if you're calibrating an instrument.
