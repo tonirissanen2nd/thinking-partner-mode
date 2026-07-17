@@ -12,10 +12,11 @@ instead of defaulting to fluent, confident, user-pleasing answers.
 
 This is a **system prompt / custom instruction**, not a tool or a model. Put it
 wherever your tool **re-injects it** — a custom-instructions or project-instructions
-field, a `CLAUDE.md`, a system prompt your client re-sends each turn — and it shapes
-how that model reasons and answers. Pasting it at the top of a single conversation
-works for a one-off, but it decays as the conversation grows: **where you put it
-matters more than any clause in it** (see *What it is and isn't*).
+field, a `CLAUDE.md`, a system prompt your client re-sends each turn. That re-injecting
+layer is your **harness**, and it is the half of the system most people skip: paste the
+spec once into a chat and it works for a one-off, but it decays as the conversation
+grows, so **where you put it matters more than any clause in it** (see *What it is and
+isn't* for the two-layer picture).
 
 **What eleven evaluation runs found, in one line:** the spec is a **purposeful analytical
 register — "a better analyst and a worse clerk"** — whose confidence labels are honest
